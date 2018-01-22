@@ -29,13 +29,23 @@ import '!style-loader!css-loader!../assets/css/custom/colors.css';
 import '!style-loader!css-loader!global.css';
 
 // Paritcle theme js files
-/*
-import 'babel-loader!https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js';
-import 'babel-loader!https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js';
-*/
 
+import 'script-loader!../assets/plugins/html5shiv/3.7.0/html5shiv.js';
+import 'script-loader!../assets/plugins/respond.js/1.4.2/respond.min.js';
+
+// Jquery
 import 'script-loader!../assets/js/libraries/jquery-2.2.4.js';
+
+// Bootstrap Core Javascript
 import 'script-loader!../assets/plugins/bootstrap-4.0.0/js/bootstrap.js';
+
+// Javascript Libraries
+import 'script-loader!../assets/js/libraries/jquery.easing.1.3';
+import 'script-loader!../assets/js/libraries/typed';
+import 'script-loader!../assets/js/libraries/wow.js';
+import 'script-loader!../assets/js/libraries/particles.js';
+import 'script-loader!../assets/js/libraries/waypoint.js';
+import 'script-loader!../assets/js/libraries/jquery.counterup';
 
 
 // Import selector for `syncHistoryWithStore`
