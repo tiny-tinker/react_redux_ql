@@ -10,12 +10,13 @@
  */
 
 import React from 'react';
+import IntroductionSection from '../../components/WelcomeComponents/Introduction';
 
-export default class WelcomePage extends React.PureComponent{
+export default class WelcomePage extends React.PureComponent {
   render() {
     return (
-      <div>
-        <h1> Welcome to Quillon</h1>
+      <div className="d-block">
+        <IntroductionSection />
       </div>
     );
   }
