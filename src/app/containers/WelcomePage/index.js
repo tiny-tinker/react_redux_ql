@@ -10,12 +10,22 @@
  */
 
 import React from 'react';
+import Footer from '../../components/Footer';
+import ConnectSection from '../../components/WelcomeComponents/Connect';
+import TeamSection from '../../components/WelcomeComponents/Team';
+import WhitePaperSection from '../../components/WelcomeComponents/WhitePaper';
+import RoadmapSection from '../../components/WelcomeComponents/RoadMap';
 
-export default class WelcomePage extends React.PureComponent{
+export default class WelcomePage extends React.PureComponent {
   render() {
     return (
       <div>
-        <h1> Welcome to Quillon</h1>
+        <h1> Welcome to Quillon  </h1>
+        <RoadmapSection/>
+        <WhitePaperSection/>
+        <TeamSection/>
+        <ConnectSection/>
+        <Footer/>
       </div>
     );
   }

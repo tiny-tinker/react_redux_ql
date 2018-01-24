@@ -33,17 +33,7 @@ export class App extends React.PureComponent { // eslint-disable-line react/pref
     const { user, logout, notifications } = this.props;
     return (
       <div>
-        <Header {...({ user, logout })} />
-        {notifications.length > 0 && <Notifications notifications={notifications} />}
-        <section>
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                {React.Children.toArray(this.props.children)}
-              </div>
-            </div>
-          </div>
-        </section>
+        {React.Children.toArray(this.props.children)}
       </div>
     );
   }
