@@ -1,0 +1,57 @@
+.titleEffect{
+  position:absolute;
+  top: -25px;
+  left: 100px;
+  font-size: 164px;
+  color: #3e0e0e;
+  font-weight: bold;
+  background: -webkit-linear-gradient(-85deg, #3e0e0e,#3e0e0e,#3e0e0e, rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subTitle{
+  position:absolute;
+  top: 35px;
+  left: 160px;
+  font-size:70px;
+  font-weight:bold;
+  color:white;
+}
+
+.profile{
+  margin-bottom:50px;
+}
+
+.detail{
+  padding-top:30px;
+  padding-left:95px;
+  text-align: left;
+}
+
+.name{
+  font-size:30px;
+  font-weight:bold;
+  color:white;
+}
+
+.seo{
+  font-size:30px;
+  color:white;
+}
+
+.description{
+  font-size:20px;
+  color:white;
+}
+
+.imgCircle{
+  border-radius:50%;
+}
+
+.teamIn{
+  position:absolute;
+  z-index: 1;
+  top: 190px;
+  left: 190px;
+}

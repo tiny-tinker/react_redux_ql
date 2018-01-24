@@ -1,0 +1,21 @@
+footer {
+  height: 280px;
+  background-color: #000121;
+  text-align: center;
+  padding-top: 60px;
+  clear: both;
+}
+
+.title{
+  font-size:26px;
+  color:white;
+}
+
+.setWhite{
+  color:white;
+}
+
+.alignLeft{
+  text-align:left;
+}
+

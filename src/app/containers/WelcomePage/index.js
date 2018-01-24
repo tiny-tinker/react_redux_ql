@@ -10,13 +10,23 @@
  */
 
 import React from 'react';
+import Footer from '../../components/Footer';
+import ConnectSection from '../../components/WelcomeComponents/Connect';
+import TeamSection from '../../components/WelcomeComponents/Team';
+import WhitePaperSection from '../../components/WelcomeComponents/WhitePaper';
+import RoadmapSection from '../../components/WelcomeComponents/RoadMap';
 import IntroductionSection from '../../components/WelcomeComponents/Introduction';
 
 export default class WelcomePage extends React.PureComponent {
   render() {
     return (
-      <div className="d-block">
+      <div className="d-block">        
         <IntroductionSection />
+        <RoadmapSection/>
+        <WhitePaperSection/>
+        <TeamSection/>
+        <ConnectSection/>
+        <Footer/>
       </div>
     );
   }
