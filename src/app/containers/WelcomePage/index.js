@@ -15,12 +15,13 @@ import ConnectSection from '../../components/WelcomeComponents/Connect';
 import TeamSection from '../../components/WelcomeComponents/Team';
 import WhitePaperSection from '../../components/WelcomeComponents/WhitePaper';
 import RoadmapSection from '../../components/WelcomeComponents/RoadMap';
+import IntroductionSection from '../../components/WelcomeComponents/Introduction';
 
 export default class WelcomePage extends React.PureComponent {
   render() {
     return (
-      <div>
-        <h1> Welcome to Quillon  </h1>
+      <div className="d-block">        
+        <IntroductionSection />
         <RoadmapSection/>
         <WhitePaperSection/>
         <TeamSection/>

@@ -15,13 +15,11 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { createStructuredSelector } from 'reselect';
-import ImmutablePropTypes from 'react-immutable-proptypes';
 
 import * as actions from './actions';
 import Models from '../../common/models';
-import { makeSelectUser, makeSelectNotifications } from './selectors';
 import Header from '../../components/Header';
-import Notifications from '../Notifications';
+import { makeSelectUser, makeSelectNotifications } from './selectors';
 import { getItem } from '../../utils/localStorage';
 
 export class App extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
@@ -30,9 +28,9 @@ export class App extends React.PureComponent { // eslint-disable-line react/pref
   }
 
   render() {
-    const { user, logout, notifications } = this.props;
     return (
       <div>
+        <Header />
         {React.Children.toArray(this.props.children)}
       </div>
     );
@@ -41,9 +39,7 @@ export class App extends React.PureComponent { // eslint-disable-line react/pref
 
 App.propTypes = {
   children: React.PropTypes.element.isRequired,
-  user: ImmutablePropTypes.contains(Models.User).isRequired,
   loadUserFromToken: React.PropTypes.func.isRequired,
-  logout: React.PropTypes.func.isRequired,
   notifications: React.PropTypes.arrayOf(Models.Notification),
 };
 
