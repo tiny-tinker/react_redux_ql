@@ -1,0 +1,12 @@
+.subTitle{
+  position:absolute;
+  top: 35px;
+  left: 160px;
+  font-size:70px;
+  font-weight:bold;
+  color:white;
+}
+.lastIcon{
+  position:absolute;
+}
+
