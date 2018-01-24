@@ -18,8 +18,24 @@ export default function createRoutes(store) {
 
   const childRoutes = [
     {
-      onEnter: redirectToLogin,
       path: '/',
+      name: 'welcome',
+      getComponent(nextState, cb) {
+        const importModules = Promise.all([
+          require('./containers/WelcomePage'),
+        ]);
+
+        const renderRoute = loadModule(cb);
+
+        importModules.then(([component]) => {
+          renderRoute(component);
+        });
+
+        importModules.catch(errorLoading);
+      },
+    }, {
+      onEnter: redirectToLogin,
+      path: '/home',
       name: 'home',
       getComponent(nextState, cb) {
         const importModules = Promise.all([

@@ -31,7 +31,7 @@ import '!style-loader!css-loader!global.css';
 // Paritcle theme js files
 
 import 'script-loader!../assets/plugins/html5shiv/3.7.0/html5shiv.js';
-import 'script-loader!../assets/plugins/respond.js/1.4.2/respond.min.js';
+import 'script-loader!../assets/plugins/respondjs/1.4.2/respond.min.js';
 
 // Jquery
 import 'script-loader!../assets/js/libraries/jquery-2.2.4.js';

@@ -64,7 +64,7 @@ module.exports = (options) => ({
       test: /\.json$/,
       loader: 'json-loader',
     }, {
-      test: /\.(mp4|webm)$/,
+      test: /\.(mp4|webm|mov)$/,
       loader: 'url-loader',
       query: {
         limit: 10000,
