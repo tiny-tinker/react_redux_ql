@@ -20,14 +20,14 @@ import IntroductionSection from '../../components/WelcomeComponents/Introduction
 export default class WelcomePage extends React.PureComponent {
   render() {
     return (
-      <div className="d-block">        
+      <React.Fragment>
         <IntroductionSection />
         <RoadmapSection/>
         <WhitePaperSection/>
         <TeamSection/>
         <ConnectSection/>
         <Footer/>
-      </div>
+      </React.Fragment>
     );
   }
 }
