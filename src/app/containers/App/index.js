@@ -29,10 +29,10 @@ export class App extends React.PureComponent { // eslint-disable-line react/pref
 
   render() {
     return (
-      <div>
+      <React.Fragment>
         <Header />
         {React.Children.toArray(this.props.children)}
-      </div>
+      </React.Fragment>
     );
   }
 }
