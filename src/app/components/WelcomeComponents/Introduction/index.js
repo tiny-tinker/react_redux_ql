@@ -10,40 +10,35 @@
  */
 
 import React from 'react';
-import planet from '../../../../assets/videos/planet.mov';
-import pexles from '../../../../assets/images/pexels.png';
-import * as styles from './style.css';
+import planet from '../../../../assets/video/planet.mov';
+import poster from '../../../../assets/video/particle-video-v1-dark.jpg';
 
 const IntroductionSection = function IntroductionSection() {
-  const imgClass = [
-    'w-100',
-    'position-absolute',
-    styles.pexels_img,
-  ].join(' ');
-
-  const introductionClass = [
-    styles.section_intro,
-    'introduction-section',
-  ].join(' ');
-  return (<section id="introduction_section" className={introductionClass}>
-     <div className="container-fluid">
-       <div className="row w-100 position-absolute">
-         <video className={styles.video_90} autoPlay loop>
-           <source src={planet} type="video/mp4" />
-           Your browser does not support the video tag
-         </video>
-         <img src={pexles} className={imgClass} alt="" />
-       </div>
-       <div className="row">
-         <div className="col-lg-12">
-           <div id="particles-js"></div>
-             <div className="headlines-wrapper">
-               <h1 className="text-center">Introduction</h1>
-             </div>
-         </div>
-       </div>
-     </div>
-  </section>);
+  return (
+    <section id="hero" className="hero-section-video-dark">
+      <div className="video-overlay"> </div>
+      <div className="hero-video">
+        <video autoPlay loop poster={poster}>
+          <source src={planet} type="video/mp4" />
+          Your browser does not support the video tag
+        </video>
+      </div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="headlines-wrapper">
+              <span className="skilltechtypetext">
+                <span className="typed-cursor">|</span>
+              </span>
+              <p className="mt-5 text-center text-white">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollici</p>
+              <p className="text-center text-white">tudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagi</p>
+              <p className="text-center text-white">tis sem nibh id elit. Duis sed odio s eu felis</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default IntroductionSection;

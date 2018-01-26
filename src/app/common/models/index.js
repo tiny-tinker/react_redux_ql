@@ -1,5 +1,6 @@
 import User from './user';
-import Notification from './notification';
+//import * as Notification from './notification';
+import * as Notification from 'react-notification-system-redux';
 
 export default {
   User,

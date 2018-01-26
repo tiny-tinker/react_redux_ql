@@ -10,46 +10,50 @@ import 'babel-polyfill';
 
 // Import all the third party stuff
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import { Provider } from 'react-redux';
-import { applyRouterMiddleware, Router, browserHistory } from 'react-router';
+import { Router, browserHistory } from 'react-router';
 import { syncHistoryWithStore } from 'react-router-redux';
-import { useScroll } from 'react-router-scroll';
 
 // fonts imported globally
+
 import '!style-loader!css-loader!../assets/fonts/material-icons/material-icons.css';
 import '!style-loader!css-loader!../assets/fonts/font-awesome/css/font-awesome.min.css';
+import '!style-loader!css-loader!../assets/fonts/montserrat/css/montserrat-webfont.min.css';
+import '!style-loader!css-loader!../assets/fonts/roboto/roboto.css';
+
 // Particle theme library css
-import '!style-loader!css-loader!../assets/plugins/bootstrap-4.0.0/css/bootstrap.css';
+import '!style-loader!css-loader!../assets/plugins/bootstrap-4.0.0-dist/css/bootstrap.css';
 import '!style-loader!css-loader!../assets/css/libraries/animate.css';
 // Particle custom css
 import '!style-loader!css-loader!../assets/css/custom/theme.css';
 import '!style-loader!css-loader!../assets/css/custom/colors.css';
+
 // My own custom css
 import '!style-loader!css-loader!global.css';
 
+
 // Paritcle theme js files
 
-import 'script-loader!../assets/plugins/html5shiv/3.7.0/html5shiv.js';
-import 'script-loader!../assets/plugins/respondjs/1.4.2/respond.min.js';
+import '!script-loader!../assets/plugins/html5shiv/3.7.0/html5shiv';
+import '!script-loader!../assets/plugins/respondjs/1.4.2/respond.min';
 
 // Jquery
-import 'script-loader!../assets/js/libraries/jquery-2.2.4.js';
+import '!script-loader!../assets/js/libraries/jquery-2.2.4';
 
 // Bootstrap Core Javascript
-import 'script-loader!../assets/plugins/bootstrap-4.0.0/js/bootstrap.js';
+import '!script-loader!../assets/plugins/bootstrap-4.0.0-dist/js/bootstrap';
 
 // Javascript Libraries
-import 'script-loader!../assets/js/libraries/jquery.easing.1.3';
-import 'script-loader!../assets/js/libraries/typed';
-import 'script-loader!../assets/js/libraries/wow.js';
-import 'script-loader!../assets/js/libraries/particles.js';
-import 'script-loader!../assets/js/libraries/waypoint.js';
-import 'script-loader!../assets/js/libraries/jquery.counterup';
-
+import '!script-loader!../assets/js/libraries/jquery.easing.1.3';
+import '!script-loader!../assets/js/libraries/typed';
+import '!script-loader!../assets/js/libraries/wow';
+import '!script-loader!../assets/js/libraries/particles';
+import '!script-loader!../assets/js/libraries/waypoint';
+import '!script-loader!../assets/js/libraries/jquery.counterup';
 
 // Import selector for `syncHistoryWithStore`
-import { makeSelectLocationState } from 'containers/App/selectors';
+//import { makeSelectLocationState } from 'containers/App/selectors';
 
 // Load favicon and manifest.json file
 /* eslint-disable import/no-unresolved, import/extensions */
@@ -61,6 +65,7 @@ import configureStore from './store';
 
 // Import root routes
 import createRoutes from './routes';
+import { makeSelectLocationState } from './containers/App/selectors';
 
 // Create redux store with history
 // this uses the singleton browserHistory provided by react-router
@@ -76,16 +81,11 @@ const history = syncHistoryWithStore(browserHistory, store, {
   selectLocationState: makeSelectLocationState(),
 });
 
-ReactDOM.render(
+render(
   <Provider store={store}>
     <Router
       history={history}
       routes={createRoutes(store)}
-      render={
-        // Scroll to top when going to a new page, imitating default browser
-        // behaviour
-        applyRouterMiddleware(useScroll())
-      }
     />
   </Provider>,
   document.getElementById('page-top')

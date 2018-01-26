@@ -376,7 +376,7 @@ header #st-logo img {
 
 /* 3. Hero Section
 --------------------------------- */
-.introduction-section .headlines-wrapper .typed-cursor,
+.hero-section-video-dark .headlines-wrapper .typed-cursor,
 .typed-headline .typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -385,7 +385,7 @@ header #st-logo img {
     color: #ffffff;
 }
 
-.introduction-section .headlines-wrapper .typed-cursor {
+.hero-section-video-dark .headlines-wrapper .typed-cursor {
     font-size: 76px;
     line-height: 76px;
 }
@@ -426,23 +426,44 @@ header #st-logo img {
     }
 }
 
-.introduction-section {
+.hero-section-video-dark {
     height: 100%;
     width: 100%;
     text-align: center;
     margin-top: -100px;
-    background: url("../../images/hero-dark.jpg");
     position: relative;
-    background-size: cover;
 }
 
-.introduction-section #particles-js {
-    margin-top: 0;
+.video-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../../images/overlay-pattern.png') repeat;
+    opacity: 0.6;
+}
+
+.hero-section-video-dark .hero-video video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.hero-section-video-dark #particles-js {
+    margin-top: 0px;
     width: 100%;
     height: 100vh;
 }
 
-.introduction-section .headlines-wrapper {
+.hero-section-video-dark .headlines-wrapper {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -451,14 +472,14 @@ header #st-logo img {
     top: 380px;
 }
 
-.introduction-section .skilltechtypetext {
+.hero-section-video-dark .skilltechtypetext {
     color: #ffffff;
     font-weight: 700;
     font-size: 76px;
     line-height: 90px;
 }
 
-.introduction-section h3 {
+.hero-section-video-dark h3 {
     line-height: 44px;
     font-size: 37px;
     color: #ffffff;
@@ -471,16 +492,16 @@ header #st-logo img {
     right: 0;
 }
 
-.introduction-section .first-headline {
+.hero-section-video-dark .first-headline {
     top: 470px;
 }
 
-.introduction-section .second-headline {
+.hero-section-video-dark .second-headline {
     margin-top: 5px;
     top: 540px;
 }
 
-.introduction-section .second-headline span {
+.hero-section-video-dark .second-headline span {
     font-weight: 700;
 }
 
@@ -585,6 +606,7 @@ header #st-logo img {
 .our-work-section {
     height: auto;
     width: 100%;
+    background: #FFFFFF;
 }
 
 .our-work-section .see-work {
@@ -1976,34 +1998,34 @@ footer p a {
 /* 15. Media Queries
 --------------------------------- */
 @media only screen and (max-width: 1200px) {
-    .introduction-section #particles-js {
+    .hero-section-video-dark #particles-js {
         height: 100vh;
     }
 
-    .introduction-section .headlines-wrapper {
+    .hero-section-video-dark .headlines-wrapper {
         top: 280px;
     }
 
-    .introduction-section .headlines-wrapper .typed-cursor {
+    .hero-section-video-dark .headlines-wrapper .typed-cursor {
         font-size: 50px;
         line-height: 50px;
     }
 
-    .introduction-section .skilltechtypetext {
+    .hero-section-video-dark .skilltechtypetext {
         font-size: 54px;
         line-height: 70px;
     }
 
-    .introduction-section h3 {
+    .hero-section-video-dark h3 {
         line-height: 40px;
         font-size: 33px;
     }
 
-    .introduction-section .first-headline {
+    .hero-section-video-dark .first-headline {
         top: 370px;
     }
 
-    .introduction-section .second-headline {
+    .hero-section-video-dark .second-headline {
         margin-top: 5px;
         top: 440px;
     }
@@ -2123,26 +2145,26 @@ footer p a {
 }
 
 @media only screen and (max-width: 992px) {
-    .introduction-section .headlines-wrapper .typed-cursor {
+    .hero-section-video-dark .headlines-wrapper .typed-cursor {
         font-size: 40px;
         line-height: 40px;
     }
 
-    .introduction-section .skilltechtypetext {
+    .hero-section-video-dark .skilltechtypetext {
         font-size: 40px;
         line-height: 60px;
     }
 
-    .introduction-section h3 {
+    .hero-section-video-dark h3 {
         line-height: 34px;
         font-size: 27px;
     }
 
-    .introduction-section .first-headline {
+    .hero-section-video-dark .first-headline {
         top: 340px;
     }
 
-    .introduction-section .second-headline {
+    .hero-section-video-dark .second-headline {
         top: 400px;
     }
 
@@ -2316,7 +2338,7 @@ footer p a {
 
     header #st-logo {
         position: absolute;
-        top: 20px;
+        top: 0;
         left: 5%;
     }
 
@@ -2459,32 +2481,32 @@ footer p a {
         width: 200px;
     }
 
-    .introduction-section .headlines-wrapper {
+    .hero-section-video-dark .headlines-wrapper {
         top: 120px;
     }
 
-    .introduction-section .headlines-wrapper .typed-cursor {
+    .hero-section-video-dark .headlines-wrapper .typed-cursor {
         font-size: 28px;
         line-height: 28px;
     }
 
-    .introduction-section .skilltechtypetext {
+    .hero-section-video-dark .skilltechtypetext {
         font-size: 28px;
         line-height: 40px;
     }
 
-    .introduction-section h3 {
+    .hero-section-video-dark h3 {
         line-height: 24px;
         font-size: 20px;
         padding-left: 40px;
         padding-right: 40px;
     }
 
-    .introduction-section .first-headline {
+    .hero-section-video-dark .first-headline {
         top: 180px;
     }
 
-    .introduction-section .second-headline {
+    .hero-section-video-dark .second-headline {
         top: 240px;
     }
 
@@ -2567,7 +2589,6 @@ footer p a {
     .portfolio-item .typed-headline p {
         margin-bottom: 10px;
     }
-
 }
 
 @media only screen and (max-width: 767px) and (orientation: landscape) {
@@ -2661,15 +2682,15 @@ footer p a {
 }
 
 @media only screen and (max-width: 590px) and (min-width: 481px) {
-    .introduction-section .headlines-wrapper {
+    .hero-section-video-dark .headlines-wrapper {
         top: 100px;
     }
 
-    .introduction-section .first-headline {
+    .hero-section-video-dark .first-headline {
         top: 130px;
     }
 
-    .introduction-section .second-headline {
+    .hero-section-video-dark .second-headline {
         top: 170px;
     }
 
