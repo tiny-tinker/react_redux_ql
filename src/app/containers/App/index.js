@@ -12,6 +12,7 @@
  */
 
 import React from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { createStructuredSelector } from 'reselect';
@@ -22,25 +23,25 @@ import Header from '../../components/Header';
 import { makeSelectUser, makeSelectNotifications } from './selectors';
 import { getItem } from '../../utils/localStorage';
 
-export class App extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
+class App extends React.Component { // eslint-disable-line react/prefer-stateless-function
   componentWillMount() {
     this.props.loadUserFromToken();
   }
 
   render() {
     return (
-      <div>
+      <React.Fragment>
         <Header />
-        {React.Children.toArray(this.props.children)}
-      </div>
+        {this.props.children}
+      </React.Fragment>
     );
   }
 }
 
 App.propTypes = {
-  children: React.PropTypes.element.isRequired,
-  loadUserFromToken: React.PropTypes.func.isRequired,
-  notifications: React.PropTypes.arrayOf(Models.Notification),
+  children: PropTypes.element.isRequired,
+  loadUserFromToken: PropTypes.func.isRequired,
+  notifications: PropTypes.arrayOf(Models.Notification),
 };
 
 const mapStateToProps = createStructuredSelector({

@@ -1,0 +1,35 @@
+.subTitle {
+  position:absolute;
+  top: 35px;
+  left: 160px;
+  font-size:70px;
+  font-weight:bold;
+  color:white;
+}
+
+.title_1 {
+  position:absolute;
+  top: -25px;
+  left: 100px;
+  font-family: Montserrat, serif;
+  font-size: 164px;
+  color: #52193a;
+  font-weight: bold;
+  background: -webkit-linear-gradient(-80deg, #52193a,#52193a,#52193a, rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.title_2 {
+  position:absolute;
+  top: 121px;
+  left: 100px;
+  font-family: Montserrat, serif;
+  font-size: 164px;
+  color: #52193a;
+  font-weight: bold;
+  background: -webkit-linear-gradient(-80deg, #52193a,#52193a,#52193a, rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
