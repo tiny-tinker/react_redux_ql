@@ -190,6 +190,7 @@
         showCursor: true,
         cursorChar: "|"
     });
+
 })(jQuery);
 
 

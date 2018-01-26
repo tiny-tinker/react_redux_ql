@@ -88,7 +88,7 @@ render(
       routes={createRoutes(store)}
     />
   </Provider>,
-  document.getElementById('app')
+  document.getElementById('page-top')
 );
 
 // Install ServiceWorker and AppCache in the end since

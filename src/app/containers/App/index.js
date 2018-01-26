@@ -30,10 +30,10 @@ class App extends React.Component { // eslint-disable-line react/prefer-stateles
 
   render() {
     return (
-      <div>
+      <React.Fragment>
         <Header />
         {this.props.children}
-      </div>
+      </React.Fragment>
     );
   }
 }

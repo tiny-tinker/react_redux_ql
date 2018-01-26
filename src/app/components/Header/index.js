@@ -4,7 +4,7 @@ import logo from '../../../assets/images/logo.png';
 import * as styles from './styles.css';
 const HeaderComponent = function HeaderComponent() {
   return (
-    <div>
+    <React.Fragment>
       <header>
         <div id="st-logo">
           <IndexLink to="/">
@@ -44,7 +44,7 @@ const HeaderComponent = function HeaderComponent() {
           </ul>
         </nav>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 

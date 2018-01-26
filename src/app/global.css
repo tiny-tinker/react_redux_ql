@@ -1,8 +1,59 @@
 
+#app {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+/*
+#1. Introduction Section
+ */
+.video-overlay {
+  background: url(../assets/images/introduction.png) repeat;
+  opacity: 0.3;
+}
+.hero-section-video-dark .hero-video video {
+  margin-top: -250px;
+}
+.hero-section-video-dark .col-lg-12 {
+}
+.hero-section-video-dark h4
+{
+  font-family: Roboto, serif;
+  line-height: 44px;
+  font-size: 37px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 0;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+/*
+==========================================
+ */
+/*
+#2. Our Benefits Section
+ */
+.benefits_section {
+  background: url('../assets/images/our_benefits.png') no-repeat;
+}
+/*
+=========================================
+ */
+
+
 .titleEffect{
   position:absolute;
   top: -25px;
   left: 100px;
+  font-family: Montserrat, serif;
   font-size: 164px;
   color: #52193a;
   font-weight: bold;
