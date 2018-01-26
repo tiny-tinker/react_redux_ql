@@ -1,47 +1,48 @@
-/**
- * Create the store with asynchronously loaded reducers
- */
-
 import { createStore, applyMiddleware, compose } from 'redux';
 import { fromJS } from 'immutable';
 import { routerMiddleware } from 'react-router-redux';
 import createSagaMiddleware from 'redux-saga';
-import createReducer from './reducers';
+import createReducers from './reducers';
 
 const sagaMiddleware = createSagaMiddleware();
 
-const configureStore = (initialState = {}, history) => {
-  // Create the store with two middlewares
-  // 1. sagaMiddleware: Makes redux-sagas work
-  // 2. routerMiddleware: Syncs the location/URL path to the state
+// const logger = createLogger();
+
+
+// In order to use the devtools (https://github.com/gaearon/redux-devtools)
+// we prepare it to enhance the store.
+// const devtools = window.devToolsExtension ? window.devToolsExtension() : (f) => f;
+
+
+// If Redux DevTools Extension is installed use it, otherwise use Redux compose
+/* eslint-disable no-underscore-dangle */
+const composeEnhancers =
+  process.env.NODE_ENV !== 'production' &&
+  typeof window === 'object' &&
+  window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ?
+    window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : compose;
+/* eslint-enable */
+
+export default function configureStore(initialState, history) {
+  const middlewareWithHistory = routerMiddleware(history);
   const middlewares = [
     sagaMiddleware,
-    routerMiddleware(history),
+    middlewareWithHistory,
   ];
 
   const enhancers = [
     applyMiddleware(...middlewares),
   ];
 
-  // If Redux DevTools Extension is installed use it, otherwise use Redux compose
-  /* eslint-disable no-underscore-dangle */
-  const composeEnhancers =
-    process.env.NODE_ENV !== 'production' &&
-    typeof window === 'object' &&
-    window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ?
-      window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : compose;
-  /* eslint-enable */
-
   const store = createStore(
-    createReducer(),
+    createReducers(),
     fromJS(initialState),
     composeEnhancers(...enhancers),
   );
 
-  // Extensions
   store.runSaga = sagaMiddleware.run;
-  store.asyncReducers = {}; // Async reducer registry
-  store.asyncSagas = {}; // Async saga registry
+  store.asyncReducers = {};
+  store.asyncSagas = {};
 
   /* istanbul ignore next */
   if (module.hot) {
@@ -55,6 +56,4 @@ const configureStore = (initialState = {}, history) => {
   }
 
   return store;
-};
-
-export default configureStore;
+}

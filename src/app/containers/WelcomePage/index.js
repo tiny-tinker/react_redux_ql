@@ -10,6 +10,7 @@
  */
 
 import React from 'react';
+import { connect } from 'react-redux';
 import Footer from '../../components/Footer';
 import ConnectSection from '../../components/WelcomeComponents/Connect';
 import TeamSection from '../../components/WelcomeComponents/Team';
@@ -17,17 +18,19 @@ import WhitePaperSection from '../../components/WelcomeComponents/WhitePaper';
 import RoadmapSection from '../../components/WelcomeComponents/RoadMap';
 import IntroductionSection from '../../components/WelcomeComponents/Introduction';
 
-export default class WelcomePage extends React.PureComponent {
+class WelcomePage extends React.PureComponent {
   render() {
     return (
       <React.Fragment>
         <IntroductionSection />
-        <RoadmapSection/>
-        <WhitePaperSection/>
-        <TeamSection/>
-        <ConnectSection/>
-        <Footer/>
+        <RoadmapSection />
+        <WhitePaperSection />
+        <TeamSection />
+        <ConnectSection />
+        <Footer />
       </React.Fragment>
     );
   }
 }
+
+export default connect()((WelcomePage));
