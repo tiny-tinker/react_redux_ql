@@ -1,24 +1,52 @@
-.video_90 {
+.title {
+  position:relative;
+  top: 243px;
+  font-family: Montserrat, serif;
+  font-size: 8.3em;
+  color: #52193a;
+  font-weight: bold;
+  opacity: 0.31;
+  background: -webkit-linear-gradient(0deg, rgba(0, 11, 115, 0.4), rgba(255, 120, 0, 0.2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pos_title {
+  top: 133px !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .title {
+    font-size: 6.3em;
+  }
+
+  .pos_title {
+    top: 157px !important;;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+ .title {
+   font-size: 5.3em;
+ }
+  .pos_title {
+    top: 169px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 2.5em;
+  }
+  .pos_title {
+    top: 190px !important;;
+  }
+}
+
+.scrollIndicator {
+  bottom: 40px;
   position: absolute;
-  margin-top: -250px;
-
-  transform-origin: center;
-  width: 100%;
-  height: 700px;
-  object-fit: cover;
-
-  z-index: 0;
-  visibility: visible;
-}
-
-.pexels_img {
-  height: 900px;
-  opacity: 0.4;
-}
-
-.section_intro {
-  margin-top: -100px;
-  height: 900px;
-  width: 100%;
-  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0;
 }

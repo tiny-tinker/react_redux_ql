@@ -25,11 +25,6 @@ class WelcomePage extends React.PureComponent {
       <React.Fragment>
         <IntroductionSection />
         <BenefitsSection />
-        <RoadmapSection />
-        <WhitePaperSection />
-        <TeamSection />
-        <ConnectSection />
-        <Footer />
       </React.Fragment>
     );
   }

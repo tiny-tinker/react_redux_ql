@@ -1,35 +1,51 @@
+.title {
+  top: -100px;
+  position:relative;
+  color: #52193a;
+  font-family: Montserrat, serif;
+  font-size: 11.3em;
+  font-weight: bold;
+  line-height: 1em;
+  text-align: left;
+  background: -webkit-linear-gradient(298deg, rgba(249, 69, 38, 0.1), rgba(1, 10, 96, 0.2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .subTitle {
   position:absolute;
-  top: 35px;
-  left: 160px;
-  font-size:70px;
+  top: 71px;
+  padding-left: 0.3em;
+  font-size:90px;
   font-weight:bold;
   color:white;
+  font-family: Montserrat,sans-serif;
+  line-height: 1;
 }
 
-.title_1 {
-  position:absolute;
-  top: -25px;
-  left: 100px;
-  font-family: Montserrat, serif;
-  font-size: 164px;
-  color: #52193a;
-  font-weight: bold;
-  background: -webkit-linear-gradient(-80deg, #52193a,#52193a,#52193a, rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
+@media only screen and (max-width: 1200px) {
+  .title {
+    font-size: 6.3em;
+  }
+  .subTitle {
+    font-size: 54px;
+  }
 }
 
-.title_2 {
-  position:absolute;
-  top: 121px;
-  left: 100px;
-  font-family: Montserrat, serif;
-  font-size: 164px;
-  color: #52193a;
-  font-weight: bold;
-  background: -webkit-linear-gradient(-80deg, #52193a,#52193a,#52193a, rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+@media only screen and (max-width: 992px) {
+  .title {
+    font-size: 5.3em;
+  }
+  .subTitle {
+    font-size: 54px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 2.5em;
+  }
+  .subTitle {
+    font-size: 28px;
+  }
 }
