@@ -15,7 +15,7 @@ const FooterComponent = function FooterComponent(){
             </div>
             <div className="col-lg-1 col-sm-1"> </div>
             <div className="col-lg-2 col-sm-2">
-              <dl className={styles.alignLeft}>
+              <dl className={styles.alignCenter}>
                 <dd><a href="" className={styles.setWhite}>About us</a></dd>
                 <dd><a href="" className={styles.setWhite}>Roadmap</a></dd>
                 <dd><a href="" className={styles.setWhite}>Connect</a></dd>

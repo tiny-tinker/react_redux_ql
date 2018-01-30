@@ -12,6 +12,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Footer from '../../components/Footer';
+import TeamConnectSection from '../../components/WelcomeComponents/TeamConnect';
+import RoadmapWhitepaperSection from '../../components/WelcomeComponents/RoadmapWhitepaper';
 import ConnectSection from '../../components/WelcomeComponents/Connect';
 import TeamSection from '../../components/WelcomeComponents/Team';
 import WhitePaperSection from '../../components/WelcomeComponents/WhitePaper';
@@ -19,16 +21,15 @@ import RoadmapSection from '../../components/WelcomeComponents/RoadMap';
 import IntroductionSection from '../../components/WelcomeComponents/Introduction';
 import BenefitsSection from '../../components/WelcomeComponents/Benefits';
 
+
+
 class WelcomePage extends React.PureComponent {
   render() {
     return (
       <React.Fragment>
-        <IntroductionSection />
-        <BenefitsSection />
-        <RoadmapSection />
-        <WhitePaperSection />
-        <TeamSection />
-        <ConnectSection />
+
+        <RoadmapWhitepaperSection/>
+        <TeamConnectSection />
         <Footer />
       </React.Fragment>
     );
