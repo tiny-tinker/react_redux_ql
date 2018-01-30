@@ -145,59 +145,197 @@ http://www.Mkrtchyan.zz.mu
 .benefits_section {
   background: url('../assets/images/our_benefits.png') no-repeat;
 }
-
 .subtitle_description {
   font-family: Roboto,sans-serif;
   font-size: 20px;
 }
+
+/*==================================== Team and Connect Section =================================*/
+.team_connect{
+  height: auto;
+  width: 100%;
+  background: url("../assets/images/team_connect_bg.png") no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 50px;
+}
+/*==================================== RoadMap and WhitePaper Section =================================*/
+.roadmap_whitepaper{
+  height: auto;
+  width: 100%;
+  background: url("../assets/images/roadmap_whitepaper_bg.png") no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 50px;
+}
+
+.rotated1{
+  left:-60px;
+}
+
+.rotated2{
+  left:90px;
+}
+
+.rotated3{
+  left:240px;
+}
+
+.rotated4{
+  left:390px;
+}
+
+.rotated5{
+  left:540px;
+}
+
+.rotated6{
+  left:690px;
+}
+
+.rotated7{
+  left:830px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .rotated1{
+    left:-150px;
+  }
+  .rotated2{
+    left:-20px;
+  }
+
+  .rotated3{
+    left:120px;
+  }
+
+  .rotated4{
+    left:260px;
+  }
+
+  .rotated5{
+    left:400px;
+  }
+
+  .rotated6{
+    left:540px;
+  }
+
+  .rotated7{
+    left:680px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .rotated1{
+    left:-200px;
+  }
+  .rotated2{
+    left:-80px;
+  }
+
+  .rotated3{
+    left:40px;
+  }
+
+  .rotated4{
+    left:160px;
+  }
+
+  .rotated5{
+    left:280px;
+  }
+
+  .rotated6{
+    left:400px;
+  }
+
+  .rotated7{
+    left:520px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .rotated1{
+    left:-25px;
+  }
+  .rotated2{
+    left:20px;
+  }
+
+  .rotated3{
+    left:70px;
+  }
+
+  .rotated4{
+    left:123px;
+  }
+
+  .rotated5{
+    left:165px;
+  }
+
+  .rotated6{
+    left:210px;
+  }
+
+  .rotated7{
+    left:260px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 =========================================
- */
+ Connect Section
+*/
+
+/*.connect_section {*/
+  /*height: auto;*/
+  /*width: 100%;*/
+  /*background: url("../assets/images/connect_bg.png") no-repeat;*/
+  /*background-size: cover;*/
+  /*text-align: center;*/
+  /*position: relative;*/
+  /*padding-top: 160px;*/
+  /*padding-bottom: 50px;*/
+/*}*/
 
 
-.titleEffect{
-  position:absolute;
-  top: -25px;
-  left: 100px;
-  font-family: Montserrat, serif;
-  font-size: 164px;
-  color: #52193a;
-  font-weight: bold;
-  background: -webkit-linear-gradient(-80deg, #52193a,#52193a,#52193a, rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
-.connect_section {
-  height: auto;
-  width: 100%;
-  background: url("../assets/images/connect_bg.png") no-repeat;
-  background-image: linear-gradient(to bottom right,transparent,#dc4225);
-  background-size: cover;
-  text-align: center;
-  position: relative;
-  padding-top: 146px;
-  padding-bottom: 146px;
-}
+/*
+=========================================
+ Team Section
+*/
 
-.connectIcon{
-  font-size:70px;
-  color:white;
-}
 
-.team_section {
-  height: auto;
-  width: 100%;
-  background: url("../assets/images/team_bg.png") no-repeat;
-  background-size: cover;
-  text-align: center;
-  position: relative;
-  padding-top: 146px;
-  padding-bottom: 146px;
-}
+/*
+=========================================
+ WhitePaper Section
+*/
 
 .whitepaper_section{
-  height: 1000px;
+  height: auto;
   width: 100%;
   background: url("../assets/images/whitepaper_bg.png") no-repeat;
   background-size: cover;
@@ -212,17 +350,43 @@ http://www.Mkrtchyan.zz.mu
   border-style:none;
 }
 
-.roadmap_section{
-  height: 1000px;
-  width: 100%;
-  background: url("../assets/images/roadmap_bg.png") no-repeat;
-  background-size: cover;
-  text-align: center;
+/*
+=========================================
+ Roadmap Section
+*/
+
+
+
+
+.arrowButton{
   position: relative;
-  padding-top: 146px;
-  padding-bottom: 146px;
+  width:400px;
+  height:200px;
 }
 
-.baseDiv{
-  float:left;
+#button_left{
+  position: absolute;
+  width:200px;
+  height:200px;
+  background:url('../assets/images/arrow_left1.png') no-repeat;
+}
+
+#button_left:hover{
+  -webkit-transition: all 500ms ease-in;
+  -webkit-transform: scale(1.2);
+  background:url('../assets/images/arrow_left2.png') no-repeat;
+}
+
+#button_right{
+  position: absolute;
+  left:130px;
+  width:200px;
+  height:200px;
+  background:url('../assets/images/arrow_right1.png') no-repeat;
+}
+
+#button_right:hover{
+  -webkit-transition: all 500ms ease-in;
+  -webkit-transform: scale(1.2);
+  background:url('../assets/images/arrow_right2.png') no-repeat;
 }

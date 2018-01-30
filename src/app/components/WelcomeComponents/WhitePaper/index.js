@@ -1,6 +1,5 @@
 import React from 'react';
 import * as styles from './styles.css';
-import Title from '../../SectionTitle';
 
 const WhitePaperSection = function WhitePaperSection(){
   const subTitle = ["wow fadeInLeft  animated", styles.subTitle].join(" ");
@@ -9,7 +8,9 @@ const WhitePaperSection = function WhitePaperSection(){
 
   return(
     <section id="whitepaper_section" className="whitepaper_section">
-      <Title title="KNOW MORE"/>
+      <div className={styles.titleEffect}>
+        KNOW MORE
+      </div>
       <div>
         <div className={subTitle}>
           WHITE PAPER

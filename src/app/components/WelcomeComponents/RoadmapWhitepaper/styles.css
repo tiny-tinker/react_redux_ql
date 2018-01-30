@@ -1,0 +1,201 @@
+/*----------------------- RoadMap section style -------------------------*/
+.roadmapTitle{
+  position:absolute;
+  top: -25px;
+  left: 100px;
+  font-family: Roboto, serif;
+  font-size: 164px;
+  color: rgba(249,69,38,0.3);
+  font-weight: bold;
+  opacity:0.17;
+  background: -webkit-linear-gradient(-78deg, rgba(249,69,38,0.3),rgba(1,10,96,0.2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.roadmapSubTitle{
+  position:absolute;
+  top: 45px;
+  left: 125px;
+  font-size:70px;
+  font-weight:bold;
+  font-family:Montserrat, serif;
+  color:white;
+}
+
+.subTitleDetail{
+  width: 600px;
+  position: absolute;
+  top: 130px;
+  left: 135px;
+  font-size: 26px;
+  color: #fff;
+  text-align: left;
+  font-family:Roboto, serif;
+}
+
+.main{
+  margin-bottom:300px;
+  margin-top:300px;
+  position:relative;
+}
+
+.text{
+  text-align: right;
+  color:white;
+}
+
+.rotated {
+  position:absolute;
+  width:400px;
+  height: 100px;
+  transform: rotate(90deg); /* Equal to rotateZ(45deg) */
+}
+
+.roadmap_line{
+  position: absolute;
+  left: 50px;
+  top: 239px;
+}
+
+.activeDot{
+  display:none;
+}
+
+.img{
+  position: absolute;
+  left: 339px;
+  top: -73px;
+}
+.span1{
+  font-size:25px;
+}
+.span2{
+  font-size:15px;
+}
+
+
+/*------------------  styles according to screen ------------------*/
+@media only screen and (max-width: 1200px) {
+  .roadmapTitle {
+    font-size: 8em;
+  }
+  .roadmapSubTitle{
+    top: 30px;
+    left: 120px;
+    font-size: 60px;
+  }
+  .subTitleDetail{
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    font-size: 23px;
+    color: #fff;
+    text-align: left;
+  }
+  .roadmap_line{
+    position: absolute;
+    left: -10px;
+    top: 246px;
+    width: 1000px;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+  .roadmapTitle {
+    left:120px;
+    font-size: 7em;
+  }
+  .roadmapSubTitle{
+    top: 25px;
+    left: 130px;
+    font-size: 50px;
+  }
+  .subTitleDetail{
+    width: 500px;
+    position: absolute;
+    top: 90px;
+    left: 135px;
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+  }
+
+  .main{
+    margin-top:200px;
+  }
+  .roadmap_line{
+    position: absolute;
+    left: -75px;
+    top: 249px;
+    width: 900px;
+  }
+
+  .img{
+    position: absolute;
+    left: 339px;
+    top: -73px;
+  }
+  .span1{
+    font-size:20px;
+  }
+  .span2{
+    font-size:11px;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  .roadmapTitle {
+    top:0px;
+    left:10px;
+    font-size: 4em;
+  }
+  .roadmapSubTitle{
+    top: 25px;
+    left: 20px;
+    font-size: 30px;
+  }
+  .subTitleDetail{
+    width: 300px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-size: 15px;
+    color: #fff;
+    text-align: left;
+  }
+
+  .main{
+    display:none;
+  }
+  /*.rotated {*/
+    /*position:absolute;*/
+    /*width:140px;*/
+    /*height: 60px;*/
+    /*transform: rotate(90deg); !* Equal to rotateZ(45deg) *!*/
+  /*}*/
+  /*.roadmap_line{*/
+    /*position: absolute;*/
+    /*left: 10px;*/
+    /*top: 109px;*/
+    /*width: 360px;*/
+  /*}*/
+
+  /*.img{*/
+    /*position: absolute;*/
+    /*left: 70px;*/
+    /*top: -73px;*/
+  /*}*/
+  /*.span1{*/
+    /*font-size:12px;*/
+  /*}*/
+  /*.span2{*/
+    /*font-size:8px;*/
+  /*}*/
+
+
+
+}

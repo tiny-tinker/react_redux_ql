@@ -1,8 +1,10 @@
 footer {
+  position: relative;
   height: 280px;
   background-color: #000121;
   text-align: center;
-  padding-top: 60px;
+  padding-top: 30px;
+  font-family:Roboto, serif;
   clear: both;
 }
 
@@ -16,6 +18,12 @@ footer {
 }
 
 .alignLeft{
-  text-align:left;
+  text-align: left;
 }
+
+.alignCenter{
+  text-align:center;
+}
+
+
 

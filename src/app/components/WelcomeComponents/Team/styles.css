@@ -2,10 +2,11 @@
   position:absolute;
   top: -25px;
   left: 100px;
+  font-family: Roboto, serif;
   font-size: 164px;
-  color: #3e0e0e;
+  color: #52193a;
   font-weight: bold;
-  background: -webkit-linear-gradient(-85deg, #3e0e0e,#3e0e0e,#3e0e0e, rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
+  background: -webkit-linear-gradient(-80deg, #52193a,#52193a,#52193a, rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

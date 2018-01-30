@@ -1,24 +1,69 @@
+.titleEffect{
+  position:absolute;
+  top: -25px;
+  left: 100px;
+  font-family: Roboto, serif;
+  font-size: 164px;
+  color: #52193a;
+  font-weight: bold;
+  background: -webkit-linear-gradient(-80deg, #52193a,#52193a,#52193a, rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .subTitle{
   position:absolute;
   top: 35px;
   left: 160px;
   font-size:70px;
   font-weight:bold;
+  font-family:Montserrat, serif;
   color:white;
 }
 
-.div1{
+.subTitle_description{
+  width:50%;
+  position:absolute;
+  top: 125px;
+  left: 160px;
+  font-size:26px;
+  font-weight:bold;
   color:white;
-  font-size:10px;
-  transform:rotate(90deg);
+  text-align: left;
 }
 
-.div2{
-  color:white;
-  font-size:20px;
-  transform:rotate(90deg);
+.span1{
+  font-size:25px;
 }
 
-.img{
-  margin-top:100px;
+.span2{
+  font-size:15px;
+}
+
+.rotated1{
+
+}
+
+.rotated2{
+  left:150px;
+}
+
+.rotated3{
+  left:300px;
+}
+
+.rotated4{
+  left:450px;
+}
+
+.rotated5{
+  left:600px;
+}
+
+.rotated6{
+  left:750px;
+}
+
+.rotated7{
+  left:900px;
 }
