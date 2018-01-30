@@ -1,6 +1,5 @@
 import React from 'react';
 import * as styles from './styles.css';
-import Title from '../../SectionTitle';
 
 import avatar from '../../../../assets/images/team_avatar2.png';
 import teamIn from '../../../../assets/images/team_in.png';
@@ -36,8 +35,10 @@ const TeamSection = function TeamSection() {
   const subTitle =["wow fadeInLeft  animated", styles.subTitle].join(" ");
 
   return(
-    <section id="team_section" className="team_section">
-      <Title title="PEOPLE"/>
+    <section id="team_section" className="team_section call-to-section">
+      <div className={styles.titleEffect}>
+        PEOPLE
+      </div>
       <div>
         <div className={subTitle}>
           TEAM
