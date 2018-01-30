@@ -6,6 +6,8 @@ import { reducer as formReducer } from 'redux-form/immutable';
 import appReducer from './containers/App/reducer';
 import commonReducer from './common/reducers';
 
+import benefitReducer from './components/WelcomeComponents/Benefits/reducer';
+
 /*
  * routeReducer
  *
@@ -42,6 +44,7 @@ const createReducer = (asyncReducers) =>
     form: formReducer,
     app: appReducer,
     common: commonReducer,
+    benefit: benefitReducer,
     ...asyncReducers,
   });
 

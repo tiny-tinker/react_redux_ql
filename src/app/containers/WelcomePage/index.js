@@ -27,7 +27,8 @@ class WelcomePage extends React.PureComponent {
   render() {
     return (
       <React.Fragment>
-
+        <IntroductionSection />
+        <BenefitsSection />
         <RoadmapWhitepaperSection/>
         <TeamConnectSection />
         <Footer />
