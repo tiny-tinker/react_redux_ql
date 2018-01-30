@@ -96,3 +96,9 @@
 .orange_btn:hover span:before, .orange_btn:hover span:after {
   opacity: 1;
 }
+
+.label {
+  text-transform: lowercase !important;
+  font-family: Roboto,sans-serif;
+  font-size: 1.1em;
+}

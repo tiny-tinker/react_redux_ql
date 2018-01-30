@@ -6,10 +6,10 @@ import * as styles from './style.css';
 class MoreButton extends React.Component {
   render() {
     const { label, pressFunction } = this.props;
-
+    const labelClass = ['text-center', styles.label].join(' ');
     return (
       <button onClick={pressFunction} className={styles.orange_btn}>
-        <span className="text-center">
+        <span className={labelClass}>
           { label }
         </span>
       </button>
