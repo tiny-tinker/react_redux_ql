@@ -1,0 +1,34 @@
+.container {
+  position: relative;
+  padding-left: 110px;
+  width: 100%;
+}
+
+.container_img {
+  position: absolute;
+  left:0;
+  padding: 0 5px;
+  width: 100px;
+}
+.active.container_img:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+  opacity: .6;
+}
+
+.title, .title_active {
+  font-family: Montserrat,sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.title_active {
+  background: -webkit-linear-gradient(0deg, rgba(0, 11, 115, 0.4), rgba(255, 120, 0, 0.2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

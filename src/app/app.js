@@ -29,6 +29,9 @@ import '!style-loader!css-loader!../assets/css/libraries/animate.css';
 import '!style-loader!css-loader!../assets/css/custom/theme.css';
 import '!style-loader!css-loader!../assets/css/custom/colors.css';
 
+// React Typist CSS
+import '!style-loader!css-loader!../../node_modules/react-typist/dist/Typist.css';
+
 // My own custom css
 import '!style-loader!css-loader!global.css';
 
@@ -51,6 +54,7 @@ import '!script-loader!../assets/js/libraries/wow';
 import '!script-loader!../assets/js/libraries/particles';
 import '!script-loader!../assets/js/libraries/waypoint';
 import '!script-loader!../assets/js/libraries/jquery.counterup';
+import '!script-loader!../app/global';
 
 // Import selector for `syncHistoryWithStore`
 //import { makeSelectLocationState } from 'containers/App/selectors';
