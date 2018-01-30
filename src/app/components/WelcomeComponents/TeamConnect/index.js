@@ -7,15 +7,15 @@ import IconOther from '../../../../assets/images/icon_other.png';
 
 
 const Profile = function Profile() {
-  const PersonProfile = ["col-lg-6 col-md-6 col-xs-12", styles.profile].join(" ");
-  const Detail = ["col-lg-8","wow fadeInLeft  animated", styles.detail].join(" ");
+  const PersonProfile = ['col-lg-6 col-md-6 col-xs-12', styles.profile].join(' ');
+  const Detail = ['col-lg-8', styles.detail].join(' ');
   return (
     <div className={PersonProfile}>
-      <div className="row">
+      <div className="row wow fadeInLeft animated">
         <div className="col-lg-4">
-          <a href="#" className="d-block mb-4 h-100 wow fadeInDown  animated">
-            <img className={styles.imgCircle} src={avatar} width = "200" height = "200" alt=""/>
-            <img className={styles.teamIn} src={teamIn}  alt=""/>
+          <a href="#" className="d-block mb-4 h-100">
+            <img className={styles.imgCircle} src={avatar} width="200" height="200" alt="" />
+            <img className={styles.teamIn} src={teamIn} alt="" />
           </a>
         </div>
         <div className={Detail}>
@@ -32,11 +32,11 @@ const Profile = function Profile() {
 };
 
 const TeamSection = function TeamSection() {
-  const title = ["wow fadeInLeft animated", styles.teamTitle].join(" ");
-  const subTitle = ["wow fadeInUp  animated", styles.teamSubTitle].join(" ");
-  const profileContainer = ['container',styles.profileContainer].join(" ");
+  const title = ['wow fadeInLeft animated', styles.teamTitle].join(' ');
+  const subTitle = ['wow fadeInUp  animated', styles.teamSubTitle].join(' ');
+  const profileContainer = ['container', styles.profileContainer].join(' ');
 
-  return(
+  return (
     <section id="team_section">
       <div className={title}>
         PEOPLE
@@ -51,29 +51,29 @@ const TeamSection = function TeamSection() {
       </div>
       <div className={profileContainer}>
         <div className="row">
-            <Profile/>
-            <Profile/>
-            <Profile/>
-            <Profile/>
-            <Profile/>
-            <Profile/>
-            <Profile/>
-            <Profile/>
-            <Profile/>
-            <Profile/>
-            <Profile/>
+          <Profile />
+          <Profile />
+          <Profile />
+          <Profile />
+          <Profile />
+          <Profile />
+          <Profile />
+          <Profile />
+          <Profile />
+          <Profile />
+          <Profile />
         </div>
       </div>
     </section>
-  )
+  );
 };
 
 
 const ConnectSection = function ConnectSection() {
-  const title = ["wow fadeInLeft animated", styles.connectTitle].join(" ");
-  const connectSubTitle =["wow fadeInUp  animated", styles.connectSubTitle].join(" ");
-  const lastIcon = ["wow fadeInUp  animated", styles.lastIcon].join(" ");
-  return(
+  const title = ['wow fadeInLeft animated', styles.connectTitle].join(' ');
+  const connectSubTitle = ['wow fadeInUp  animated', styles.connectSubTitle].join(' ');
+  const lastIcon = ['wow fadeInUp  animated', styles.lastIcon].join(' ');
+  return (
     <section id="connect_section">
       <div className={title}>
         CONNECT
@@ -101,7 +101,7 @@ const ConnectSection = function ConnectSection() {
                 <a href="" className={styles.connectIcon}> <i className="fa fa-github wow fadeInUp  animated"> </i> </a>
               </div>
               <div className="col-2">
-                <a href=""> <img src={IconOther} className={lastIcon}/>  </a>
+                <a href=""> <img src={IconOther} className={lastIcon} />                      </a>
               </div>
             </div>
 
@@ -111,18 +111,18 @@ const ConnectSection = function ConnectSection() {
       </div>
 
     </section>
-  )
+  );
 };
 
 
 const TeamConnectSection = function TeamConnectSection() {
-  return(
+  return (
     <div className="team_connect">
-      <TeamSection/>
+      <TeamSection />
       <p> </p>
-      <ConnectSection/>
+      <ConnectSection />
     </div>
-  )
+  );
 };
 
 export default TeamConnectSection;
