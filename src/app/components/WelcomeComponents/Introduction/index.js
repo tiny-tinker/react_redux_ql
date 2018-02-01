@@ -50,7 +50,7 @@ const IntroductionSection = function IntroductionSection() {
                 </Typist>
               </span>
               <div className="row mt-5">
-                <div className="col-xs-12 col-sm-6 offset-sm-3">
+                <div className="col-12 col-sm-6 offset-sm-3">
                   <p className="text-center text-white">
                     Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollici
                     tudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagi

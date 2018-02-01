@@ -38,6 +38,10 @@
   left: 0;
   right: 0;
 }
+.hero-video video {
+  display: inline-block;
+  vertical-align: baseline;
+}
 
 @media only screen and (max-width: 767px) {
   header #st-logo img {
@@ -148,6 +152,27 @@ http://www.Mkrtchyan.zz.mu
 .subtitle_description {
   font-family: Roboto,sans-serif;
   font-size: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .benefits {
+    position: relative;
+    top: 60px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .benefits {
+    position: relative;
+    top: 60px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .benefits {
+    position: relative;
+    top: 120px;
+  }
 }
 
 /*==================================== Team and Connect Section =================================*/
