@@ -12,6 +12,7 @@
 }
 
 .pos_title {
+  position: relative !important;
   top: 133px !important;
 }
 
