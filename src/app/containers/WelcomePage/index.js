@@ -22,16 +22,12 @@ import IntroductionSection from '../../components/WelcomeComponents/Introduction
 import BenefitsSection from '../../components/WelcomeComponents/Benefits';
 
 
-
 class WelcomePage extends React.PureComponent {
   render() {
     return (
       <React.Fragment>
         <IntroductionSection />
         <BenefitsSection />
-        <RoadmapWhitepaperSection/>
-        <TeamConnectSection />
-        <Footer />
       </React.Fragment>
     );
   }
