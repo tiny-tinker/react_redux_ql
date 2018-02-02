@@ -4,7 +4,8 @@ import * as styles from './BenefitShow.css';
 
 const BenefitShow = function BenefitShow({ activeBenefit }) {
   const titleContainer = ['row', styles.title_container].join(' ');
-  const imgSrc = require(`./../../../assets/images/${activeBenefit.image}`);
+  const imgSrc = require(`./../../../assets/images/${activeBenefit.image_active}`);
+  const dividerClass = ['d-none d-md-block', styles.divider].join(' ');
   return (
     <React.Fragment>
       <div className={styles.container}>
@@ -24,7 +25,7 @@ const BenefitShow = function BenefitShow({ activeBenefit }) {
           </div>
         </div>
       </div>
-      <hr />
+      <hr className={dividerClass} />
     </React.Fragment>
   );
 };

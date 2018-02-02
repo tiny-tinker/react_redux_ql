@@ -35,6 +35,12 @@
   text-align: left;
 }
 
+.title_active {
+  background: -webkit-linear-gradient(#f94526, #ff7800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .sub_title {
   font-family: Roboto, sans-serif;
   font-size: 1.1em;

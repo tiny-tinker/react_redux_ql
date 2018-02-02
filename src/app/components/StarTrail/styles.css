@@ -1,0 +1,13 @@
+.starTrail {
+  opacity: 1;
+  transform: translate(-50%, -50%) rotate(0deg);
+  animation: star-trails-anim 14s steps(400) infinite;
+}
+@keyframes star-trails-anim {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
