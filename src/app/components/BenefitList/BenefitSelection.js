@@ -37,7 +37,7 @@ const BenefitSelection = function BenefitSelection({ benefit, handleClick, activ
 BenefitSelection.propTypes = {
   benefit: PropTypes.object,
   handleClick: PropTypes.func,
-  activeId: PropTypes.object,
+  activeId: PropTypes.string,
 };
 
 export default BenefitSelection;
