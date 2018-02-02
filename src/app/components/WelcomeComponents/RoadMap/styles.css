@@ -1,69 +1,147 @@
-.titleEffect{
+/*--------------------------- RoadMap section style ----------------------------*/
+.roadmapTitle{
   position:absolute;
   top: -25px;
   left: 100px;
   font-family: Roboto, serif;
   font-size: 164px;
-  color: #52193a;
+  color: rgba(249,69,38,0.3);
   font-weight: bold;
-  background: -webkit-linear-gradient(-80deg, #52193a,#52193a,#52193a, rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
+  opacity:0.17;
+  background: -webkit-linear-gradient(-78deg, rgba(249,69,38,0.3),rgba(1,10,96,0.2));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-.subTitle{
+.roadmapSubTitle{
   position:absolute;
-  top: 35px;
-  left: 160px;
+  top: 45px;
+  left: 125px;
   font-size:70px;
   font-weight:bold;
   font-family:Montserrat, serif;
   color:white;
 }
-
-.subTitle_description{
-  width:50%;
-  position:absolute;
-  top: 125px;
-  left: 160px;
-  font-size:26px;
-  font-weight:bold;
-  color:white;
+.subTitleDetail{
+  width: 600px;
+  position: absolute;
+  top: 130px;
+  left: 135px;
+  font-size: 26px;
+  color: #fff;
   text-align: left;
+  font-family:Roboto, serif;
+}
+.main{
+  margin-bottom:300px;
+  margin-top:300px;
+  position:relative;
+}
+.roadmap_line{
+  position: absolute;
+  left: 50px;
+  top: 239px;
+}
+.arrowButton{
+  position: relative;
+  width:400px;
+  height:200px;
+  float:right;
 }
 
-.span1{
-  font-size:25px;
+/*-----------------------------------------------  styles according to screen ------------------------------------*/
+@media only screen and (max-width: 1200px) {
+  .roadmapTitle {
+    font-size: 8em;
+  }
+  .roadmapSubTitle{
+    top: 30px;
+    left: 120px;
+    font-size: 60px;
+  }
+  .subTitleDetail{
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    font-size: 23px;
+    color: #fff;
+    text-align: left;
+  }
+  .roadmap_line{
+    position: absolute;
+    left: -10px;
+    top: 246px;
+    width: 1000px;
+  }
+  .roadDetailTitle{
+    font-size:40px;
+  }
 }
 
-.span2{
-  font-size:15px;
+@media only screen and (max-width: 992px) {
+  .roadmapTitle {
+    left:120px;
+    font-size: 7em;
+  }
+  .roadmapSubTitle{
+    top: 25px;
+    left: 130px;
+    font-size: 50px;
+  }
+  .subTitleDetail{
+    width: 500px;
+    position: absolute;
+    top: 90px;
+    left: 135px;
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+  }
+  .main{
+    margin-top:200px;
+  }
+  .roadmap_line{
+    position: absolute;
+    left: -75px;
+    top: 249px;
+    width: 900px;
+  }
+  .roadDetailTitle{
+    font-size:30px;
+  }
 }
 
-.rotated1{
-
-}
-
-.rotated2{
-  left:150px;
-}
-
-.rotated3{
-  left:300px;
-}
-
-.rotated4{
-  left:450px;
-}
-
-.rotated5{
-  left:600px;
-}
-
-.rotated6{
-  left:750px;
-}
-
-.rotated7{
-  left:900px;
+@media only screen and (max-width: 767px) {
+  .roadmapTitle {
+    top:0px;
+    left:10px;
+    font-size: 3.5em;
+  }
+  .roadmapSubTitle{
+    top: 25px;
+    left: 20px;
+    font-size: 30px;
+  }
+  .subTitleDetail{
+    width: 300px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-size: 15px;
+    color: #fff;
+    text-align: left;
+  }
+  .main{
+    display:none;
+  }
+  .arrowButton{
+    position: relative;
+    width:360px;
+    height: 120px;
+    margin-top: -50px;
+    float:none;
+  }
+  .roadDetailTitle{
+    font-size:28px;
+  }
 }

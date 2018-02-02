@@ -203,27 +203,27 @@ http://www.Mkrtchyan.zz.mu
 }
 
 .rotated2{
-  left:90px;
+  left:80px;
 }
 
 .rotated3{
-  left:240px;
+  left:220px;
 }
 
 .rotated4{
-  left:390px;
+  left:360px;
 }
 
 .rotated5{
-  left:540px;
+  left:500px;
 }
 
 .rotated6{
-  left:690px;
+  left:640px;
 }
 
 .rotated7{
-  left:830px;
+  left:770px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -264,23 +264,23 @@ http://www.Mkrtchyan.zz.mu
   }
 
   .rotated3{
-    left:40px;
+    left:20px;
   }
 
   .rotated4{
-    left:160px;
+    left:130px;
   }
 
   .rotated5{
-    left:280px;
+    left:240px;
   }
 
   .rotated6{
-    left:400px;
+    left:350px;
   }
 
   .rotated7{
-    left:520px;
+    left:460px;
   }
 }
 

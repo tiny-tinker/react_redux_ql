@@ -1,0 +1,39 @@
+.roadDiv{
+  color:white;
+  text-align: left;
+  margin-top:50px;
+}
+.roadDetailTitle{
+  font-size:45px;
+  font-family:Montserrat, serif;
+  font-weight:bold;
+  width:700px;
+}
+.roadDetailDate{
+  font-size:16px;
+  font-style: italic;
+}
+.roadDetails{
+  margin-top:10px;
+  font-family:Roboto, serif;
+  font-size:20px;
+}
+/*-----------------------------------------------  styles according to screen ------------------------------------*/
+@media only screen and (max-width: 1200px) {
+  .roadDetailTitle{
+    font-size:40px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .roadDetailTitle{
+    font-size:28px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .roadDetailTitle{
+    font-size:28px;
+    width:100%;
+  }
+}
