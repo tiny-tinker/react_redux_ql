@@ -1,42 +1,130 @@
-.titleEffect{
+/*------------------------ WhitePaper styles -------------------------------*/
+.whitepaperTitle{
   position:absolute;
-  top: -25px;
-  left: 100px;
-  font-family: Roboto, serif;
+  top: 1200px;
+  left: 170px;
+  font-family: Montserrat ExtraBold;
   font-size: 164px;
-  color: #52193a;
-  font-weight: bold;
-  background: -webkit-linear-gradient(-80deg, #52193a,#52193a,#52193a, rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
+  color: rgba(249,69,38,0.4);
+  opacity:0.37;
+  background: -webkit-linear-gradient(-80deg, rgba(249,69,38,0.4),rgba(249,69,38,0.4), rgba(1,10,96,0.2),rgba(255,255,255,0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.subTitle{
+.whitepaperSubTitle{
   position:absolute;
-  top: 35px;
-  left: 160px;
+  top: 1280px;
+  left: 170px;
   font-size:70px;
   font-weight:bold;
   color:white;
+  font-family: Montserrat ExtraBold;
 }
 .content{
-  text-align:left;
-  padding-left: 160px;
+  text-align: left;
+  padding-top: 220px;
+  padding-bottom: 40%;
 }
 
 .description{
-  font-size:20px;
+  font-size:30px;
   color:white;
-  padding-top: 60px;
+  padding-top: 170px;
 }
 
 .buttonDownload{
-  margin-top:150px;
+  margin-top: 100px;
   background: transparent;
-  color: white;
-  border-radius: 30px;
-  border-width: 2px;
-  padding: 2px 15px 2px 15px;
+  color: #fff;
+  border-radius: 50px;
+  border-width: 3px;
+  padding: 2px 15px;
+  width: 400px;
+  height: 50px;
+  font-size: 25px;
+  font-family: Montserrat Regular;
 }
 
+/*-----------------------------------------------  styles according to screen ------------------------------------*/
+@media only screen and (max-width: 1200px) {
+  .whitepaperTitle{
+    top: 1200px;
+    left: 115px;
+    font-size: 8em;
+  }
+  .whitepaperSubTitle{
+    top: 1255px;
+    left: 110px;
+    font-size:60px;
+  }
+  .content{
+    text-align: left;
+    padding-top: 145px;
+    padding-bottom: 40%;
+  }
+  .description{
+    font-size:27px;
+    color:white;
+    padding-top: 170px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .whitepaperTitle{
+    top: 1150px;
+    left: 110px;
+    font-size: 7em;
+  }
+  .whitepaperSubTitle{
+    top: 1200px;
+    left: 108px;
+    font-size: 40px;
+  }
+  .content{
+    text-align: left;
+    padding-top: 130px;
+    padding-bottom: 40%;
+  }
+  .description{
+    font-size:24px;
+    color:white;
+    padding-top: 170px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .whitepaperTitle{
+    top: 600px;
+    left: 10px;
+    font-size: 3.2em;
+  }
+  .whitepaperSubTitle{
+    top: 615px;
+    left: 10px;
+    font-size: 30px;
+  }
+  .content{
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 40%;
+  }
+  .description{
+    font-size: 20px;
+    color: #fff;
+    padding-top: 115px;
+  }
+  .buttonDownload{
+    margin-top: 100px;
+    background: transparent;
+    color: #fff;
+    border-radius: 50px;
+    border-width: 3px;
+    padding: 2px 15px;
+    width: 320px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Montserrat Regular;
+  }
+}
 
