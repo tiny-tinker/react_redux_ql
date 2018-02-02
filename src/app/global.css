@@ -147,7 +147,7 @@ http://www.Mkrtchyan.zz.mu
 #2. Our Benefits Section
  */
 .benefits_section {
-  background: url('../assets/images/our_benefits.png') no-repeat;
+  background: url('../assets/images/our_benefits.png') no-repeat center;
 }
 .subtitle_description {
   font-family: Roboto,sans-serif;

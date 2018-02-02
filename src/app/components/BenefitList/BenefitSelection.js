@@ -2,9 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import * as styles from './BenefitSelection.css';
 
-const BenefitSelection = function BenefitSelection({ benefit, handleClick }) {
+const BenefitSelection = function BenefitSelection({ benefit, handleClick, activeId }) {
   const container = ['row', styles.container].join(' ');
-  const imgSrc = require(`./../../../assets/images/${benefit.image}`);
+  let titleClass;
+  let imgSrc;
+
+  imgSrc = require(`./../../../assets/images/${benefit.image}`);
+  if (benefit.id != activeId) {
+    imgSrc = require(`./../../../assets/images/${benefit.image}`);
+    titleClass = styles.title;
+  } else {
+    imgSrc = require(`./../../../assets/images/${benefit.image_active}`);
+    titleClass = [styles.title, styles.title_active].join(' ');
+  }
 
   return (
     <a onClick={() => handleClick(benefit)} className={container}>
@@ -12,7 +22,7 @@ const BenefitSelection = function BenefitSelection({ benefit, handleClick }) {
         <img src={imgSrc} />
       </div>
       <div>
-        <div className={styles.title}>
+        <div className={titleClass}>
           { benefit.title }
         </div>
         <p className={styles.sub_title}>
@@ -23,9 +33,11 @@ const BenefitSelection = function BenefitSelection({ benefit, handleClick }) {
   );
 };
 
+
 BenefitSelection.propTypes = {
   benefit: PropTypes.object,
-  benefitClick: PropTypes.func,
+  handleClick: PropTypes.func,
+  activeId: PropTypes.string,
 };
 
 export default BenefitSelection;
