@@ -7,6 +7,7 @@ import appReducer from './containers/App/reducer';
 import commonReducer from './common/reducers';
 
 import benefitReducer from './components/WelcomeComponents/Benefits/reducer';
+import roadmapReducer from './components/WelcomeComponents/RoadMap/reducer';
 
 /*
  * routeReducer
@@ -45,6 +46,7 @@ const createReducer = (asyncReducers) =>
     app: appReducer,
     common: commonReducer,
     benefit: benefitReducer,
+    roadmap: roadmapReducer,
     ...asyncReducers,
   });
 
