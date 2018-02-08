@@ -17,7 +17,7 @@ const BenefitSelection = function BenefitSelection({ benefit, handleClick, activ
   }
 
   return (
-    <a onClick={() => handleClick(benefit)} className={container}>
+    <div onClick={() => handleClick(benefit)} className={container}>
       <div className={styles.container_img}>
         <img src={imgSrc} />
       </div>
@@ -29,7 +29,7 @@ const BenefitSelection = function BenefitSelection({ benefit, handleClick, activ
           { benefit.subtitle }
         </p>
       </div>
-    </a>
+    </div>
   );
 };
 

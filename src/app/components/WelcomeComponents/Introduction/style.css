@@ -7,6 +7,7 @@
   font-weight: bold;
   opacity: 0.31;
   background: -webkit-linear-gradient(0deg, rgba(0, 11, 115, 0.4), rgba(255, 120, 0, 0.2));
+  background: linear-gradient(0deg, rgba(0, 11, 115, 0.4), rgba(255, 120, 0, 0.2));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -14,6 +15,11 @@
 .pos_title {
   position: relative !important;
   top: 133px !important;
+}
+
+.introWaveClass {
+  position: absolute;
+  left: 0;
 }
 
 @media only screen and (max-width: 1200px) {

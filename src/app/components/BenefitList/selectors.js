@@ -10,7 +10,7 @@ const activeBenefit = (state) => state.get('benefit').get('benefits').toJS().fin
 
 const makeActiveBenefit = () => createSelector(
   activeBenefit,
-  (benefit) => benefit
+  (benefit) => [benefit]
 );
 export {
   selectBenefit,
