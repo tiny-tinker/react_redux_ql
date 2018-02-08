@@ -4,7 +4,8 @@ import * as styles from './styles.css';
 const WhitePaperSection = function WhitePaperSection(){
   const title = ["wow fadeInLeft  animated", styles.whitepaperTitle].join(" ");
   const subTitle = ["wow fadeInUp  animated", styles.whitepaperSubTitle].join(" ");
-  const downloadButton = ["wow fadeInRight animated", styles.buttonDownload].join(" ");
+  const buttonDownload = ["wow fadeInLeft animated", styles.buttonDownload].join(" ");
+
   const content = ["col-sm-6", styles.content].join(" ");
   return(
     <section id="whitepaper_section">
@@ -24,7 +25,7 @@ const WhitePaperSection = function WhitePaperSection(){
                 Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accequat auctor eu in elit. Class aptent taciti sociosrna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra enim
               </p>
               <div>
-                <button id = "downbutton" type="button" className={downloadButton}> <i className="fa fa-file fileIcon"> </i> download our whitepaper </button>
+                <button id = "downbutton" type="button" className={buttonDownload}> <i className="fa fa-file fileIcon"> </i> download our whitepaper </button>
               </div>
             </div>
           </div>

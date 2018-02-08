@@ -20,6 +20,12 @@
   color:white;
   font-family:Montserrat Regular;
 }
+.activetext{
+  text-align: right;
+  color:white;
+  font-family:Montserrat Regular;
+  font-weight:bold;
+}
 .span1{
   font-size:25px;
 }

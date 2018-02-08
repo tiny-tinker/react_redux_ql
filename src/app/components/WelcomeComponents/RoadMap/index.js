@@ -10,15 +10,15 @@ import * as styles from './styles.css';
 
 import RoadNode from '../../RoadmapSelection';
 import RoadmapShow from '../../RoadmapShow';
-
+import StarTrail from './../../StarTrail';
 import roadmap_line from '../../../../assets/images/roadmap_line.png';
 
 class RoadmapSection extends React.Component{
 
-  static createRoadmapItems(roadmaps, roadmapClick) {
+  static createRoadmapItems(roadmaps, roadmapClick, activeRoadmap) {
     // console.log(this.props.roadmaps);
     return roadmaps.map((roadmap) => (
-      <RoadNode key={roadmap.id} roadmap={roadmap} handleClick={roadmapClick} />
+      <RoadNode key={roadmap.id} roadmap={roadmap} handleClick={roadmapClick} activeId={activeRoadmap.id} />
     ));
   }
 
@@ -45,7 +45,7 @@ class RoadmapSection extends React.Component{
           <div className="row">
             <div className={styles.main}>
               <img className={styles.roadmap_line} width="1200" src={roadmap_line}/>
-              {RoadmapSection.createRoadmapItems(roadmaps, roadmapClick)}
+              {RoadmapSection.createRoadmapItems(roadmaps, roadmapClick, activeRoadmap)}
             </div>
           </div>
           <div className="row">

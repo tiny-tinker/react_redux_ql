@@ -351,10 +351,12 @@ http://www.Mkrtchyan.zz.mu
   background:url('../assets/images/arrow_right2.png') no-repeat;
 }
 
-.rotatedDiv:hover{
-  font-weight: bold;
-}
+
 .rotatedDiv:hover > img{
   display:block;
 }
 
+/*========================================= Join Section ===================================*/
+#join_section{
+  background:#020a3e;
+}

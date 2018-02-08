@@ -1,272 +1,50 @@
-.bg{
-  background: url('../../../../assets/images/team_connect_bg.png') no-repeat;
+@keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
 }
 
-
-/* ------------------------------------------------------------- connect section style -------------------------------------------------------- */
-
-.connectTitle{
+.twinkling {
   position:absolute;
-  bottom: 120px;
-  left: 100px;
-  font-family: Roboto, serif;
-  font-size: 180px;
-  color: rgba(249,69,38,0.3);
-  font-weight: bold;
-  opacity:0.17;
-  background: -webkit-linear-gradient(-78deg, rgba(249,69,38,0.3),rgba(249,69,38,0.3), rgba(1,10,96,0.2), rgba(255,255,255,0));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+
+  background:transparent url(../../../../assets/images/twinkling_team_connect.png) repeat top center;
+  z-index:0;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
 }
 
-.connectSubTitle{
+.stars {
   position:absolute;
-  bottom: 200px;
-  left: 155px;
-  font-size:70px;
-  font-weight:bold;
-  font-family:Roboto, serif;
-  color:white;
-}
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
 
-.connectIcon{
-  font-size:60px;
-  color:white;
-}
-
-.lastIcon{
-  vertical-align:middle;
-}
-
-/* -------------------------------------------------- team section style --------------------------------------------------*/
-.teamTitle{
-  position:absolute;
-  top: -10px;
-  left: 195px;
-  font-family: Roboto, serif;
-  font-size: 170px;
-  color: rgba(249,69,38,0.2);
-  font-weight: bold;
-  opacity:0.17;
-  background: -webkit-linear-gradient(-67deg, rgba(249,69,38,0.2),rgba(249,69,38,0.2), rgba(0,8,86,0.2), rgba(0,8,86,0.2));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.teamSubTitle{
-  position:absolute;
-  top: 75px;
-  left: 170px;
-  font-size:70px;
-  font-weight:bold;
-  font-family:Roboto, serif;
-  color:white;
-}
-
-.teamDetail{
-  position: absolute;
-  top: 82px;
-  left:450px;
-  width: 800px;
-  color: #fff;
-  font-size: 30px;
-  text-align: left;
-}
-
-.profileContainer{
-  margin-top:90px;
-  margin-bottom: 200px;
-}
-
-.profile{
-  margin-bottom:50px;
-}
-
-.detail{
-  padding-top:30px;
-  padding-left:80px;
-  text-align: left;
-}
-
-.name{
-  font-size:30px;
-  font-weight:bold;
-  color:white;
-}
-
-.seo{
-  font-size:30px;
-  color:white;
-}
-
-.description{
-  font-size:20px;
-  color:white;
-}
-
-.imgCircle{
-  border-radius:50%;
-}
-
-.teamIn{
-  position:absolute;
-  z-index: 1;
-  top: 145px;
-  left: 148px;
-}
-
-
-/* --------------------------------------- team and section according to screen -------------------------------------------------*/
-@media only screen and (min-width: 1200px) {
-
-  .connectIcon{
-    font-size:70px;
-    color:white;
-  }
-  .lastIcon{
-    width:75%;
-    height:80%;
-    vertical-align:middle;
-  }
-}
-
-
-@media only screen and (max-width: 1200px) {
-  .teamTitle {
-    font-size: 8em;
-  }
-  .teamSubTitle{
-    top: 45px;
-    left: 135px;
-    font-size:60px;
-  }
-  .teamDetail{
-    top: 55px;
-    left: 350px;
-    width: 660px;
-    color: #fff;
-    font-size: 27px;
-  }
-  .profileContainer{
-    margin-top:70px;
-  }
-  .connectTitle {
-    font-size: 8em;
-  }
-  .connectSubTitle{
-    bottom: 170px;
-    left: 135px;
-    font-size:55px;
-  }
-  .connectIcon{
-    font-size:70px;
-    color:white;
-  }
-  .lastIcon{
-    width:120%;
-    height:80%;
-    vertical-align:middle;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .teamTitle {
-    left:120px;
-    font-size: 7em;
-  }
-  .teamSubTitle{
-    top: 40px;
-    left: 90px;
-    font-size:50px;
-  }
-  .teamDetail{
-    top: 50px;
-    left: 257px;
-    width: 550px;
-    color: #fff;
-    font-size: 23px;
-  }
-  .profileContainer{
-    margin-top:35px;
-  }
-  .teamIn{
-    top: 150px;
-    left: 200px;
-  }
-  .connectTitle {
-    left:55px;
-    font-size: 7em;
-  }
-  .connectSubTitle{
-    bottom: 165px;
-    left: 90px;
-    font-size:50px;
-  }
-  .connectIcon{
-    font-size:55px;
-    color:white;
-  }
-  .lastIcon{
-    width:120%;
-    height:80%;
-    vertical-align:middle;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .teamTitle {
-    top:0px;
-    left:40px;
-    font-size: 4.5em;
-  }
-  .teamSubTitle{
-    top: 35px;
-    left: 25px;
-    font-size:30px;
-  }
-  .teamDetail{
-    top: 37px;
-    left: 130px;
-    width: 190px;
-    color: #fff;
-    font-size: 15px;
-  }
-  .profileContainer{
-    margin-top:0px;
-  }
-  .name{
-    font-size:24px;
-  }
-  .seo{
-    font-size:24px;
-  }
-  .description{
-    font-size:17px;
-  }
-  .teamIn{
-    position:absolute;
-    z-index: 1;
-    top: 150px;
-    left: 220px;
-  }
-
-  .connectTitle {
-    bottom:100px;
-    left:20px;
-    font-size: 4.5em;
-  }
-  .connectSubTitle{
-    bottom: 130px;
-    left: 40px;
-    font-size:30px;
-  }
-  .connectIcon{
-    font-size:40px;
-    color:white;
-  }
-  .lastIcon{
-    width:120%;
-    height:80%;
-    vertical-align:middle;
-  }
+  background:#000 url(../../../../assets/images/stars_team_connect.png) repeat top center;
+  z-index:0;
 }
