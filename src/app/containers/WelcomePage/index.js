@@ -14,6 +14,7 @@ import { connect } from 'react-redux';
 import Footer from '../../components/Footer';
 import TeamConnectSection from '../../components/WelcomeComponents/TeamConnect';
 import RoadmapWhitepaperSection from '../../components/WelcomeComponents/RoadmapWhitepaper';
+import JoinSection from '../../components/WelcomeComponents/Join';
 import IntroductionSection from '../../components/WelcomeComponents/Introduction';
 import BenefitsSection from '../../components/WelcomeComponents/Benefits';
 import CompareSection from '../../components/WelcomeComponents/Compare';
@@ -26,6 +27,10 @@ class WelcomePage extends React.PureComponent {
         <IntroductionSection />
         <BenefitsSection />
         <CompareSection />
+        <JoinSection />
+        <RoadmapWhitepaperSection />
+        <TeamConnectSection />
+        <Footer />
       </React.Fragment>
     );
   }

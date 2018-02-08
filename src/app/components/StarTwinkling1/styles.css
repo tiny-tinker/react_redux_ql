@@ -1,0 +1,12 @@
+.space {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+
+.carousel {
+  margin: 0 auto;
+  width:800px;
+  display: relative;
+}
