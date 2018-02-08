@@ -17,13 +17,16 @@ import RoadmapWhitepaperSection from '../../components/WelcomeComponents/Roadmap
 import JoinSection from '../../components/WelcomeComponents/Join';
 import IntroductionSection from '../../components/WelcomeComponents/Introduction';
 import BenefitsSection from '../../components/WelcomeComponents/Benefits';
-
+import CompareSection from '../../components/WelcomeComponents/Compare';
 
 class WelcomePage extends React.PureComponent {
+
   render() {
     return (
       <React.Fragment>
         <IntroductionSection />
+        <BenefitsSection />
+        <CompareSection />
         <JoinSection />
         <RoadmapWhitepaperSection />
         <TeamConnectSection />
@@ -33,4 +36,4 @@ class WelcomePage extends React.PureComponent {
   }
 }
 
-export default connect()((WelcomePage));
+export default WelcomePage;
