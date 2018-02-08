@@ -14,8 +14,8 @@ class RoadmapShow extends React.Component{
     container.classList.remove("wow");
     container.classList.remove("fadeInRight");
     container.classList.remove("animated");
-    //container.classList.remove("fadeIn");
-    console.log(container.classList);
+    // container.classList.remove("fadeIn");
+    // console.log(container.classList);
 
     setTimeout(() =>{
       container.classList.add("wow");

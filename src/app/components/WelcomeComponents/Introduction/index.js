@@ -11,10 +11,8 @@
 
 import React from 'react';
 import Typist from 'react-typist';
-
 import MoreButton from '../../MoreButton/index';
 import ScrollIndicator from '../../ScrollIndicator';
-
 import planet from '../../../../assets/video/planet.mov';
 import poster from '../../../../assets/video/particle-video-v1-dark.jpg';
 import * as styles from './style.css';
@@ -52,9 +50,7 @@ const IntroductionSection = function IntroductionSection() {
               <div className="row mt-5">
                 <div className="col-12 col-sm-6 offset-sm-3">
                   <p className="text-center text-white">
-                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollici
-                    tudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagi
-                    tis sem nibh id elit. Duis sed odio s eu felis
+                    Quillon. A new cryptocurrency featuring state of the art privacy features, self-governance and masternodes while changing the game through a focus on a superior user experience. Join us now!
                   </p>
                 </div>
               </div>
