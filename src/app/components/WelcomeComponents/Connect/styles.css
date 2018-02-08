@@ -1,20 +1,21 @@
-
-.title{
+/* ------------------------------------------------------------- connect section style -------------------------------------------------------- */
+.connectTitle{
   position:absolute;
-  top: 15px;
+  bottom: 120px;
   left: 100px;
   font-family: Roboto, serif;
-  font-size: 164px;
-  color: #52193a;
+  font-size: 180px;
+  color: rgba(249,69,38,0.3);
   font-weight: bold;
-  background: -webkit-linear-gradient(-80deg, #52193a,#52193a,#52193a, rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
+  opacity:0.17;
+  background: -webkit-linear-gradient(-78deg, rgba(249,69,38,0.3),rgba(249,69,38,0.3), rgba(1,10,96,0.2), rgba(255,255,255,0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.subTitle{
+.connectSubTitle{
   position:absolute;
-  top: 80px;
+  bottom: 200px;
   left: 155px;
   font-size:70px;
   font-weight:bold;
@@ -31,6 +32,7 @@
   vertical-align:middle;
 }
 
+/* --------------------------------------- connect style according to screen size -------------------------------------------------*/
 @media only screen and (min-width: 1200px) {
 
   .connectIcon{
@@ -46,13 +48,13 @@
 
 
 @media only screen and (max-width: 1200px) {
-  .title {
+  .connectTitle {
     font-size: 8em;
   }
-  .subTitle{
-    top: 60px;
+  .connectSubTitle{
+    bottom: 170px;
     left: 135px;
-    font-size:60px;
+    font-size:55px;
   }
   .connectIcon{
     font-size:70px;
@@ -66,12 +68,13 @@
 }
 
 @media only screen and (max-width: 992px) {
-  .title {
+  .connectTitle {
+    left:55px;
     font-size: 7em;
   }
-  .subTitle{
-    top: 55px;
-    left: 135px;
+  .connectSubTitle{
+    bottom: 165px;
+    left: 90px;
     font-size:50px;
   }
   .connectIcon{
@@ -86,14 +89,14 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .title {
-    top:10px;
+  .connectTitle {
+    bottom:100px;
     left:20px;
     font-size: 4.5em;
   }
-  .subTitle{
-    top: 40px;
-    left: 50px;
+  .connectSubTitle{
+    bottom: 130px;
+    left: 40px;
     font-size:30px;
   }
   .connectIcon{
@@ -106,4 +109,3 @@
     vertical-align:middle;
   }
 }
-
