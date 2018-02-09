@@ -1,7 +1,7 @@
 import React from 'react';
 
 import * as styles from './styles.css';
-import joinVideo from '../../../../assets/video/join.mov';
+import joinVideo from '../../../../assets/video/join.mp4';
 import poster from '../../../../assets/video/particle-video-v1-dark.jpg';
 
 import joinImg1 from '../../../../assets/images/join1.png';
