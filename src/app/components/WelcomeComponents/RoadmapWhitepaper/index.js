@@ -3,13 +3,13 @@ import * as styles from './styles.css';
 
 import RoadmapSection from './../RoadMap';
 import WhitePaperSection from './../WhitePaper';
-import StarTwinkling1 from './../../StarTwinkling1';
-import StarTrail from './../../StarTrail';
+import MeteorShowerRoadmap from './../../MeteorShowerRoadmap';
 
 
 const RoadmapWhitepaperSection = function RoadmapWhitepaperSection() {
   return (
     <div className="roadmap_whitepaper">
+      <MeteorShowerRoadmap opacity={0.3} />
       <RoadmapSection />
       <WhitePaperSection />
     </div>
