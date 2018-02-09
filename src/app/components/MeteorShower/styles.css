@@ -52,6 +52,10 @@
   overflow: hidden;
   opacity: 0.5;
 }
+
+.roadmapSection {
+  background: url('../../../assets/images/roadmap_whitepaper_bg.png') no-repeat;
+}
 .stars {
   background:#000 url(../../../assets/images/stars.png) repeat top center;
   z-index:0;

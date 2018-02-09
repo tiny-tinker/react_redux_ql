@@ -11,7 +11,6 @@ import joinImg4 from '../../../../assets/images/join4.png';
 import joinImg5 from '../../../../assets/images/join5.png';
 import joinDot from '../../../../assets/images/joinDot.png';
 
-
 class JoinSection extends React.Component {
   render() {
     const title = ['wow fadeInLeft animated', styles.title].join(' ');
@@ -95,11 +94,11 @@ class JoinSection extends React.Component {
               </div>
             </div>
             <div className={dots}>
-              <img src={joinDot} className={dot} />
-              <img src={joinDot} className={dot} />
-              <img src={joinDot} className={dotCenter} />
-              <img src={joinDot} className={dot} />
-              <img src={joinDot} className={dot} />
+              <img src={joinDot} role="presentation" className={dot} />
+              <img src={joinDot} role="presentation" className={dot} />
+              <img src={joinDot} role="presentation" className={dotCenter} />
+              <img src={joinDot} role="presentation" className={dot} />
+              <img src={joinDot} role="presentation" className={dot} />
             </div>
           </div>
         </div>
