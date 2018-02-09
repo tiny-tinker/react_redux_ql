@@ -1,7 +1,7 @@
 import React from 'react';
 
 import * as styles from './styles.css';
-import joinVideo from '../../../../assets/video/join.mp4';
+import joinVideo from '../../../../assets/video/join.mov';
 import poster from '../../../../assets/video/particle-video-v1-dark.jpg';
 
 import joinImg1 from '../../../../assets/images/join1.png';
@@ -10,7 +10,6 @@ import joinImg3 from '../../../../assets/images/join3.png';
 import joinImg4 from '../../../../assets/images/join4.png';
 import joinImg5 from '../../../../assets/images/join5.png';
 import joinDot from '../../../../assets/images/joinDot.png';
-
 
 class JoinSection extends React.Component {
   render() {
@@ -95,11 +94,11 @@ class JoinSection extends React.Component {
               </div>
             </div>
             <div className={dots}>
-              <img src={joinDot} className={dot} />
-              <img src={joinDot} className={dot} />
-              <img src={joinDot} className={dotCenter} />
-              <img src={joinDot} className={dot} />
-              <img src={joinDot} className={dot} />
+              <img src={joinDot} role="presentation" className={dot} />
+              <img src={joinDot} role="presentation" className={dot} />
+              <img src={joinDot} role="presentation" className={dotCenter} />
+              <img src={joinDot} role="presentation" className={dot} />
+              <img src={joinDot} role="presentation" className={dot} />
             </div>
           </div>
         </div>
