@@ -13,33 +13,23 @@ import React from 'react';
 import Typist from 'react-typist';
 import MoreButton from '../../MoreButton/index';
 import ScrollIndicator from '../../ScrollIndicator';
-import planet from '../../../../assets/video/planet.mov';
-import poster from '../../../../assets/video/particle-video-v1-dark.jpg';
+import MeteorShower from '../../MeteorShower';
 import * as styles from './style.css';
 
 const IntroductionSection = function IntroductionSection() {
   const title = ['wow fadeInLeft animated', styles.title].join(' ');
-  const titlePos = ['headlines-wrapper', styles.pos_title].join(' ');
   const scrollIndicator = ['col-lg-12', styles.scrollIndicator].join(' ');
-
+  const sectionClass = ['hero-section-video-dark', styles.introSection].join(' ');
   return (
-    <section id="hero" className="hero-section-video-dark">
-      <div className="video-overlay"> </div>
-      <div className="stars"> </div>
-      <div className="twinkling"> </div>
-      <div className="hero-video">
-        <video autoPlay loop poster={poster}>
-          <source src={planet} type="video/mp4" />
-          Your browser does not support the video tag
-        </video>
+    <section id="hero" className={sectionClass}>
+      <div className={styles.particleContainer}>
+        <MeteorShower opacity={0.3} sectionId={2} />
       </div>
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-lg-12">
-            <h1 className={title}>INTRODUCTION </h1>
-          </div>
-          <div className="col-lg-12">
-            <div className={titlePos}>
+            <div className="headlines-wrapper">
+              <h1 className={title}>INTRODUCTION </h1>
               <span className="skilltechtypetext">
                 <Typist>
                   NEW OPPORTUNITY

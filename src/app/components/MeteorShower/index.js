@@ -127,8 +127,11 @@ class MeteorShower extends React.Component {
     };
 
     let bkgImgName = styles.backgroundImg;
-    if (this.props.sectionId != 0) {
+    if (this.props.sectionId == 1) {
       bkgImgName = [styles.backgroundImg, styles.roadmapSection].join(' ');
+    }
+    else if (this.props.sectionId == 2) {
+      bkgImgName = [styles.backgroundImg, styles.introSection].join(' ');
     }
 
     return (

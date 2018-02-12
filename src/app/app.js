@@ -21,6 +21,7 @@ import '!style-loader!css-loader!../assets/fonts/material-icons/material-icons.c
 import '!style-loader!css-loader!../assets/fonts/font-awesome/css/font-awesome.min.css';
 import '!style-loader!css-loader!../assets/fonts/montserrat/css/montserrat-webfont.min.css';
 import '!style-loader!css-loader!../assets/fonts/roboto/roboto.css';
+import '!style-loader!css-loader!../assets/fonts/montserrat-extrabold/style.css';
 
 // Particle theme library css
 import '!style-loader!css-loader!../assets/plugins/bootstrap-4.0.0-dist/css/bootstrap.css';
