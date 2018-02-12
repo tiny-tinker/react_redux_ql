@@ -76,7 +76,7 @@ Jest
 $ mongo
 
 // create Turbulence db
-$ use Quillion
+$ use quillion
 
 // create auth user
 $ db.createUser(
