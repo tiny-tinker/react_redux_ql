@@ -20,7 +20,7 @@ class BenefitShow extends React.Component {
           </div>
         </div>
         <div className="row mr-0">
-          <div className="col-12">
+          <div className="col-9">
             <p className={styles.description}>
               {activeBenefit.description}
             </p>

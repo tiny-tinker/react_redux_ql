@@ -56,6 +56,12 @@
 .roadmapSection {
   background: url('../../../assets/images/roadmap_whitepaper_bg.png') no-repeat;
 }
+
+.introSection {
+  background: url('../../../assets/images/intro_bkg.png') no-repeat bottom;
+  background-size: cover;
+}
+
 .stars {
   background:#000 url(../../../assets/images/stars.png) repeat top center;
   z-index:0;
