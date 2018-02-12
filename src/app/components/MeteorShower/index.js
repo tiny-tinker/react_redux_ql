@@ -7,12 +7,15 @@ class MeteorShower extends React.Component {
     window.addEventListener('resize', this.updateCanvas.bind(this));
     this.updateCanvas();
   }
+
   componentDidUpdate() {
     this.updateCanvas();
   }
+
   componentWillUnmount() {
     window.removeEventListener('resize', this.updateCanvas.bind(this));
   }
+
   updateCanvas() {
     const background = this.refs.bgCanvas;
     const container = this.refs.cvsContainer;
@@ -123,9 +126,14 @@ class MeteorShower extends React.Component {
       overflow: 'hidden',
     };
 
+    let bkgImgName = styles.backgroundImg;
+    if (this.props.sectionId != 0) {
+      bkgImgName = [styles.backgroundImg, styles.roadmapSection].join(' ');
+    }
+
     return (
       <div className="d-block w-100 h-100 position-relative" ref="cvsContainer" style={containerStyle}>
-        <div className={styles.backgroundImg} />
+        <div className={bkgImgName}  />
         <div className={styles.stars} />
         <div className={styles.twinkling} />
         <canvas ref="bgCanvas" className={styles.meteor}></canvas>
@@ -136,10 +144,12 @@ class MeteorShower extends React.Component {
 
 MeteorShower.defaultProps = {
   opacity: 1.0,
+  sectionId: 0,
 };
 
 MeteorShower.propTypes = {
   opacity: PropTypes.number,
+  sectionId: PropTypes.number,
 };
 
 export default MeteorShower;
