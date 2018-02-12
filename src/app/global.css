@@ -404,6 +404,12 @@ http://www.Mkrtchyan.zz.mu
 }
 
 /*========================================= Join Section ===================================*/
-#join_section{
-  background:#020a3e;
+/*#join_section{*/
+  /*background:#020a3e;*/
+/*}*/
+
+.join_section {
+  /*padding-bottom: 146px;*/
+  background: url('../assets/images/join_bg.png') no-repeat center;
+  background-size:cover;
 }
