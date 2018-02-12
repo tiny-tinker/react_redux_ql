@@ -26,10 +26,10 @@ class JoinSection extends React.Component {
     return (
       <section id="join_section" className="call-to-section join_section">
         <div className={styles.videoDiv}>
-          <video className={styles.video} autoPlay loop poster={poster}>
-            <source src={joinVideo} type="video/mp4" />
-            Your browser does not support the video tag
-          </video>
+          {/*<video className={styles.video} autoPlay loop poster={poster}>*/}
+            {/*<source src={joinVideo} type="video/mp4" />*/}
+            {/*Your browser does not support the video tag*/}
+          {/*</video>*/}
         </div>
         <div className="container-fluid">
           <div className="row">
