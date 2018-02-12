@@ -1,5 +1,6 @@
 .title {
   top: -100px;
+  margin-left: -5px;
   position:relative;
   color: #52193a;
   font-family: Montserrat, serif;
@@ -8,7 +9,7 @@
   line-height: 1;
   text-align: left;
   background: -webkit-linear-gradient(298deg, rgba(249, 69, 38, 0.1), rgba(1, 10, 96, 0.2));
-  background: linear-gradient(298deg, rgba(249, 69, 38, 0.1), rgba(1, 10, 96, 0.2));
+  background: linear-gradient(298deg, rgba(249, 69, 38, 0.3), rgba(1, 10, 96, 0.4));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
