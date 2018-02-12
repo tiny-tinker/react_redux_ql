@@ -23,42 +23,7 @@ button:focus {
 }
 /*
 #1. Introduction Section
- */
-.video-overlay {
-  background: url(../assets/images/introduction.png) repeat;
-  opacity: 0.0;
-}
-
-.hero-section-video-dark {
-  z-index: 0 !important;
-}
-
-.hero-section-video-dark .hero-video {
-  opacity: 0.3;
-}
-.hero-section-video-dark .hero-video video {
-  margin-top: -300px;
-}
-.hero-section-video-dark .col-lg-12 {
-}
-.hero-section-video-dark h4
-{
-  font-family: Roboto, serif;
-  line-height: 44px;
-  font-size: 37px;
-  color: #ffffff;
-  font-weight: 400;
-  margin-bottom: 0;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-}
-.hero-video video {
-  display: inline-block;
-  vertical-align: baseline;
-}
+*/
 
 header #st-logo {
   top: 30px;
@@ -172,6 +137,7 @@ http://www.Mkrtchyan.zz.mu
 .benefits_section {
   padding-bottom: 146px;
   background: url('../assets/images/our_benefits.png') no-repeat center;
+  background-size: cover;
 }
 .subtitle_description {
   font-family: Roboto,sans-serif;

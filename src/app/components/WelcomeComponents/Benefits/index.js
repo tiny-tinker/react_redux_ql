@@ -3,9 +3,7 @@ import Particles from 'react-particles-js';
 
 import * as styles from './styles.css';
 import ParticleConfig from './particlesjs-config.json';
-import MoreButton from '../../MoreButton';
 import BenefitLists from '../../../components/BenefitList';
-import StarTrail from '../../StarTrail';
 
 class BenefitsSection extends React.Component {
 
@@ -14,6 +12,7 @@ class BenefitsSection extends React.Component {
     const subTitle = ['wow fadeInLeft animated text-left ', styles.subTitle].join(' ');
     const sectionDescription = ['mt-2 text-left text-white', styles.section_description].join(' ');
     const polgyonContainer = ['row', styles.polygonContainer].join(' ');
+
     return (
       <section id="benefits_section" className="call-to-section benefits_section">
         <div className="container-fluid">
@@ -35,7 +34,6 @@ class BenefitsSection extends React.Component {
                     <p className={sectionDescription}>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit  odio s eu felis</p>
                   </div>
                 </div>
-                <MoreButton label="learn more" />
               </div>
             </div>
           </div>
