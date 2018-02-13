@@ -38,7 +38,7 @@ class RoadmapSection extends React.Component{
             ROADMAP
           </div>
           <div className={subTitleDetail}>
-            QUIS BIBENDUM AUCTOR, NISI ELIT CONSEQUAT IPSUM, NEC SAGITTIS SEM NIBH ID ELIF. DUIS SED ODIO SIT AMET NIBH IM
+            <p> QUIS BIBENDUM AUCTOR, NISI ELIT CONSEQUAT IPSUM, NEC SAGITTIS SEM NIBH ID ELIF. DUIS SED ODIO SIT AMET NIBH IM </p>
           </div>
         </div>
         <div className="container">
