@@ -72,8 +72,7 @@
   }
   .title {
     font-size: 2.0em;
-    min-height: 100px;
-    margin-top: 32px;
+    min-height: 130px;
   }
 }
 
@@ -111,9 +110,6 @@
   }
   .container {
     top: 26px;
-  }
-  .title {
-    margin-top: 32px;
   }
 }
 

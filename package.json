@@ -200,7 +200,8 @@
       "core-js",
       "lodash",
       "eventsource-polyfill",
-      "bluebird"
+      "bluebird",
+      "react-highcharts"
     ]
   },
   "jest": {
