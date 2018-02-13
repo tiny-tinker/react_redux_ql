@@ -25,7 +25,7 @@ const initialState = fromJS({
   }, {
     id: '5',
     title: 'POW PHASE PERIOD5',
-    date: '5JANUARY 30TH 2016',
+    date: '5January 30th 2016',
     description: '5Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nt taciton neqtum nunc. Etiatas,  massa nisl quis neque. Sein orci enim',
   }, {
     id: '6',
