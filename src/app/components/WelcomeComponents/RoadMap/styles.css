@@ -3,7 +3,7 @@
   position:absolute;
   top: 20px;
   left: 100px;
-  font-family: Roboto, serif;
+  font-family: Montserrat ExtraBold;
   font-size: 164px;
   color: rgba(249,69,38,0.3);
   font-weight: bold;
@@ -18,7 +18,7 @@
   left: 125px;
   font-size:70px;
   font-weight:bold;
-  font-family:Montserrat, serif;
+  font-family:Montserrat ExtraBold;
   color:white;
 }
 .subTitleDetail{
@@ -29,7 +29,7 @@
   font-size: 26px;
   color: #fff;
   text-align: left;
-  font-family:Roboto, serif;
+  font-family:Roboto Regular;
 }
 .main{
   margin-bottom:300px;

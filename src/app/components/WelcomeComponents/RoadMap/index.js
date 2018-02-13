@@ -31,14 +31,14 @@ class RoadmapSection extends React.Component{
     return(
       <section id="roadmap_section">
         <div className={title}>
-          ROAD MAP
+          ROADMAP
         </div>
         <div>
           <div className={subTitle}>
-            ROAD MAP
+            ROADMAP
           </div>
           <div className={subTitleDetail}>
-            quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh im
+            QUIS BIBENDUM AUCTOR, NISI ELIT CONSEQUAT IPSUM, NEC SAGITTIS SEM NIBH ID ELIF. DUIS SED ODIO SIT AMET NIBH IM
           </div>
         </div>
         <div className="container">

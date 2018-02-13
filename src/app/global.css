@@ -201,17 +201,14 @@ http://www.Mkrtchyan.zz.mu
 /*==================================== RoadMap and WhitePaper Section =================================*/
 .roadmap_whitepaper{
   z-index: 1;
-  /*
   height: auto;
   width: 100%;
   background: url("../assets/images/roadmap_whitepaper_bg.png") no-repeat;
-  background: none;
   background-size: cover;
   text-align: center;
   position: relative;
-  padding-top: 160px;
-  padding-bottom: 50px;
-  */
+  /*padding-top: 160px;*/
+  /*padding-bottom: 50px;*/
 }
 
 .rotated1{
@@ -378,7 +375,6 @@ http://www.Mkrtchyan.zz.mu
 /*}*/
 
 .join_section {
-  /*padding-bottom: 146px;*/
-  background: url('../assets/images/join_bg.png') no-repeat center;
+  background: linear-gradient(rgba(20, 10, 170, 0.45),rgba(20, 10, 170, 0.45)), url('../assets/images/join_bg.png') no-repeat center;
   background-size:cover;
 }
