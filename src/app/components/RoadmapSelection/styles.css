@@ -3,7 +3,6 @@
   width:400px;
   height: 100px;
   transform: rotate(90deg); /* Equal to rotateZ(45deg) */
-  font-family:Montserrat Regular;
 }
 .img{
   position: absolute;

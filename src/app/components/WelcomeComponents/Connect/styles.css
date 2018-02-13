@@ -3,7 +3,7 @@
   position:absolute;
   bottom: 120px;
   left: 100px;
-  font-family: Roboto, serif;
+  font-family: Montserrat ExtraBold;
   font-size: 180px;
   color: rgba(249,69,38,0.3);
   font-weight: bold;
@@ -19,7 +19,7 @@
   left: 155px;
   font-size:70px;
   font-weight:bold;
-  font-family:Roboto, serif;
+  font-family:Montserrat ExtraBold;
   color:white;
 }
 
@@ -41,8 +41,9 @@
   }
   .lastIcon{
     width:75%;
-    height:80%;
+    height:70%;
     vertical-align:middle;
+    margin-top: 10px;
   }
 }
 
@@ -62,8 +63,9 @@
   }
   .lastIcon{
     width:120%;
-    height:80%;
+    height:70%;
     vertical-align:middle;
+    margin-top: 10px;
   }
 }
 
@@ -83,8 +85,9 @@
   }
   .lastIcon{
     width:120%;
-    height:80%;
+    height:70%;
     vertical-align:middle;
+    margin-top: 10px;
   }
 }
 

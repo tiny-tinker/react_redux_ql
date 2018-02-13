@@ -9,7 +9,7 @@ const RoadmapWhitepaperSection = function RoadmapWhitepaperSection() {
   return (
     <div className="roadmap_whitepaper call-to-section">
       <div className={styles.particleContainer}>
-        <MeteorShower opacity={0.3} sectionId={1} />
+        <MeteorShower opacity={0.5} sectionId={1} />
       </div>
       <RoadmapSection />
       <WhitePaperSection />

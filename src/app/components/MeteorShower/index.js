@@ -129,14 +129,15 @@ class MeteorShower extends React.Component {
     let bkgImgName = styles.backgroundImg;
     if (this.props.sectionId == 1) {
       bkgImgName = [styles.backgroundImg, styles.roadmapSection].join(' ');
-    }
-    else if (this.props.sectionId == 2) {
+    } else if (this.props.sectionId == 2) {
       bkgImgName = [styles.backgroundImg, styles.introSection].join(' ');
+    } else if (this.props.sectionId == 3) {
+      bkgImgName = [styles.backgroundImg, styles.networkSection].join(' ');
     }
 
     return (
       <div className="d-block w-100 h-100 position-relative" ref="cvsContainer" style={containerStyle}>
-        <div className={bkgImgName}  />
+        <div className={bkgImgName} />
         <div className={styles.stars} />
         <div className={styles.twinkling} />
         <canvas ref="bgCanvas" className={styles.meteor}></canvas>

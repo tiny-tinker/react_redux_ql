@@ -62,6 +62,10 @@
   background-size: cover;
 }
 
+.networkSection {
+  background: url('../../../assets/images/join_bg.png') no-repeat bottom;
+}
+
 .stars {
   background:#000 url(../../../assets/images/stars.png) repeat top center;
   z-index:0;
