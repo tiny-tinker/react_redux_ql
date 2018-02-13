@@ -28,10 +28,10 @@ class BenefitLists extends Component {
       <div className={rootClass}>
         <div className="col-md-11 offset-md-1 col-sm-12">
           <div className="row">
-            <div className="col-xl-5 col-md-6 col-sm-12">
+            <div className="col-xl-6 col-md-6 col-sm-12">
               { BenefitLists.createBenefitListItems(benefits, benefitClick, activeBenefits) }
             </div>
-            <div className="wow animated bounceInRight col-xl-7 col-md-6 col-sm-12">
+            <div className="wow animated bounceInRight col-xl-6 col-md-6 col-sm-12">
               <CSSTransitionGroup
                 transitionName="bounce"
                 transitionEnterTimeout={900}

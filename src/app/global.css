@@ -38,7 +38,7 @@ header #st-logo img {
 }
 
 .skilltechtypetext {
-  font-family: Montserrat, sans-serif;
+  font-family: Montserrat-ExtraBold, sans-serif;
 }
 
 /*
@@ -138,6 +138,9 @@ http://www.Mkrtchyan.zz.mu
   padding-bottom: 146px;
   background: url('../assets/images/our_benefits.png') no-repeat center;
   background-size: cover;
+}
+.benefits_section p {
+  margin-left: 2px;
 }
 .subtitle_description {
   font-family: Roboto,sans-serif;
@@ -370,6 +373,12 @@ http://www.Mkrtchyan.zz.mu
 }
 
 /*========================================= Join Section ===================================*/
-#join_section{
-  background:#020a3e;
+/*#join_section{*/
+  /*background:#020a3e;*/
+/*}*/
+
+.join_section {
+  /*padding-bottom: 146px;*/
+  background: url('../assets/images/join_bg.png') no-repeat center;
+  background-size:cover;
 }

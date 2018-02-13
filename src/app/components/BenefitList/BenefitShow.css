@@ -12,7 +12,7 @@
 .container_img {
   position: absolute;
   padding: 10px;
-  left: 10px;
+  left: 0px;
   width: 170px;
 }
 .container_img img {
@@ -31,18 +31,23 @@
 }
 
 .title {
-  font-family: Montserrat,sans-serif;
-  font-size: 2.6em;
+  display: table;
+  font-family: Montserrat-ExtraBold,sans-serif;
+  font-size: 4.0em;
   font-weight: bold;
   color: #fff;
   text-align: left;
   min-height: 170px;
-  line-height: 1;
   margin-right: auto;
-  margin-top: 50px;
   background: -webkit-linear-gradient(#f94526, #ff7800);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.title span {
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 1;
 }
 
 @media only screen and (max-width: 1200px) {

@@ -29,8 +29,8 @@ class BenefitsSection extends React.Component {
               <div className={title}>OUR <br /> BENEFITS</div>
               <div className={subTitle}>
                 <div>OUR <br /> BENEFITS</div>
-                <div className="row mr-0">
-                  <div className="col-md-6 col-sm-12 col-xs-12">
+                <div className="row ml-0 mr-0">
+                  <div className="ml-0 pl-0 col-md-6 col-sm-12 col-xs-12">
                     <p className={sectionDescription}>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit  odio s eu felis</p>
                   </div>
                 </div>
@@ -43,6 +43,5 @@ class BenefitsSection extends React.Component {
     );
   }
 }
-
 
 export default BenefitsSection;

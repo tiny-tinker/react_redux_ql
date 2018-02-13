@@ -20,6 +20,7 @@ const IntroductionSection = function IntroductionSection() {
   const title = ['wow fadeInLeft animated', styles.title].join(' ');
   const scrollIndicator = ['col-lg-12', styles.scrollIndicator].join(' ');
   const sectionClass = ['hero-section-video-dark', styles.introSection].join(' ');
+  const sectionDescription = ['text-center text-white', styles.robotoLight].join(' ');
   return (
     <section id="hero" className={sectionClass}>
       <div className={styles.particleContainer}>
@@ -39,7 +40,7 @@ const IntroductionSection = function IntroductionSection() {
               </span>
               <div className="row mt-5">
                 <div className="col-12 col-sm-6 offset-sm-3">
-                  <p className="text-center text-white">
+                  <p className={sectionDescription}>
                     Quillon. A new cryptocurrency featuring state of the art privacy features, self-governance and masternodes while changing the game through a focus on a superior user experience. Join us now!
                   </p>
                 </div>
