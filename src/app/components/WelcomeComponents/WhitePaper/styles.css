@@ -2,8 +2,8 @@
 .whitepaperTitle{
   position:absolute;
   top: 1200px;
-  left: 170px;
-  font-family: Montserrat-ExtraBold;
+  left: 100px;
+  font-family: Montserrat-ExtraBold ,serif;
   font-size: 164px;
   color: rgba(249,69,38,0.4);
   opacity:0.37;
@@ -15,11 +15,11 @@
 .whitepaperSubTitle{
   position:absolute;
   top: 1280px;
-  left: 170px;
+  left: 125px;
   font-size:70px;
   font-weight:bold;
   color:white;
-  font-family: Montserrat-ExtraBold;
+  font-family: Montserrat-ExtraBold ,serif;
 }
 .content{
   text-align: left;
@@ -31,7 +31,7 @@
   font-size:30px;
   color:white;
   padding-top: 170px;
-  font-family:Roboto Regular;
+  font-family:Roboto Regular ,serif;
 }
 
 .buttonDownload{
@@ -44,19 +44,19 @@
   width: 400px;
   height: 50px;
   font-size: 25px;
-  font-family: Montserrat Light;
+  font-family: Montserrat Light, sans-serif;
 }
 
 /*-----------------------------------------------  styles according to screen ------------------------------------*/
 @media only screen and (max-width: 1200px) {
   .whitepaperTitle{
     top: 1200px;
-    left: 115px;
+    left: 90px;
     font-size: 8em;
   }
   .whitepaperSubTitle{
     top: 1255px;
-    left: 110px;
+    left: 120px;
     font-size:60px;
   }
   .content{
@@ -74,8 +74,8 @@
 @media only screen and (max-width: 992px) {
   .whitepaperTitle{
     top: 1150px;
-    left: 110px;
-    font-size: 7em;
+    left: 80px;
+    font-size: 6.7em;
   }
   .whitepaperSubTitle{
     top: 1200px;
@@ -101,9 +101,9 @@
     font-size: 3.2em;
   }
   .whitepaperSubTitle{
-    top: 615px;
-    left: 10px;
-    font-size: 30px;
+    top: 618px;
+    left: 24px;
+    font-size: 28px;
   }
   .content{
     text-align: left;
@@ -125,7 +125,7 @@
     width: 320px;
     height: 40px;
     font-size: 20px;
-    font-family: Montserrat Regular;
+    font-family: Montserrat Regular, sans-serif;
   }
 }
 
