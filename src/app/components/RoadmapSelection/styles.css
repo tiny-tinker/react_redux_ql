@@ -18,21 +18,21 @@
 .text{
   text-align: right;
   color:white;
-  font-family:Montserrat Regular, serif;
+  font-family:Montserrat, sans-serif;
 }
 .activetext{
   text-align: right;
   color:white;
-  font-family:Montserrat Regular, serif;
+  font-family:Montserrat, sans-serif;
   font-weight:bold;
 }
 .span1{
   font-size:25px;
-  font-family:Montserrat Regular, serif;
+  font-family:Montserrat, sans-serif;
 }
 .span2{
   font-size:15px;
-  font-family:Montserrat Regular, serif;
+  font-family:Montserrat, sans-serif;
 }
 
 /*-----------------------------------------------  styles according to screen ------------------------------------*/
