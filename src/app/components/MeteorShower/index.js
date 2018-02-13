@@ -76,7 +76,7 @@ class MeteorShower extends React.Component {
       this.speed = (Math.random() * 10) + 6;
       this.size = (Math.random() * 1) + 0.1;
       // this is used so the shooting stars arent constant
-      this.waitTime = new Date().getTime() + (Math.random() * 3000) + 500;
+      this.waitTime = new Date().getTime() + (Math.random() * 3000) + 200;
       this.active = false;
     };
 
