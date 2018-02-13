@@ -1,5 +1,6 @@
 .container {
   position: relative;
+  margin-bottom: 40px;
   padding-left: 110px;
   width: 100%;
   cursor: pointer;
@@ -8,7 +9,7 @@
 .container_img {
   position: absolute;
   left: 10px;
-  padding: 10px;
+  padding: 0 5px 0 5px;
   width: 90px;
 }
 
@@ -28,9 +29,9 @@
 }
 
 .title{
-  font-family: Montserrat,sans-serif;
+  font-family: "Montserrat Regular",sans-serif;
   font-size: 1.8em;
-  font-weight: bold;
+  font-weight: normal;
   color: #fff;
   text-align: left;
 }

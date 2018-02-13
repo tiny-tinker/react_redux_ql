@@ -1,5 +1,6 @@
 .introSection {
   background: none;
+  min-height: 960px;
 }
 
 .introSection .skilltechtypetext {
@@ -21,7 +22,7 @@
   top: -37px;
   width: 100%;
   margin: auto;
-  font-family: Montserrat, serif;
+  font-family: Montserrat-ExtraBold, serif;
   font-size: 8.3em;
   color: #52193a;
   font-weight: bold;
@@ -31,6 +32,11 @@
   background: linear-gradient(0deg, rgba(0, 11, 115, 0.4), rgba(255, 120, 0, 0.2));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.robotoLight {
+  font-family: Roboto;
+  font-weight: 100;
 }
 
 .introWaveClass {

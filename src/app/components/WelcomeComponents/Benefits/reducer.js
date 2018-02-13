@@ -34,6 +34,7 @@ const initialState = fromJS({
   active: 1,
 });
 
+
 export default function benefitReducer(state = initialState, action) {
   switch (action.type) {
     case BENEFIT_SELECTED:
