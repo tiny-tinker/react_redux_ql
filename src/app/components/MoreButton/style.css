@@ -4,7 +4,6 @@
   font-weight: bold;
   font-family: Montserrat, sans-serif;
   color: #fff;
-  text-transform: uppercase;
   font-size: 16px;
   background: none;
   border: none;
@@ -97,7 +96,6 @@
 }
 
 .label {
-  text-transform: lowercase !important;
   font-family: Roboto,sans-serif;
   font-size: 1.1em;
   font-weight: 100;
