@@ -10,7 +10,7 @@ const FooterComponent = function FooterComponent() {
             <div className="text-left">
               <h3 className="text-white"> <b>quillon</b></h3>
               <p> </p>
-              <p className="text-white">  lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, nisi nc. Etiam pharetra, erat sed ferms neque. Suspendisse in orci enim            </p>
+              <p className="text-white">  lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, nisi nc. Etiam pharetra, erat sed ferms neque. Suspendisse in orci enim</p>
             </div>
           </div>
           <div className="col-lg-2 offset-lg-1 col-md-2 col-sm-3"> </div>

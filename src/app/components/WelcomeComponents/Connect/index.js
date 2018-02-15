@@ -2,8 +2,6 @@ import React from 'react';
 import * as styles from './styles.css';
 import CloudComponent from './../../Cloud';
 
-import IconOther from '../../../../assets/images/icon_other.png';
-
 const ConnectSection = function ConnectSection() {
   const title = ['wow fadeInLeft animated', styles.connectTitle].join(' ');
   const connectSubTitle = ['wow fadeInUp  animated', styles.connectSubTitle].join(' ');
@@ -12,7 +10,6 @@ const ConnectSection = function ConnectSection() {
       <div className={title}>
         CONNECT
       </div>
-
       <div className={connectSubTitle}>
         LET'S CONNECT
       </div>
@@ -46,5 +43,4 @@ const ConnectSection = function ConnectSection() {
     </section>
   );
 };
-
 export default ConnectSection;
