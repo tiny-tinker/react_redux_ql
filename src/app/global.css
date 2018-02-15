@@ -28,8 +28,14 @@ button:focus {
 header #st-logo {
   top: 30px;
 }
+
 header #st-logo img {
   width: 95px;
+}
+@media only screen and (max-width: 992px) {
+  header #st-logo {
+    padding-top: 50px;
+  }
 }
 @media only screen and (max-width: 767px) {
   header #st-logo img {
@@ -39,6 +45,11 @@ header #st-logo img {
 
 .skilltechtypetext {
   font-family: Montserrat-ExtraBold, sans-serif;
+}
+@media only screen and (max-width: 767px){
+  .hero-section-video-dark .headlines-wrapper {
+    top: 280px;
+  }
 }
 
 /*
