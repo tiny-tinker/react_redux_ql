@@ -350,6 +350,11 @@ http://www.Mkrtchyan.zz.mu
   background:white;
 }
 
+/*================================ Footer Section ==================*/
+footer p {
+  font-size: unset !important;
+}
+
 /*========================================= Roadmap Section ==================*/
 #button_left{
   position: absolute;

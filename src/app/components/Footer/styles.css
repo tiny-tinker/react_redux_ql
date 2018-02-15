@@ -1,7 +1,7 @@
 footer {
   position: relative;
   height: 280px;
-  background-color: #000121;
+  background-color: #000a25;
   text-align: center;
   padding-top: 30px;
   font-family:Roboto, serif;
@@ -11,19 +11,15 @@ footer {
 .title{
   font-size:26px;
   color:white;
+  font-weight: bold;
 }
 
-.setWhite{
-  color:white;
+.menu {
+  text-align: left !important;
 }
 
-.alignLeft{
-  text-align: left;
+@media only screen and (max-width: 767px) {
+  .menu {
+    text-align: center !important;
+  }
 }
-
-.alignCenter{
-  text-align:center;
-}
-
-
-
