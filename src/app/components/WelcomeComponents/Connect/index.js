@@ -7,7 +7,6 @@ import IconOther from '../../../../assets/images/icon_other.png';
 const ConnectSection = function ConnectSection() {
   const title = ['wow fadeInLeft animated', styles.connectTitle].join(' ');
   const connectSubTitle = ['wow fadeInUp  animated', styles.connectSubTitle].join(' ');
-  const lastIcon = ['wow fadeInUp  animated', styles.lastIcon].join(' ');
   return (
     <section id="connect_section">
       <div className={title}>
@@ -36,9 +35,6 @@ const ConnectSection = function ConnectSection() {
                 </div>
                 <div className="col-2">
                   <a href="#" className={styles.connectIcon}> <i className="fa fa-github wow fadeInUp  animated"> </i> </a>
-                </div>
-                <div className="col-2">
-                  <a href="#"> <img src={IconOther} className={lastIcon} /> </a>
                 </div>
               </div>
             </div>
