@@ -66,6 +66,7 @@
 @media only screen and (max-width: 767px) {
   .title {
     font-size: 2.5em;
+    top: -5px;
   }
   .pos_title {
     top: 190px !important;;

@@ -1,4 +1,5 @@
 import React from 'react';
+import MoreButton from '../../MoreButton';
 import * as styles from './styles.css';
 
 const WhitePaperSection = function WhitePaperSection(){
@@ -25,7 +26,7 @@ const WhitePaperSection = function WhitePaperSection(){
                 Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accequat auctor eu in elit. Class aptent taciti sociosrna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra enim
               </p>
               <div>
-                <button id = "downbutton" type="button" className={buttonDownload}> <i className="fa fa-file fileIcon"> </i> download our whitepaper </button>
+                <MoreButton label="Download our white paper" btnWidth="220px" />
               </div>
             </div>
           </div>
