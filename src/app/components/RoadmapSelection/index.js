@@ -26,8 +26,8 @@ class RoadNode extends React.Component{
           <div> <span className={styles.span1}> {roadmap.title} </span> </div>
           <div> <span className={styles.span2}> {roadmap.date} </span> </div>
         </div>
-        <img src={dot} className={styles.img}/>
-        <img src={clicked_dot} className={activedDot}/>
+        <img src={dot} className={styles.img} />
+        <img src={clicked_dot} className={activedDot} />
       </div>
     );
   }

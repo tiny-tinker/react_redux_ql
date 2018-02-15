@@ -59,9 +59,6 @@ const TeamSection = function TeamSection() {
           <Profile />
           <Profile />
           <Profile />
-          <Profile />
-          <Profile />
-          <Profile />
         </div>
       </div>
     </section>

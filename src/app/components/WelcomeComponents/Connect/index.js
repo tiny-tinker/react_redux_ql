@@ -15,33 +15,33 @@ const ConnectSection = function ConnectSection() {
       </div>
 
       <div className={connectSubTitle}>
-        LEL'S CONNECT
+        LET'S CONNECT
       </div>
       <p> </p>
 
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
-
-          <CloudComponent />
-          <div className="col-sm-9 col-md-8">
-            <div className="row">
-              <div className="col-2">
-                <a href="#" className={styles.connectIcon}> <i className="fa fa-facebook wow fadeInUp  animated"> </i> </a>
-              </div>
-              <div className="col-2">
-                <a href="#" className={styles.connectIcon}> <i className="fa fa-instagram wow fadeInUp  animated"> </i> </a>
-              </div>
-              <div className="col-2">
-                <a href="#" className={styles.connectIcon}> <i className="fa fa-twitter wow fadeInUp  animated"> </i> </a>
-              </div>
-              <div className="col-2">
-                <a href="#" className={styles.connectIcon}> <i className="fa fa-github wow fadeInUp  animated"> </i> </a>
-              </div>
-              <div className="col-2">
-                <a href="#"> <img src={IconOther} className={lastIcon} /> </a>
+          <div className="col-sm-10 offset-sm-1 col-xs-12">
+            <CloudComponent />
+            <div className="col-sm-6">
+              <div className="row">
+                <div className="col-2">
+                  <a href="#" className={styles.connectIcon}> <i className="fa fa-facebook wow fadeInUp  animated"> </i> </a>
+                </div>
+                <div className="col-2">
+                  <a href="#" className={styles.connectIcon}> <i className="fa fa-instagram wow fadeInUp  animated"> </i> </a>
+                </div>
+                <div className="col-2">
+                  <a href="#" className={styles.connectIcon}> <i className="fa fa-twitter wow fadeInUp  animated"> </i> </a>
+                </div>
+                <div className="col-2">
+                  <a href="#" className={styles.connectIcon}> <i className="fa fa-github wow fadeInUp  animated"> </i> </a>
+                </div>
+                <div className="col-2">
+                  <a href="#"> <img src={IconOther} className={lastIcon} /> </a>
+                </div>
               </div>
             </div>
-
           </div>
         </div>
 
