@@ -1,11 +1,11 @@
 /**
  * COMMON WEBPACK CONFIGURATION
  */
-'use strict';
+
 
 const path = require('path');
 const webpack = require('webpack');
-//var HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
+const HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
 
 process.noDeprecation = true; // see https://github.com/webpack/loader-utils/issues/56
 
@@ -90,7 +90,7 @@ module.exports = (options) => ({
       },
     }),
     new webpack.NamedModulesPlugin(),
-    //new HardSourceWebpackPlugin(),
+    new HardSourceWebpackPlugin(),
     // new ExtractTextPlugin({ filename: 'main.css', disable: false, allChunks: true })
   ]),
   resolve: {
