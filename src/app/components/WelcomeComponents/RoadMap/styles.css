@@ -29,7 +29,7 @@
   font-size: 23px;
   color: #fff;
   text-align: left;
-  font-family:Roboto Regular;
+  font-family:Roboto Regular, sans-serif;
 }
 .main{
   margin-bottom:300px;
@@ -113,19 +113,19 @@
 
 @media only screen and (max-width: 767px) {
   .roadmapTitle {
-    top:-55px;
+    top:-5px;
     left:10px;
     font-size: 4em;
   }
   .roadmapSubTitle{
-    top: -30px;
+    top: 20px;
     left: 20px;
     font-size: 30px;
   }
   .subTitleDetail{
     width: 300px;
     position: absolute;
-    top: 5px;
+    top: 60px;
     left: 20px;
     font-size: 15px;
     color: #fff;
