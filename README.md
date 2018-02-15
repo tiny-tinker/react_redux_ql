@@ -1,5 +1,3 @@
-#TURBULENCE
-
 ## Quick start
 
 1. Run `yarn` to install dependencies.
@@ -78,7 +76,7 @@ Jest
 $ mongo
 
 // create Turbulence db
-$ use Turbulence
+$ use quillon
 
 // create auth user
 $ db.createUser(
@@ -91,13 +89,8 @@ $ db.createUser(
 ~~~
 
 ## Requirements
-* node `^6.9.1`
-* yarn `^0.17.0` or npm `^3.10.8`
-
-
-## Author
-
-Domenico Colandrea
+* node `^8.9.4`
+* yarn `^0.17.0` or npm `^5.6`
 
 ## License
 

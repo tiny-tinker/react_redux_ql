@@ -129,6 +129,11 @@ http://www.Mkrtchyan.zz.mu
   animation:move-clouds-back 200s linear infinite;
 }
 /*
+*/
+.st-nav-trigger {
+  opacity: 0.8 !important;
+}
+/*
 ==========================================
  */
 /*
