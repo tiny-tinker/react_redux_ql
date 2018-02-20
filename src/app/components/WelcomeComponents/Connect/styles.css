@@ -1,8 +1,8 @@
 /* ------------------------------------------------------------- connect section style -------------------------------------------------------- */
 .connectTitle{
-  position:absolute;
-  bottom: 120px;
-  left: 100px;
+  /*left: 100px;*/
+  margin-left: -0.3em;
+  text-align: left;
   font-family: Montserrat-ExtraBold, serif;
   font-size: 180px;
   color: rgba(249,69,38,0.3);
@@ -15,12 +15,12 @@
 
 .connectSubTitle{
   position:absolute;
-  bottom: 200px;
-  left: 155px;
+  top: 1.15em;
   font-size:70px;
   font-weight:bold;
   font-family:Montserrat-ExtraBold, serif;
   color:white;
+  text-align: left;
 }
 
 .connectIcon{
@@ -49,9 +49,9 @@
     font-size: 8em;
   }
   .connectSubTitle{
-    bottom: 170px;
-    left: 135px;
+    /*left: 135px;*/
     font-size:55px;
+    top: 1.0em;
   }
   .connectIcon{
     font-size:70px;
@@ -67,12 +67,11 @@
 
 @media only screen and (max-width: 992px) {
   .connectTitle {
-    left:55px;
+    /*left:55px;*/
     font-size: 7em;
   }
   .connectSubTitle{
-    bottom: 165px;
-    left: 90px;
+    /*left: 90px;*/
     font-size:50px;
   }
   .connectIcon{
@@ -89,14 +88,14 @@
 
 @media only screen and (max-width: 767px) {
   .connectTitle {
-    bottom:100px;
-    left:20px;
+    /*left:20px;*/
     font-size: 4.5em;
+    margin-left: 0em;
   }
   .connectSubTitle{
-    bottom: 130px;
-    left: 40px;
+    /*left: 40px;*/
     font-size:30px;
+    left: 1.6em;
   }
   .connectIcon{
     font-size:40px;

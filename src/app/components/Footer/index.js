@@ -2,14 +2,14 @@ import React from 'react';
 import * as styles from './styles.css';
 
 const FooterComponent = function FooterComponent() {
+  const footerTitle = ['text-white', styles.footerTitle].join(' ');
   return (
     <footer>
       <div className="container">
         <div className="row">
           <div className="col-lg-2 col-sm-4">
             <div className="text-left">
-              <h3 className="text-white"> <b>quillon</b></h3>
-              <p> </p>
+              <h3 className={footerTitle}> <b>quillon</b></h3>
               <p className="text-white">  lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, nisi nc. Etiam pharetra, erat sed ferms neque. Suspendisse in orci enim</p>
             </div>
           </div>
