@@ -20,13 +20,13 @@ const WhitePaperSection = function WhitePaperSection(){
       </div>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-sm-10 offset-sm-1 col-xs-12">
+          <div className="col-sm-10 col-xs-12">
             <div className={content}>
               <p className={styles.description}>
                 Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accequat auctor eu in elit. Class aptent taciti sociosrna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra enim
               </p>
               <div>
-                <MoreButton label="Download our white paper" btnWidth="220px" />
+                <MoreButton label="Download Now!" btnWidth="180px" />
               </div>
             </div>
           </div>

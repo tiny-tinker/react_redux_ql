@@ -29,7 +29,7 @@ class WelcomePage extends React.PureComponent {
         <JoinSection />
         <RoadmapWhitepaperSection />
         <TeamConnectSection />
-        <Footer />|
+        <Footer />
       </React.Fragment>
     );
   }
