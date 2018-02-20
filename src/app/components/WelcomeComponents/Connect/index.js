@@ -9,7 +9,7 @@ const ConnectSection = function ConnectSection() {
     <section id="connect_section">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-sm-10 offset-sm-1 col-xs-12">
+          <div className="col-sm-10 offset-sm-1 col-12">
             <div className={title}>
               CONNECT
             </div>
@@ -19,20 +19,20 @@ const ConnectSection = function ConnectSection() {
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-10 offset-sm-1 col-xs-12">
+          <div className="col-sm-10 offset-sm-1 col-12">
             <div className="row">
-              <div className="col-sm-6">
+              <div className="col-10 offset-1 col-sm-6 offset-sm-0">
                 <div className="row">
-                  <div className="col-2">
+                  <div className="col-sm-2 col-3">
                     <a href="#" className={styles.connectIcon}> <i className="fa fa-facebook wow fadeInUp  animated"> </i> </a>
                   </div>
-                  <div className="col-2">
+                  <div className="col-sm-2 col-3">
                     <a href="#" className={styles.connectIcon}> <i className="fa fa-instagram wow fadeInUp  animated"> </i> </a>
                   </div>
-                  <div className="col-2">
+                  <div className="col-sm-2 col-3">
                     <a href="#" className={styles.connectIcon}> <i className="fa fa-twitter wow fadeInUp  animated"> </i> </a>
                   </div>
-                  <div className="col-2">
+                  <div className="col-sm-2 col-3">
                     <a href="#" className={styles.connectIcon}> <i className="fa fa-github wow fadeInUp  animated"> </i> </a>
                   </div>
                 </div>
