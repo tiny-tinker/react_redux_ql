@@ -1,11 +1,15 @@
-// Main Particle Theme JS
-$(document).ready(function () {
+// roadmap items
+const itemTitle = ['1POW PHASE PERIOD', '2POW PHASE PERIOD', '3POW PHASE PERIOD', '4POW PHASE', '5POW PHASE PERIOD', '6POW PHASE PERIOD', '7POW PHASE PERIOD', '8POW PHASE PERIOD', '9POW PHASE PERIOD'];
+const itemDate = ['1August 17th 2016', '2August 17th 2016', '3August 17th 2016', '4August 17th 2016', '5August 17th 2016', '6August 17th 2016', '7August 17th 2016', '8August 17th 2016', '9August 17th 2016'];
+let currentIndex = 0;
+// Main Particle Theme JS, '1POW PHASE PERIOD
+$(document).ready(() => {
   (function ($) {
     // Navbar
     // browser window scroll (in pixels) after which the "menu" link is shown
     const offset = 300;
 
-    var navigationContainer = $('#st-nav'),
+    let navigationContainer = $('#st-nav'),
       mainNavigation = navigationContainer.find('#st-main-nav ul');
     // hide or show the "menu" link
     checkMenu();
@@ -58,8 +62,6 @@ $(document).ready(function () {
       time: 2200,
     });
 
-    const joinTopic = ['WALLET', 'MINING', 'BINANCE', 'OTHER', 'EXPLORER'];
-    let currentIndex = 0;
     /*= =============================================================== caousel =============================================================*/
     $.fn.waterwheelCarousel = function (startingOptions) {
       // Adds support for intializing multiple carousels from the same selector group
@@ -362,7 +364,7 @@ $(document).ready(function () {
           var newTop = options.horizon - newOffset - (newHeight / 2);
         } else {
           var center = data.containerHeight / 2;
-          var newLeft = options.horizon - newOffset - (newWidth / 2);
+          var newLeft = options.horizon - newOffset - 2 * (newWidth / 2);
           var newTop = center + newDistance - (newHeight / 2);
         }
 
@@ -527,30 +529,9 @@ $(document).ready(function () {
        */
       $(this).find('img').bind('click', function () {
         const itemPosition = $(this).data().currentPosition;
-        currentIndex += itemPosition;
-        if (currentIndex >= 5) {
-          currentIndex -= 5;
-        }
-        if (currentIndex < 0) {
-          currentIndex += 5;
-        }
-
-        $('#mainTopic').fadeIn();
-        console.log(`new:${currentIndex}`);
-        console.log(joinTopic[currentIndex]);
-        $('#mainTopic').html(joinTopic[currentIndex]);
-        // noinspection JSAnnotator
-        const dots = $('.joinDot');
-        for (let i = 0; i < 5; i++) {
-          dots[i].style.opacity = 0.2;
-        }
-        // noinspection JSAnnotator
-        dots[(currentIndex + 2) % 5].style.opacity = 1;
-        $('#subtopic2').html(joinTopic[(currentIndex + 1) % 5]);
-        $('#subtopic1').html(joinTopic[(currentIndex + 4) % 5]);
-
-        // $('#subtopic2').fadeIn('slow');
-
+        currentIndex = 9 + currentIndex + itemPosition;
+        currentIndex %= 9;
+        doAnimate();
         if (options.imageNav == false) {
           return;
         }
@@ -584,7 +565,7 @@ $(document).ready(function () {
             rotateCarousel(rotations);
           }
         }
-        console.log(itemPosition);
+        console.log(`itemPosition:${itemPosition}`);
       });
 
 
@@ -631,9 +612,18 @@ $(document).ready(function () {
           if (direction == 'backward') {
             options.movingToCenter(prevItemFromCenter());
             data.currentDirection = 'backward';
+            // calculate currentIndex
+            currentIndex--;
+            if (currentIndex < 0) {
+              currentIndex = 8;
+            }
+            currentIndex %= 9;
           } else if (direction == 'forward') {
             options.movingToCenter(nextItemFromCenter());
             data.currentDirection = 'forward';
+            // calculate currentIndex
+            currentIndex++;
+            currentIndex %= 9;
           }
         }
 
@@ -711,15 +701,14 @@ $(document).ready(function () {
     $.fn.waterwheelCarousel.defaults = {
       // number tweeks to change apperance
       startingItem: 1,   // item to place in the center of the carousel. Set to 0 for auto
-      separation: 200, // distance between items in carousel
+      separation: 130, // distance between items in carousel
       separationMultiplier: 0.6, // multipled by separation distance to increase/decrease distance for each additional item
       horizonOffset: 0,   // offset each item from the "horizon" by this amount (causes arching)
       horizonOffsetMultiplier: 1,   // multipled by horizon offset to increase/decrease offset for each additional item
       sizeMultiplier: 0.7, // determines how drastically the size of each item changes
-      opacityMultiplier: 0.7, // determines how drastically the opacity of each item changes
+      opacityMultiplier: 0.4, // determines how drastically the opacity of each item changes
       horizon: 0,   // how "far in" the horizontal/vertical horizon should be set from the container wall. 0 for auto
-      flankingItems: 3,   // the number of items visible on either side of the center
-
+      flankingItems: 2,   // the number of items visible on either side of the center
       // animation
       speed: 300,      // speed in milliseconds it will take to rotate from one to the next
       animationEasing: 'linear', // the easing effect to use when animating
@@ -729,8 +718,8 @@ $(document).ready(function () {
       // misc
       linkHandling: 2,                 // 1 to disable all (used for facebox), 2 to disable all but center (to link images out)
       autoPlay: 0,                 // indicate the speed in milliseconds to wait before autorotating. 0 to turn off. Can be negative
-      orientation: 'horizontal',      // indicate if the carousel should be 'horizontal' or 'vertical'
-      activeClassName: 'carousel-center', // the name of the class given to the current item in the center
+      orientation: 'vertical',      // indicate if the carousel should be 'horizontal' or 'vertical'
+      activeClassName: 'carousel-right', // the name of the class given to the current item in the center
       keyboardNav: false,             // set to true to move the carousel with the arrow keys
       keyboardNavOverride: true,              // set to true to override the normal functionality of the arrow keys (prevents scrolling)
       imageNav: true,              // clicking a non-center image will rotate that image to the center
@@ -750,8 +739,37 @@ $(document).ready(function () {
   }(jQuery));
 });
 
+// function animationClick(element, animation) {
+//   element = $(element);
+//   element.click(
+//     () => {
+//       element.addClass(`animated ${animation}`);
+//       // wait for animation to finish before removing classes
+//       window.setTimeout(() => {
+//         element.removeClass(`animated ${animation}`);
+//       }, 2000);
+//     });
+// }
+
+function reset($elem) {
+  $elem.before($elem.clone(true));
+  const $newElem = $elem.prev();
+  $elem.remove();
+  return $newElem;
+}
+
+function doAnimate() {
+  let $this = $('#roadDiv');
+  $this.removeClass('fadeInRight animated');
+  $this = reset($this);
+  $this.addClass('fadeInRight animated');
+  $('#itemTitle').html(itemTitle[currentIndex]);
+  console.log(currentIndex);
+}
+
 
 $(document).ready(() => {
+  const carousel = $('.carousel').waterwheelCarousel();
   const carousel1 = $('.carousel_lg').waterwheelCarousel();
 
   const carousel2 = $('.carousel_md').waterwheelCarousel({
@@ -833,5 +851,15 @@ $(document).ready(() => {
     roadmap_value = 7;
     $('#button_right').css({ opacity: 0.1 });
     $('#button_left').css({ opacity: 1 });
+  });
+
+  $('#arrow_up').click(() => {
+    carousel.next();
+    doAnimate();
+  });
+
+  $('#arrow_down').click(() => {
+    carousel.prev();
+    doAnimate();
   });
 });

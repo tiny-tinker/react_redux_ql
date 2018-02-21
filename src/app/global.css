@@ -390,6 +390,18 @@ footer p {
   display:block;
 }
 
+#arrow_up:hover{
+  -webkit-transition: all 300ms ease-in;
+  -webkit-transform: scale(1.1);
+  background:url('../assets/images/arrow_up_glow.png') no-repeat;
+}
+
+#arrow_down:hover{
+  -webkit-transition: all 300ms ease-in;
+  -webkit-transform: scale(1.1);
+  background:url('../assets/images/arrow_down_glow.png') no-repeat;
+}
+
 /*========================================= Join Section ===================================*/
 /*#join_section{*/
   /*background:#020a3e;*/
