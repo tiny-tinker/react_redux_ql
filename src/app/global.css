@@ -203,6 +203,12 @@ http://www.Mkrtchyan.zz.mu
   background: none;
   z-index: 1;
 }
+@media only screen and (max-width: 992px) {
+  .compare_section .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
 /*==================================== Team and Connect Section =================================*/
 .team_connect{
   height: auto;

@@ -29,11 +29,12 @@
   font-family: Roboto, sans-serif;
 }
 
-.investmentTitle {
+.joinTitle {
   position: absolute;
   width: 100%;
-  font-family: Montserrat, sans-serif;
-  font-size: 10.3em;
+  left: 0;
+  font-family: Montserrat-ExtraBold, sans-serif;
+  font-size: 14.3em;
   font-weight:bold;
   line-height: 1;
   text-align: center;
@@ -48,12 +49,13 @@
   padding-top: 110px;
 }
 
-.investmentSubtitle {
-  text-align: left;
-  font-size: 2.0em;
+.joinsubTitle {
+  text-align: center;
+  font-size: 4.0em;
   line-height: 1;
-  font-family: Montserrat,sans-serif;
+  font-family: Montserrat-ExtraBold, sans-serif,sans-serif;
   width: 100%;
+  padding-top: 76px;
 }
 
 .particleContainer {
@@ -69,11 +71,12 @@
   margin-top: -146px;
   opacity: 0.3;
 }
-.compareVertical {
-  position: absolute;
-  right: 30%;
-  margin-top:  300px;
-  opacity: 1.0;
+
+.compareStats {
+  font-family: Montserrat-ExtraBold, sans-serif;
+  text-align: left;
+  font-size: 3em;
+  color: #fff;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -83,8 +86,14 @@
   .subTitle {
     font-size: 80px;
   }
-  .investmentTitle {
-    font-size: 7.0em;
+  .joinTitle {
+    font-size: 13.0em;
+  }
+  .joinsubTitle {
+    font-size: 3.9em;
+  }
+  .compareStats {
+    font-size: 2.5em;
   }
 }
 
@@ -97,8 +106,18 @@
     font-size: 64px;
     top: -20px;
   }
-  .investmentTitle {
-    font-size: 6.0em;
+  .joinTitle {
+    font-size: 9.0em;
+  }
+  .joinsubTitle {
+    font-size: 2.9em;
+    padding-top: 55px;
+  }
+  .compareStats {
+    font-size: 2.0em;
+  }
+  .joinBlockSubImg, .joinBlockHoldTop, .joinBlockHoldBottom {
+    width: 80%;
   }
 }
 
@@ -111,8 +130,12 @@
     font-size: 45px;
     top: -40px;
   }
-  .investmentTitle {
-    font-size: 4.3em;
+  .joinTitle {
+    font-size: 9.0em;
+  }
+  .joinsubTitle {
+    font-size: 2.9em;
+    padding-top: 55px;
   }
 }
 
@@ -125,8 +148,77 @@
     font-size: 35px;
     top: -40px;
   }
-  .investmentTitle {
+  .joinTitle {
     font-size: 4.3em;
+  }
+  .joinsubTitle {
+    font-size: 2.2em;
+    padding-top: 17px;
   }
 }
 
+
+.joinBlockImg {
+  height: 112px;
+  width: 112px;
+  margin-bottom: 25px;
+}
+.joinBlockTitle {
+  font-family: Montserrat-ExtraBold, sans-serif;
+  font-size: 2.3em;
+  margin-bottom: 25px;
+  color: #fff;
+}
+.joinBlockSubtitle {
+  font-family: Montserrat Light, sans-serif;
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: #fff;
+  position: relative;
+  line-height: 1;
+}
+.joinBlockSubImg {
+  margin: 0 auto;
+  margin-top: 47px;
+  margin-bottom: 15px;
+}
+
+.joinBlockHoldTop {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 2px;
+}
+
+.joinBlockHoldBottom {
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
+
+.joinEllipse {
+  position: absolute;
+  bottom: -150px;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.compareStatsCloud {
+  position: absolute;
+  left: -36px;
+  top: -40px;
+  width: 100%;
+  z-index: -1;
+}
+
+.joinCloud1 {
+  z-index: -1;
+  width: 25%;
+}
+
+.joinCloud2 {
+  z-index: -1;
+  width: 36%;
+}
