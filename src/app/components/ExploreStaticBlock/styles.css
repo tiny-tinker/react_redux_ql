@@ -1,0 +1,61 @@
+.img {
+  float: left;
+  width:70px;
+  height:70px;
+}
+
+.name {
+  font-size: 1.7rem;
+  color: #fff;
+  text-align: left;
+  line-height: 1;
+  font-weight: bold;
+}
+.value {
+  font-size: 3.2rem;
+  text-align: left;
+  background: -webkit-linear-gradient(#f94d1f, #fd6d07);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Montserrat-ExtraBold, sans-serif;
+  font-weight: 1000;
+}
+@media only screen and (max-width: 1200px) {
+  .img {
+    width: 60px;
+    height: 60px;
+  }
+  .name {
+    font-size: 1.5rem;
+  }
+  .value {
+    font-size: 2.9rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .img {
+    width: 55px;
+    height: 55px;
+  }
+  .name {
+    font-size: 1.2rem;
+  }
+  .value {
+    font-size: 2.2rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (max-width: 576px) {
+  .img {
+    width: 50px;
+    height: 50px;
+  }
+  .name {
+    font-size: 1.0rem;
+  }
+  .value {
+    font-size: 1.5rem;
+  }
+}
