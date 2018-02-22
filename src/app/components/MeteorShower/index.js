@@ -4,16 +4,22 @@ import * as styles from './styles.css';
 
 class MeteorShower extends React.Component {
   componentDidMount() {
-    window.addEventListener('resize', this.updateCanvas.bind(this));
-    this.updateCanvas();
+    if (this.props.showMeteor == 1) {
+      window.addEventListener('resize', this.updateCanvas.bind(this));
+      this.updateCanvas();
+    }
   }
 
   componentDidUpdate() {
-    this.updateCanvas();
+    if (this.props.showMeteor == 1) {
+      this.updateCanvas();
+    }
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.updateCanvas.bind(this));
+    if (this.props.showMeteor == 1) {
+      window.removeEventListener('resize', this.updateCanvas.bind(this));
+    }
   }
 
   updateCanvas() {
@@ -149,11 +155,13 @@ class MeteorShower extends React.Component {
 MeteorShower.defaultProps = {
   opacity: 1.0,
   sectionId: 0,
+  showMeteor: 0,
 };
 
 MeteorShower.propTypes = {
   opacity: PropTypes.number,
   sectionId: PropTypes.number,
+  showMeteor: PropTypes.number,
 };
 
 export default MeteorShower;

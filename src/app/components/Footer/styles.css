@@ -18,6 +18,9 @@ footer {
   text-align: left !important;
 }
 
+.footerTitle {
+  font-family: Roboto;
+}
 @media only screen and (max-width: 767px) {
   .menu {
     text-align: center !important;
