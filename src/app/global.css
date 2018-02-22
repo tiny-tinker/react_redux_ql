@@ -21,6 +21,25 @@ p {
 button:focus {
   outline: none;
 }
+input:focus{
+  outline: none;
+}
+input::-webkit-input-placeholder {
+  font-style:italic;
+}
+
+input:-ms-input-placeholder {
+  font-style:italic;
+}
+
+input:-moz-placeholder {
+  font-style:italic;
+}
+
+input::-moz-placeholder {
+  font-style:italic;
+}
+
 /*
 #1. Introduction Section
 */
