@@ -51,19 +51,18 @@
 /*-----------------------------------------------  styles according to screen ------------------------------------*/
 @media only screen and (max-width: 1200px) {
   .whitepaperTitle{
-    top: 1200px;
+    top: 1000px;
     left: 90px;
     font-size: 8em;
   }
   .whitepaperSubTitle{
-    top: 1255px;
+    top: 1055px;
     left: 120px;
     font-size:60px;
   }
   .content{
     text-align: left;
     padding-top: 145px;
-    padding-bottom: 40%;
   }
   .description{
     font-size:27px;
@@ -74,19 +73,18 @@
 
 @media only screen and (max-width: 992px) {
   .whitepaperTitle{
-    top: 1150px;
+    top: 560px;
     left: 80px;
     font-size: 6.7em;
   }
   .whitepaperSubTitle{
-    top: 1200px;
+    top: 610px;
     left: 108px;
     font-size: 40px;
   }
   .content{
     text-align: left;
     padding-top: 130px;
-    padding-bottom: 40%;
   }
   .description{
     font-size:24px;
@@ -97,19 +95,18 @@
 
 @media only screen and (max-width: 767px) {
   .whitepaperTitle{
-    top: 600px;
-    left: 10px;
-    font-size: 3.2em;
+    top: 490px;
+    left: 15px;
+    font-size: 4em;
   }
   .whitepaperSubTitle{
-    top: 618px;
-    left: 24px;
-    font-size: 28px;
+    top: 518px;
+    left: 30px;
+    font-size: 30px;
   }
   .content{
     text-align: left;
     padding-top: 0px;
-    padding-bottom: 40%;
     margin-left: auto;
   }
   .description{

@@ -7,11 +7,11 @@ const WhitePaperSection = function WhitePaperSection(){
   const subTitle = ["wow fadeInUp  animated", styles.whitepaperSubTitle].join(" ");
   const buttonDownload = ["wow fadeInLeft animated", styles.buttonDownload].join(" ");
 
-  const content = ["col-sm-6", styles.content].join(" ");
+  const content = ["col-md-6 col-12", styles.content].join(" ");
   return(
     <section id="whitepaper_section">
       <div className={title}>
-        KNOW MORE
+        KNOWMORE
       </div>
       <div>
         <div className={subTitle}>

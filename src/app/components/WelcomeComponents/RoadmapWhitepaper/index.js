@@ -8,9 +8,9 @@ import WhitePaperSection from './../WhitePaper';
 const RoadmapWhitepaperSection = function RoadmapWhitepaperSection() {
   return (
     <div className="roadmap_whitepaper call-to-section">
-      {/*<div className={styles.particleContainer}>*/}
-        {/*<MeteorShower opacity={0.5} sectionId={1} />*/}
-      {/*</div>*/}
+      <div className={styles.particleContainer}>
+        <MeteorShower opacity={0.9} sectionId={1} />
+      </div>
       <RoadmapSection />
       <WhitePaperSection />
     </div>

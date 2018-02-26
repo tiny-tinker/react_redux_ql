@@ -1,6 +1,6 @@
 // roadmap items
-const itemTitle = ['1POW PHASE PERIOD', '2POW PHASE PERIOD', '3POW PHASE PERIOD', '4POW PHASE', '5POW PHASE PERIOD', '6POW PHASE PERIOD', '7POW PHASE PERIOD', '8POW PHASE PERIOD', '9POW PHASE PERIOD'];
-const itemDate = ['1August 17th 2016', '2August 17th 2016', '3August 17th 2016', '4August 17th 2016', '5August 17th 2016', '6August 17th 2016', '7August 17th 2016', '8August 17th 2016', '9August 17th 2016'];
+const itemTitle = ['POW PHASE PERIOD1', 'POW PHASE PERIOD2', 'POW PHASE PERIOD3', 'POW PHASE PERIOD4', 'POW PHASE PERIOD5', 'POW PHASE PERIOD6', 'POW PHASE PERIOD7', 'POW PHASE PERIOD8', 'POW PHASE PERIOD9'];
+const itemDate = ['August 17th 2016', 'August 17th 2016', 'August 17th 2016', 'August 17th 2016', 'August 17th 2016', 'August 17th 2016', 'August 17th 2016', 'August 17th 2016', 'August 17th 2016'];
 let currentIndex = 0;
 // Main Particle Theme JS, '1POW PHASE PERIOD
 $(document).ready(() => {
@@ -853,12 +853,22 @@ $(document).ready(() => {
     $('#button_left').css({ opacity: 1 });
   });
 
-  $('#arrow_up').click(() => {
+  $('#arrow_down').click(() => {
     carousel.next();
     doAnimate();
   });
 
-  $('#arrow_down').click(() => {
+  $('#arrow_up').click(() => {
+    carousel.prev();
+    doAnimate();
+  });
+
+  $('#dot_up').click(() => {
+    carousel.next();
+    doAnimate();
+  });
+
+  $('#dot_down').click(() => {
     carousel.prev();
     doAnimate();
   });

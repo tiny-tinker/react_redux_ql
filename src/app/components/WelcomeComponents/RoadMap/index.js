@@ -25,7 +25,9 @@ import roadmap_item9 from '../../../../assets/images/roadmap_item9.png';
 
 import arrow_up from '../../../../assets/images/arrow_up.png';
 import arrow_down from '../../../../assets/images/arrow_down.png';
-import roadmap_line_new from '../../../../assets/images/roadmap_line_new.png';
+import roadmap_line_new from '../../../../assets/images/roadmap_line_vertical.png';
+import bright_dot from '../../../../assets/images/bright_dot.png';
+import dot from '../../../../assets/images/dot.png';
 
 
 class RoadmapSection extends React.Component {
@@ -42,12 +44,16 @@ class RoadmapSection extends React.Component {
     const subTitle = ['wow fadeInUp  animated', styles.roadmapSubTitle].join(' ');
     const subTitleDetail = [styles.subTitleDetail].join(' ');
 
-    const carousel = ['carousel', styles.carousel].join(' ');
+    const arrowDiv = ['col-2', styles.arrowDiv].join(' ');
+    const roadCol6 = ['col-sm-6', styles.roadCol6].join(' ');
+    const roadRow = ['row pl-5', styles.roadRow].join(' ');
+    const carousel = ['col-md-1', 'carousel', styles.carousel].join(' ');
+    const linedot = ['col-md-2', styles.line_dot_Div].join(' ');
     const roadDiv = ['wow fadeInRight animated', styles.roadDiv].join(' ');
 
     const { roadmaps, roadmapClick, activeRoadmap } = this.props;
     return (
-      <section id="roadmap_section">
+      <div id="roadmap_section">
         <div className={title}>
           ROADMAP
         </div>
@@ -61,17 +67,18 @@ class RoadmapSection extends React.Component {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-md-6 col-sm-12">
-              <div className="row pl-5">
-                <div className={styles.arrowDiv}>
-                  <div className="row">
-                    <img src={arrow_up} id="arrow_up" width="100" height="100" />
+            <div className={arrowDiv}>
+              <div className="row">
+                <img src={arrow_up} id="arrow_up" width="50" height="50" />
+              </div>
+              <div className="row">
+                <img src={arrow_down} id="arrow_down" width="50" height="50" />
+              </div>
+            </div>
+            <div className={roadCol6}>
+              <div className={roadRow}>
+                  <div className="col-md-8">
                   </div>
-                  <div className="row">
-                    <img src={arrow_down} id="arrow_down" width="100" height="100" />
-                  </div>
-                </div>
-                <div className="col-md-10">
                   <div className={carousel}>
                     <img src={roadmap_item1} />
                     <img src={roadmap_item2} />
@@ -83,13 +90,19 @@ class RoadmapSection extends React.Component {
                     <img src={roadmap_item8} />
                     <img src={roadmap_item9} />
                   </div>
-                </div>
-                <div className="col-md-2">
-                  <img src={roadmap_line_new} className={styles.roadmap_line_new} />
+                  <div className={linedot}>
+                    <img src={roadmap_line_new} className={styles.roadmap_line_new} />
+                    <div className={styles.dotDiv}>
+                      <img src={dot} id="dot_up" />
+                      <img src={bright_dot} id="dot_bright" />
+                      <img src={dot} id="dot_down" />
+                    </div>
+                  </div>
+                <div className="col-md-1">
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-sm-12">
+            <div className="col-md-6 col-10">
               <div className={roadDiv} id="roadDiv">
                 <div className={styles.roadDetailTitle} id="itemTitle"> 1POW PHASE PERIOD </div>
                 <div className={styles.roadDetailDate}> 1August 17th 2016 </div>
@@ -100,7 +113,7 @@ class RoadmapSection extends React.Component {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     );
   }
 }

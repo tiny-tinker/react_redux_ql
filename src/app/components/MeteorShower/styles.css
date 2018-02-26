@@ -55,6 +55,7 @@
 
 .roadmapSection {
   background: url('../../../assets/images/roadmap_whitepaper_bg.png') no-repeat;
+  background-size: cover;
 }
 
 .introSection {
@@ -64,6 +65,7 @@
 
 .networkSection {
   background: url('../../../assets/images/join_bg.png') no-repeat bottom;
+  background-size: cover;
 }
 
 .stars {
