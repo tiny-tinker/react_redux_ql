@@ -45,7 +45,7 @@
 .detail{
   padding-top:30px;
   padding-left:10%;
-  padding-right:10%;
+  padding-right:11%;
   text-align: left;
 }
 
@@ -67,6 +67,7 @@
 
 .imgCircle{
   border-radius:50%;
+  z-index:1;
 }
 
 .teamIn{
@@ -113,14 +114,17 @@
     left: 257px;
     width: 550px;
     color: #fff;
-    font-size: 23px;
+    font-size: 21px;
   }
   .profileContainer{
     margin-top:35px;
   }
   .teamIn{
     top: 150px;
-    left: 200px;
+    left: 150px;
+  }
+  .name{
+    font-size:23px;
   }
 }
 
@@ -162,5 +166,8 @@
     z-index: 1;
     top: 150px;
     left: 220px;
+  }
+  .imgCircle{
+    margin-left:80px;
   }
 }

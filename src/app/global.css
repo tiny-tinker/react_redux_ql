@@ -241,130 +241,32 @@ http://www.Mkrtchyan.zz.mu
 }
 /*==================================== RoadMap and WhitePaper Section =================================*/
 .roadmap_whitepaper{
+  background: none;
   z-index: 1;
-  height: auto;
-  width: 100%;
-  background: url("../assets/images/roadmap_whitepaper_bg.png") no-repeat;
-  background-size: cover;
-  text-align: center;
-  position: relative;
-  padding-top: 147px;
-  /*padding-bottom: 50px;*/
 }
 
-.rotated1{
-  left:-60px;
+#dot_down:active, #dot_up:active{
+  -webkit-transition: all 300ms ease-in;
+  -webkit-transform: scale(0.9);
+  background:url('../assets/images/bright_dot.png') no-repeat;
 }
-
-.rotated2{
-  left:80px;
-}
-
-.rotated3{
-  left:220px;
-}
-
-.rotated4{
-  left:360px;
-}
-
-.rotated5{
-  left:500px;
-}
-
-.rotated6{
-  left:640px;
-}
-
-.rotated7{
-  left:770px;
+#dot_down:hover, #dot_up:hover{
+  -webkit-transition: all 300ms ease-in;
+  -webkit-transform: scale(0.8);
 }
 
 @media only screen and (max-width: 1200px) {
-  .rotated1{
-    left:-150px;
-  }
-  .rotated2{
-    left:-20px;
-  }
 
-  .rotated3{
-    left:120px;
-  }
-
-  .rotated4{
-    left:260px;
-  }
-
-  .rotated5{
-    left:400px;
-  }
-
-  .rotated6{
-    left:540px;
-  }
-
-  .rotated7{
-    left:680px;
-  }
 }
 
 @media only screen and (max-width: 992px) {
-  .rotated1{
-    left:-200px;
-  }
-  .rotated2{
-    left:-80px;
-  }
-
-  .rotated3{
-    left:20px;
-  }
-
-  .rotated4{
-    left:130px;
-  }
-
-  .rotated5{
-    left:240px;
-  }
-
-  .rotated6{
-    left:350px;
-  }
-
-  .rotated7{
-    left:460px;
+  .call-to-section{
+    padding-top:146px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .rotated1{
-    left:-25px;
-  }
-  .rotated2{
-    left:20px;
-  }
 
-  .rotated3{
-    left:70px;
-  }
-
-  .rotated4{
-    left:123px;
-  }
-
-  .rotated5{
-    left:165px;
-  }
-
-  .rotated6{
-    left:210px;
-  }
-
-  .rotated7{
-    left:260px;
-  }
 }
 
 
@@ -418,13 +320,13 @@ footer p {
 #arrow_up:hover{
   -webkit-transition: all 300ms ease-in;
   -webkit-transform: scale(1.1);
-  background:url('../assets/images/arrow_up_glow.png') no-repeat;
+  /*background:url('../assets/images/arrow_up_glow.png') no-repeat;*/
 }
 
 #arrow_down:hover{
   -webkit-transition: all 300ms ease-in;
   -webkit-transform: scale(1.1);
-  background:url('../assets/images/arrow_down_glow.png') no-repeat;
+  /*background:url('../assets/images/arrow_down_glow.png') no-repeat;*/
 }
 
 /*========================================= Join Section ===================================*/
