@@ -22,31 +22,35 @@ const ConnectSection = function ConnectSection() {
         <div className="row">
           <div className="col-sm-10 offset-sm-1 col-12">
             <div className="row">
-              <div className="col-10 offset-1 col-sm-6 offset-sm-0">
+              <div className="col-md-10 col-lg-5 col-12">
                 <div className="row">
-                  <div className="col-sm-2 col-3">
+                  <div className="col">
                     <a href="#" className={styles.connectIcon}> <i className="fa fa-facebook wow fadeInUp  animated"> </i> </a>
                   </div>
-                  <div className="col-sm-2 col-3">
+                  <div className="col">
                     <a href="#" className={styles.connectIcon}> <i className="fa fa-instagram wow fadeInUp  animated"> </i> </a>
                   </div>
-                  <div className="col-sm-2 col-3">
+                  <div className="col">
                     <a href="#" className={styles.connectIcon}> <i className="fa fa-twitter wow fadeInUp  animated"> </i> </a>
                   </div>
-                  <div className="col-sm-2 col-3">
+                  <div className="col">
                     <a href="#" className={styles.connectIcon}> <i className="fa fa-github wow fadeInUp  animated"> </i> </a>
                   </div>
                 </div>
-                <div className="row mt-5">
-                  <div className={styles.signTitle}>
-                    JOIN OUR NEWSLETTER
-                  </div>
-                  <div className={styles.signDetail}>
-                    <p> get exclusive content, offers and more by joining our newsletter mailing list </p>
-                  </div>
-                  <div>
+              </div>
+              <div className="col-md-12 col-lg-6 offset-lg-1 col-12 mt-md-5 mt-lg-0">
+                <div className={styles.signTitle}>
+                  JOIN OUR NEWSLETTER
+                </div>
+                <div className={styles.signDetail}>
+                  <p> get exclusive content, offers and more by joining our newsletter mailing list </p>
+                </div>
+                <div className="row">
+                  <div className={['col-12', styles.signInputContainer].join(' ')}>
                     <input className={styles.signInput} type="text" placeholder="enter your email address" />
-                    <MoreButton label="sign up" width="110px" />
+                    <div className={styles.signInputBtn}>
+                      <MoreButton label="sign up" width="110px" />
+                    </div>
                   </div>
                 </div>
               </div>

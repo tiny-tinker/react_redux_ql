@@ -40,12 +40,20 @@
 }
 .signInput{
   border-radius: 50px;
-  width: 600px;
   height: 36px;
   background: transparent;
   padding-left: 13px;
   color: #fff;
   margin-right:10px;
+  width: 100%;
+}
+.signInputBtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.signInputContainer {
+  padding-right: 130px;
 }
 
 /* --------------------------------------- connect style according to screen size -------------------------------------------------*/
@@ -85,9 +93,6 @@
   }
   .signTitle{
     font-size:30px;
-  }
-  .signInput{
-    width:400px;
   }
 }
 
@@ -134,8 +139,5 @@
     width:120%;
     height:60%;
     vertical-align:middle;
-  }
-  .signInput{
-    width:200px;
   }
 }
