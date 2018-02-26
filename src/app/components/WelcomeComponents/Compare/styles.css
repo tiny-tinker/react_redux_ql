@@ -2,13 +2,13 @@
   position: relative;
   color: #52193a;
   font-family: Montserrat, sans-serif;
-  font-size: 11.3em;
+  font-size: 10.3em;
   font-weight:bold;
   line-height: 1;
   width: 100%;
   text-align: center;
-  background: -webkit-linear-gradient(298deg, rgba(249, 69, 38, 0.1), rgba(1, 12, 111, 0.2));
-  background: linear-gradient(298deg, rgba(249, 69, 38, 0.1), rgba(1, 12, 111, 0.2));
+  background: -webkit-linear-gradient(298deg, rgba(249, 69, 38, 0.3), rgba(1, 12, 111, 0.4));
+  background: linear-gradient(298deg, rgba(249, 69, 38, 0.3), rgba(1, 12, 111, 0.4));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -39,6 +39,7 @@
   line-height: 1;
   text-align: center;
   opacity: 0.6;
+  z-index: -1;
   background: -webkit-linear-gradient(78deg, rgba(249, 69, 38, 0.4), rgba(1, 10, 96, 0.2));
   background: linear-gradient(78deg, rgba(249, 69, 38, 0.4), rgba(1, 10, 96, 0.2));
   -webkit-background-clip: text;
@@ -81,7 +82,7 @@
 
 @media only screen and (max-width: 1200px) {
   .title {
-    font-size: 9.3em;
+    font-size: 8.3em;
   }
   .subTitle {
     font-size: 80px;
@@ -99,7 +100,7 @@
 
 @media only screen and (max-width: 992px) {
   .title {
-    font-size: 7.3em;
+    font-size: 6.3em;
     top: -40px;
   }
   .subTitle {
