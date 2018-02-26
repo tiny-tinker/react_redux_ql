@@ -28,6 +28,26 @@
   color:white;
 }
 
+.signTitle{
+  font-size:35px;
+  font-family:Montserrat-ExtraBold,serif;
+  color:white;
+}
+.signDetail{
+  color:white;
+  font-size:15px;
+  /*font-family:Myriad Pro Regular, serif;*/
+}
+.signInput{
+  border-radius: 50px;
+  width: 600px;
+  height: 36px;
+  background: transparent;
+  padding-left: 13px;
+  color: #fff;
+  margin-right:10px;
+}
+
 /* --------------------------------------- connect style according to screen size -------------------------------------------------*/
 @media only screen and (min-width: 1200px) {
 
@@ -63,6 +83,12 @@
     vertical-align:middle;
     margin-top: 10px;
   }
+  .signTitle{
+    font-size:30px;
+  }
+  .signInput{
+    width:400px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -83,6 +109,9 @@
     height:60%;
     vertical-align:middle;
     margin-top: 10px;
+  }
+  .signTitle{
+    font-size:25px;
   }
 }
 
@@ -105,5 +134,8 @@
     width:120%;
     height:60%;
     vertical-align:middle;
+  }
+  .signInput{
+    width:200px;
   }
 }

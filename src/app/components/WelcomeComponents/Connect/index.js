@@ -1,6 +1,7 @@
 import React from 'react';
 import * as styles from './styles.css';
 import CloudComponent from './../../Cloud';
+import MoreButton from './../../MoreButton';
 
 const ConnectSection = function ConnectSection() {
   const title = ['wow fadeInLeft animated', styles.connectTitle].join(' ');
@@ -34,6 +35,18 @@ const ConnectSection = function ConnectSection() {
                   </div>
                   <div className="col-sm-2 col-3">
                     <a href="#" className={styles.connectIcon}> <i className="fa fa-github wow fadeInUp  animated"> </i> </a>
+                  </div>
+                </div>
+                <div className="row mt-5">
+                  <div className={styles.signTitle}>
+                    JOIN OUR NEWSLETTER
+                  </div>
+                  <div className={styles.signDetail}>
+                    <p> get exclusive content, offers and more by joining our newsletter mailing list </p>
+                  </div>
+                  <div>
+                    <input className={styles.signInput} type="text" placeholder="enter your email address" />
+                    <MoreButton label="sign up" width="110px" />
                   </div>
                 </div>
               </div>
