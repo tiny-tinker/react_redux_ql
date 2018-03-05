@@ -84,7 +84,7 @@ class CompareSection extends React.Component {
         <img src={joinCloud1} role="presentation" className={styles.joinCloud1} />
         <img src={joinCloud2} role="presentation" className={styles.joinCloud2} />
 
-        <div className="container-fluid">
+        <div id="join_section" className="container-fluid">
           <div className="col-lg-12 col-sm-12">
             <div className={joinTitle}>JOIN</div>
             <h4 className={joinsubTitle}>NETWORK</h4>
@@ -98,12 +98,12 @@ class CompareSection extends React.Component {
         </div>
         <br /><br /><br /><br /><br />
         <div className="container">
-          <div className="row">
+          <div className="row hi-icon-effect-5 hi-icon-effect-5c">
             <div className="col-md-4">
               <img className={styles.joinBlockImg} src={tradeImg} role="presentation" />
               <div className={styles.joinBlockTitle}> TRADE </div>
               <div className="row">
-                <img className={styles.joinBlockSubImg} src={tradesatoshiBadge} role="presentation" />
+                <img className={['hi-icon',styles.joinBlockSubImg].join(' ')} src={tradesatoshiBadge} role="presentation" />
               </div>
               <div className="row">
                 <img className={styles.joinBlockSubImg} src={cryptoPia} role="presentation" />

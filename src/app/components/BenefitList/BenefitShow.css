@@ -33,7 +33,7 @@
 .title {
   display: table;
   font-family: Montserrat-ExtraBold,sans-serif;
-  font-size: 4.0em;
+  font-size: 3.8em;
   font-weight: bold;
   color: #fff;
   text-align: left;
@@ -50,6 +50,25 @@
   line-height: 1;
 }
 
+@media only screen and (max-width: 1600px) {
+  .title {
+    font-size: 3.4em;
+    min-height: 130px;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .title {
+    font-size: 3.0em;
+    min-height: 130px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .title {
+    font-size: 2.5em;
+    min-height: 130px;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .container_img {
     width: 150px;
@@ -58,10 +77,11 @@
     padding-left: 170px;
   }
   .title {
-    font-size: 2.3em;
+    font-size: 2.0em;
     min-height: 130px;
   }
 }
+
 
 @media only screen and (max-width: 992px) {
   .container_img {
@@ -71,7 +91,7 @@
     padding-left: 140px;
   }
   .title {
-    font-size: 2.0em;
+    font-size: 1.52em;
     min-height: 130px;
   }
 }

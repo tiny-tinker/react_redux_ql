@@ -11,7 +11,7 @@ const WhitePaperSection = function WhitePaperSection(){
   return(
     <section id="whitepaper_section">
       <div className={title}>
-        KNOWMORE
+        KNOW MORE
       </div>
       <div>
         <div className={subTitle}>

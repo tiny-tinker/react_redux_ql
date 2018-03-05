@@ -35,7 +35,7 @@ const HeaderComponent = function HeaderComponent() {
               <a onClick={(e) => handleClick('#benefits_section', e)} className="page-scroll hvr-underline-from-center" href="#benefits_section">benefits</a>
             </li>
             <li>
-              <a className="page-scroll hvr-underline-from-center" href="#compare">statistics</a>
+              <a onClick={(e) => handleClick('#compare_section', e)} className="page-scroll hvr-underline-from-center" href="#compare_section">statistics</a>
             </li>
             <li>
               <a onClick={(e) => handleClick('#join_section', e)} className="page-scroll hvr-underline-from-center" href="#join_section">network</a>
