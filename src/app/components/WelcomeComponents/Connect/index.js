@@ -38,7 +38,10 @@ const ConnectSection = function ConnectSection() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-12 col-lg-6 offset-lg-1 col-12 mt-md-5 mt-lg-0">
+            </div>
+            <br />
+            <div className="row">
+              <div className="col-md-12">
                 <div className={styles.signTitle}>
                   JOIN OUR NEWSLETTER
                 </div>
