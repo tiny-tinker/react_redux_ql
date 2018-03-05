@@ -42,7 +42,7 @@ const ConnectSection = function ConnectSection() {
                     JOIN OUR NEWSLETTER
                   </div>
                   <div className={styles.signDetail}>
-                    <p> get exclusive content, offers and more by joining our newsletter mailing list </p>
+                    <p> get exclusive content, offers and more by joining our newsletter mailing list1 </p>
                   </div>
                   <div>
                     <input className={styles.signInput} type="text" placeholder="enter your email address" />
