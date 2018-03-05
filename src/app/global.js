@@ -863,12 +863,12 @@ $(document).ready(() => {
     doAnimate();
   });
 
-  $('#dot_up').click(() => {
+  $('#dot_down').click(() => {
     carousel.next();
     doAnimate();
   });
 
-  $('#dot_down').click(() => {
+  $('#dot_up').click(() => {
     carousel.prev();
     doAnimate();
   });
