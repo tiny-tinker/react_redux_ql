@@ -264,14 +264,23 @@ http://www.Mkrtchyan.zz.mu
   z-index: 1;
 }
 
-#dot_down:active, #dot_up:active{
-  -webkit-transition: all 300ms ease-in;
-  -webkit-transform: scale(0.9);
-  background:url('../assets/images/bright_dot.png') no-repeat;
+/*#dot_down:active, #dot_up:active{*/
+  /*-webkit-transition: all 300ms ease-in;*/
+  /*-webkit-transform: scale(0.9);*/
+  /*background:url('../assets/images/bright_dot.png') no-repeat;*/
+/*}*/
+#dot_down, #dot_up{
+  /*-webkit-transition: all 300ms ease-in;*/
+  /*-webkit-transform: scale(1);*/
+  width:150px;
+  height:150px;
+  background:url('../assets/images/dot.png') no-repeat;
 }
+
 #dot_down:hover, #dot_up:hover{
-  -webkit-transition: all 300ms ease-in;
-  -webkit-transform: scale(0.8);
+  /*-webkit-transition: all 300ms ease-in;*/
+  /*-webkit-transform: scale(1);*/
+  background:url('../assets/images/bright_dot.png') no-repeat;
 }
 
 @media only screen and (max-width: 1200px) {

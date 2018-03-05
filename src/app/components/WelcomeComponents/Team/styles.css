@@ -97,6 +97,9 @@
   .profileContainer{
     margin-top:70px;
   }
+  .detail{
+    padding-left:12%;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -166,8 +169,5 @@
     z-index: 1;
     top: 150px;
     left: 220px;
-  }
-  .imgCircle{
-    margin-left:80px;
   }
 }

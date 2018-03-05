@@ -12,7 +12,7 @@ const Profile = function Profile() {
   return (
     <div className={PersonProfile}>
       <div className="row wow fadeInLeft animated">
-        <div className="col-lg-4">
+        <div className="col-lg-4 text-center">
           <a href="#" className="d-block mb-4 h-100">
             <img className={styles.imgCircle} src={avatar} width="200" height="200" alt="" />
             <img className={styles.teamIn} src={teamIn} alt="" />
