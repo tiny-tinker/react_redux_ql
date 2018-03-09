@@ -3,6 +3,7 @@
 */
 
 import React from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
 import { Field, reduxForm } from 'redux-form/immutable';
@@ -41,13 +42,13 @@ LoginForm.propTypes = {
 };
 
 RenderField.propTypes = {
-  id: React.PropTypes.string.isRequired,
-  input: React.PropTypes.object.isRequired,
-  label: React.PropTypes.string.isRequired,
-  type: React.PropTypes.string.isRequired,
-  meta: React.PropTypes.shape({
-    error: React.PropTypes.object,
-    touched: React.PropTypes.bool,
+  id: PropTypes.string.isRequired,
+  input: PropTypes.object.isRequired,
+  label: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+  meta: PropTypes.shape({
+    error: PropTypes.object,
+    touched: PropTypes.bool,
   }),
 };
 

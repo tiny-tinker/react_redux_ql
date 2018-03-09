@@ -228,6 +228,25 @@ http://www.Mkrtchyan.zz.mu
     padding-left: 15px;
   }
 }
+
+/*
+#4. Join section
+ */
+/*==== Mouse Hover Effect =====*/
+.hi-icon-effect-5 .hi-icon {
+  box-shadow: 0 0 0 4px rgba(255,255,255,1);
+  overflow: hidden;
+  -webkit-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+  -moz-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.hi-icon-effect-5 .hi-icon:hover {
+  background: rgba(255,255,255,1);
+  color: #702fa8;
+  box-shadow: 0 0 0 8px rgba(255,255,255,0.3);
+}
+
 /*==================================== Team and Connect Section =================================*/
 .team_connect{
   height: auto;

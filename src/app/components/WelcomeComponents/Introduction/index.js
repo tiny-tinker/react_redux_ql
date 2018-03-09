@@ -21,6 +21,14 @@ const IntroductionSection = function IntroductionSection() {
   const scrollIndicator = ['col-lg-12', styles.scrollIndicator].join(' ');
   const sectionClass = ['hero-section-video-dark', styles.introSection].join(' ');
   const sectionDescription = ['text-center text-white', styles.robotoLight].join(' ');
+  const typistCursor = {
+    show: true,
+    blink: true,
+    element: '|',
+    hideWhenDone: true,
+    hideWhenDoneDelay: 500,
+
+  };
   return (
     <section id="hero" className={sectionClass}>
       <div className={styles.particleContainer}>
@@ -32,7 +40,7 @@ const IntroductionSection = function IntroductionSection() {
             <div className="headlines-wrapper">
               <h1 className={title}>INTRODUCTION </h1>
               <span className="skilltechtypetext">
-                <Typist>
+                <Typist cursor={typistCursor}>
                   NEW OPPORTUNITY
                   <Typist.Backspace count={15} delay={200} />
                   JUST A CLICK AWAY
