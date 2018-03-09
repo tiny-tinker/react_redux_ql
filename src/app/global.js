@@ -770,25 +770,6 @@ function doAnimate() {
 
 $(document).ready(() => {
   const carousel = $('.carousel').waterwheelCarousel();
-  const carousel1 = $('.carousel_lg').waterwheelCarousel();
-
-  const carousel2 = $('.carousel_md').waterwheelCarousel({
-    seperation: 180,
-  });
-
-  const carousel3 = $('.carousel_sm').waterwheelCarousel({
-    seperation: 160,
-  });
-
-  const carousel4 = $('.carousel_xs').waterwheelCarousel({
-    separation: 70,
-  });
-  $(window).resize(() => {
-    const carousel4 = $('.carousel_xs').waterwheelCarousel({
-      separation: 50,
-    });
-    console.log('okay');
-  });
   let roadmap_value = 1;
   $('#button_left').css({ opacity: 0.1 });
   $('#button_right').click(() => {
