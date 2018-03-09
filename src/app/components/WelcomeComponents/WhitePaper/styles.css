@@ -1,10 +1,10 @@
 /*------------------------ WhitePaper styles -------------------------------*/
 .whitepaperTitle{
   position:absolute;
-  top: 1200px;
+  top: 1210px;
   left: 100px;
   font-family: Montserrat-ExtraBold ,serif;
-  font-size: 164px;
+  font-size: 153px;
   color: rgba(249,69,38,0.4);
   opacity:0.37;
   background: -webkit-linear-gradient(-80deg, rgba(249,69,38,0.4),rgba(249,69,38,0.4), rgba(1,10,96,0.2),rgba(255,255,255,0));
@@ -53,7 +53,7 @@
   .whitepaperTitle{
     top: 1000px;
     left: 90px;
-    font-size: 8em;
+    font-size: 125px;
   }
   .whitepaperSubTitle{
     top: 1055px;
@@ -73,9 +73,9 @@
 
 @media only screen and (max-width: 992px) {
   .whitepaperTitle{
-    top: 560px;
+    top: 566px;
     left: 80px;
-    font-size: 6.7em;
+    font-size: 94px;
   }
   .whitepaperSubTitle{
     top: 610px;
