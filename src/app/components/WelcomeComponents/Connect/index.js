@@ -59,10 +59,3 @@ const ConnectSection = function ConnectSection() {
             </div>
           </div>
         </div>
-
-      </div>
-
-    </section>
-  );
-};
-export default ConnectSection;
