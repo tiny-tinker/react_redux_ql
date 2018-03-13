@@ -1,1 +1,0 @@
-export const ROADMAP_SELECTED = 'Roadmap/ROADMAP_SELECTED';

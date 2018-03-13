@@ -9,9 +9,7 @@ import * as actions from './actions';
 import * as styles from './styles.css';
 
 import RoadNode from '../../RoadmapSelection';
-import RoadmapShow from '../../RoadmapShow';
-import StarTrail from './../../StarTrail';
-import roadmap_line from '../../../../assets/images/roadmap_line.png';
+
 
 import roadmap_item1 from '../../../../assets/images/roadmap_item1.png';
 import roadmap_item2 from '../../../../assets/images/roadmap_item2.png';
@@ -27,8 +25,7 @@ import arrow_up from '../../../../assets/images/arrow_up.png';
 import arrow_down from '../../../../assets/images/arrow_down.png';
 import roadmap_line_new from '../../../../assets/images/roadmap_line_vertical.png';
 import bright_dot from '../../../../assets/images/bright_dot.png';
-import dot from '../../../../assets/images/dot.png';
-
+import roadmap_cloud from '../../../../assets/images/roadmap_cloud.png';
 
 class RoadmapSection extends React.Component {
 
@@ -113,6 +110,7 @@ class RoadmapSection extends React.Component {
               </div>
             </div>
           </div>
+          <img src={roadmap_cloud} role="presentation" className={styles.roadmap_cloud} />
         </div>
       </div>
     );
@@ -142,5 +140,3 @@ RoadmapSection.propTypes = {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(RoadmapSection);
-
-// export default RoadmapSection;

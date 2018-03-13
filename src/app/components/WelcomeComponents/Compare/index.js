@@ -103,7 +103,7 @@ class CompareSection extends React.Component {
               <img className={styles.joinBlockImg} src={tradeImg} role="presentation" />
               <div className={styles.joinBlockTitle}> TRADE </div>
               <div className="row">
-                <img className={['hi-icon',styles.joinBlockSubImg].join(' ')} src={tradesatoshiBadge} role="presentation" />
+                <img className={['hi-icon', styles.joinBlockSubImg].join(' ')} src={tradesatoshiBadge} role="presentation" />
               </div>
               <div className="row">
                 <img className={styles.joinBlockSubImg} src={cryptoPia} role="presentation" />
