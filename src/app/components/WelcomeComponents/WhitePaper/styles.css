@@ -128,3 +128,29 @@
   }
 }
 
+@media only screen and (max-width: 490px) {
+  .whitepaperTitle{
+    top: 490px;
+    left: 15px;
+    font-size: 3.5em;
+  }
+  .whitepaperSubTitle{
+    top: 512px;
+    left: 30px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .whitepaperTitle{
+    top: 496px;
+    left: 15px;
+    font-size: 3.2em;
+  }
+  .whitepaperSubTitle{
+    top: 512px;
+    left: 30px;
+    font-size: 30px;
+  }
+}
+

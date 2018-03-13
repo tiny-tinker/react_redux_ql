@@ -19,6 +19,10 @@ const FooterComponent = function FooterComponent() {
               <dd><a href="" className="text-white">About us</a></dd>
               <dd><a href="" className="text-white">Roadmap</a></dd>
               <dd><a href="" className="text-white">Connect</a></dd>
+              <dd><a href="" className="text-white">Wallets</a></dd>
+              <dd><a href="" className="text-white">Exchanges</a></dd>
+              <dd><a href="" className="text-white">Mining pool</a></dd>
+              <dd><a href="" className="text-white">Guides</a></dd>
             </dl>
           </div>
           <div className="col-lg-6 col-sm-6"> </div>
