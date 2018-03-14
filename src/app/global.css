@@ -261,11 +261,11 @@ http://www.Mkrtchyan.zz.mu
   background:transparent url(../assets/images/twinkling.png) repeat top center;
   z-index:-1;
 
-  -moz-animation:move-twink-back 600s linear infinite;
-  -ms-animation:move-twink-back 600s linear infinite;
-  -o-animation:move-twink-back 600s linear infinite;
-  -webkit-animation:move-twink-back 600s linear infinite;
-  animation:move-twink-back 600s linear infinite;
+  -moz-animation:move-twink-back 1200s linear infinite;
+  -ms-animation:move-twink-back 1200s linear infinite;
+  -o-animation:move-twink-back 1200s linear infinite;
+  -webkit-animation:move-twink-back 1200s linear infinite;
+  animation:move-twink-back 1200s linear infinite;
 }
 
 .clouds{
