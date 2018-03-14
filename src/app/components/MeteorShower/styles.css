@@ -48,6 +48,7 @@
   background-size: cover;
   text-align: center;
   position: relative;
+  will-change: transform;
   z-index: 5;
   overflow: hidden;
   opacity: 0.5;
@@ -77,21 +78,21 @@
   background:transparent url(../../../assets/images/twinkling.png) repeat top center;
   z-index:1;
 
-  -moz-animation:move-twink-back 200s linear infinite;
-  -ms-animation:move-twink-back 200s linear infinite;
-  -o-animation:move-twink-back 200s linear infinite;
-  -webkit-animation:move-twink-back 200s linear infinite;
-  animation:move-twink-back 200s linear infinite;
+  -moz-animation:move-twink-back 600s linear infinite;
+  -ms-animation:move-twink-back 600s linear infinite;
+  -o-animation:move-twink-back 600s linear infinite;
+  -webkit-animation:move-twink-back 600s linear infinite;
+  animation:move-twink-back 600s linear infinite;
 }
 .clouds{
   background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
   z-index:3;
 
-  -moz-animation:move-clouds-back 200s linear infinite;
-  -ms-animation:move-clouds-back 200s linear infinite;
-  -o-animation:move-clouds-back 200s linear infinite;
-  -webkit-animation:move-clouds-back 200s linear infinite;
-  animation:move-clouds-back 200s linear infinite;
+  -moz-animation:move-clouds-back 600s linear infinite;
+  -ms-animation:move-clouds-back 600s linear infinite;
+  -o-animation:move-clouds-back 600s linear infinite;
+  -webkit-animation:move-clouds-back 600s linear infinite;
+  animation:move-clouds-back 600s linear infinite;
 }
 .meteor {
   position: absolute;

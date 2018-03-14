@@ -7,9 +7,12 @@
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #000131;
 }
 
+body {
+  background-color: #000131;
+}
 h1, h2, h3, h4 {
   font-family: Montserrat,sans-serif;
 }
@@ -40,6 +43,123 @@ input::-moz-placeholder {
   font-style:italic;
 }
 
+.hover12 figure .top{
+  position: absolute;
+  left: 0;
+  opacity: 0.0;
+}
+
+.hover12 figure .bottom{
+  opacity: 1.0;
+}
+
+.hover12 figure img {
+  opacity: 1;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.hover12 figure:hover img.top {
+  opacity: 1.0;
+}
+
+.hover12 figure:hover img.bottom{
+  opacity: 0.0;
+}
+
+.hover12 figure {
+  cursor: pointer;
+}
+
+/*
+.hover12 figure:hover {
+  -webkit-animation-name: hvr-wobble-horizontal;
+  animation-name: hvr-wobble-horizontal;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+*/
+.hover12 figure:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.hover12 figure {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+/* Wobble Horizontal */
+@-webkit-keyframes hvr-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes hvr-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+.hvr-wobble-horizontal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
 /*
 #1. Introduction Section
 */
@@ -141,22 +261,22 @@ http://www.Mkrtchyan.zz.mu
   background:transparent url(../assets/images/twinkling.png) repeat top center;
   z-index:-1;
 
-  -moz-animation:move-twink-back 200s linear infinite;
-  -ms-animation:move-twink-back 200s linear infinite;
-  -o-animation:move-twink-back 200s linear infinite;
-  -webkit-animation:move-twink-back 200s linear infinite;
-  animation:move-twink-back 200s linear infinite;
+  -moz-animation:move-twink-back 600s linear infinite;
+  -ms-animation:move-twink-back 600s linear infinite;
+  -o-animation:move-twink-back 600s linear infinite;
+  -webkit-animation:move-twink-back 600s linear infinite;
+  animation:move-twink-back 600s linear infinite;
 }
 
 .clouds{
   background:transparent url(../assets/images/clouds3.png) repeat top center;
   z-index:-3;
 
-  -moz-animation:move-clouds-back 200s linear infinite;
-  -ms-animation:move-clouds-back 200s linear infinite;
-  -o-animation:move-clouds-back 200s linear infinite;
-  -webkit-animation:move-clouds-back 200s linear infinite;
-  animation:move-clouds-back 200s linear infinite;
+  -moz-animation:move-clouds-back 600s linear infinite;
+  -ms-animation:move-clouds-back 600s linear infinite;
+  -o-animation:move-clouds-back 600s linear infinite;
+  -webkit-animation:move-clouds-back 600s linear infinite;
+  animation:move-clouds-back 600s linear infinite;
 }
 /*
 */

@@ -8,11 +8,17 @@ import tradeImg from '../../../../assets/images/trade.png';
 import earnImg from '../../../../assets/images/earn.png';
 import holdImg from '../../../../assets/images/hold.png';
 import tradesatoshiBadge from '../../../../assets/images/tradesatoshi_badge.svg';
+import tradesatoshiBadgeHover from '../../../../assets/images/tradesatoshi_badge_hover.svg';
 import miningPool from '../../../../assets/images/mining_pool.svg';
+import miningPoolHover from '../../../../assets/images/mining_pool_hover.svg';
 import cryptoPia from '../../../../assets/images/cryptopia.svg';
+import cryptoPiaHover from '../../../../assets/images/cryptopia_hover.svg';
 import masterNode from '../../../../assets/images/master_node.svg';
+import masterNodeHover from '../../../../assets/images/master_node_hover.svg';
 import holdSubImg from '../../../../assets/images/hold_img.svg';
+import holdSubImgHover from '../../../../assets/images/hold_img_hover.svg';
 import chooseWallet from '../../../../assets/images/choose_wallet.svg';
+import chooseWalletHover from '../../../../assets/images/choose_wallet_hover.svg';
 import joinEllipse from '../../../../assets/images/join_ellipse.png';
 import compareStatsCloud from '../../../../assets/images/compare_stats_cloud.png';
 import joinCloud1 from '../../../../assets/images/join_cloud_1.png';
@@ -102,31 +108,61 @@ class CompareSection extends React.Component {
             <div className="col-md-4">
               <img className={styles.joinBlockImg} src={tradeImg} role="presentation" />
               <div className={styles.joinBlockTitle}> TRADE </div>
-              <div className="row">
-                <img className={['hi-icon', styles.joinBlockSubImg].join(' ')} src={tradesatoshiBadge} role="presentation" />
+              <div className="row hover12">
+                <div className="d-inline-block">
+                  <figure>
+                    <img className={['bottom', styles.joinBlockSubImg].join(' ')} src={tradesatoshiBadge} role="presentation" />
+                    <img className={['top ', styles.joinBlockSubImg].join(' ')} src={tradesatoshiBadgeHover} role="presentation" />
+                  </figure>
+                </div>
               </div>
-              <div className="row">
-                <img className={styles.joinBlockSubImg} src={cryptoPia} role="presentation" />
+              <div className="row hover12">
+                <div className="d-inline-block">
+                  <figure>
+                    <img className={['bottom', styles.joinBlockSubImg].join(' ')} src={cryptoPia} role="presentation" />
+                    <img className={['top', styles.joinBlockSubImg].join(' ')} src={cryptoPiaHover} role="presentation" />
+                  </figure>
+                </div>
               </div>
             </div>
             <div className="col-md-4">
               <img className={styles.joinBlockImg} src={earnImg} role="presentation" />
               <div className={styles.joinBlockTitle}> EARN </div>
-              <div className="row">
-                <img className={styles.joinBlockSubImg} src={miningPool} role="presentation" />
+              <div className="row hover12">
+                <div className="d-inline-block">
+                  <figure>
+                    <img className={['bottom', styles.joinBlockSubImg].join(' ')} src={miningPool} role="presentation" />
+                    <img className={['top', styles.joinBlockSubImg].join(' ')} src={miningPoolHover} role="presentation" />
+                  </figure>
+                </div>
               </div>
-              <div className="row">
-                <img className={styles.joinBlockSubImg} src={masterNode} role="presentation" />
+              <div className="row hover12">
+                <div className="d-inline-block">
+                  <figure>
+                    <img className={['bottom', styles.joinBlockSubImg].join(' ')} src={masterNode} role="presentation" />
+                    <img className={['top', styles.joinBlockSubImg].join(' ')} src={masterNodeHover} role="presentation" />
+                  </figure>
+                </div>
               </div>
             </div>
             <div className="col-md-4">
               <img className={styles.joinBlockImg} src={holdImg} role="presentation" />
               <div className={styles.joinBlockTitle}> HOLD </div>
-              <div className="row">
-                <img className={styles.joinBlockHoldTop} src={holdSubImg} role="presentation" />
+              <div className="row hover12">
+                <div className="d-inline-block">
+                  <figure>
+                    <img className={['bottom', styles.joinBlockHoldTop].join(' ')} src={holdSubImg} role="presentation" />
+                    <img className={['top', styles.joinBlockHoldTop].join(' ')} src={holdSubImgHover} role="presentation" />
+                  </figure>
+                </div>
               </div>
-              <div className="row">
-                <img className={styles.joinBlockHoldBottom} src={chooseWallet} role="presentation" />
+              <div className="row hover12">
+                <div className="d-inline-block">
+                  <figure>
+                    <img className={['bottom', styles.joinBlockHoldBottom].join(' ')} src={chooseWallet} role="presentation" />
+                    <img className={['top', styles.joinBlockHoldBottom].join(' ')} src={chooseWalletHover} role="presentation" />
+                  </figure>
+                </div>
               </div>
             </div>
           </div>
