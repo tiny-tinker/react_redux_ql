@@ -31,7 +31,7 @@ class BenefitsSection extends React.Component {
                 <div>OUR <br /> BENEFITS</div>
                 <div className="row ml-0 mr-0">
                   <div className="ml-0 pl-0 col-md-6 col-sm-12 col-xs-12">
-                    <p className={sectionDescription}>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit  odio s eu felis</p>
+                    <p className={sectionDescription}>Run by the independent Non-Profit Quillon Foundation we focus on the privacy and security of your investment. Our governance model and embedded budgeting allows us to concentrate solely on our users, reducing corporate influence.</p>
                   </div>
                 </div>
               </div>

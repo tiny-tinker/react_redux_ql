@@ -48,7 +48,7 @@ class CompareSection extends React.Component {
             <div className={subtitle}>EXPLORE</div>
             <div className="row">
               <p className={sectionDescription}>
-                Being a new cryptocurrency, Quillon offers a low barrier for entry while at the same time having the best return on investment of the more serious masternode based coins today. Invest now and win big!
+                Explore the impact Quillon is looking to make. Featuring masternodes, and a proof of work consensus algorithm, Quillon is able to lay the foundation for a bright future. A coin that’s build to last and protect your investment!
               </p>
             </div>
           </div>
@@ -79,7 +79,7 @@ class CompareSection extends React.Component {
                 <br />
                 <img src={compareStatsCloud} className={styles.compareStatsCloud} role="presentation" />
                 <h4 className={styles.compareStats}>COMPARE LIVE STATS</h4>
-                <p className="text-left">quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed ot maucumsan </p>
+                <p className="text-left">Check out Quillon with statistics taken directly from our block explorer. All the information you need, directly at your fingertips.</p>
                 <div className="float-left">
                   <MoreButton label="BLOCKEXPLORER" btnWidth="180px"> </MoreButton>
                 </div>
@@ -97,7 +97,7 @@ class CompareSection extends React.Component {
             <br /> <br />
             <div className="row">
               <p className={sectionDescription}>
-                Being a new cryptocurrency, Quillon offers a low barrier for entry while at the same time having the best return on investment of the more serious masternode based coins today. Invest now and win big!
+                Being a new cryptocurrency, Quillon offers a low barrier for entry. Join our network today and become one of the first to take advantage of our revolutionary monetary policy. You can trade, hold and earn our currency via the links below!
               </p>
             </div>
           </div>

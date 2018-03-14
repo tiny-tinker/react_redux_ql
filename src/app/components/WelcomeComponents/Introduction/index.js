@@ -49,7 +49,7 @@ const IntroductionSection = function IntroductionSection() {
               <div className="mt-5 w-100">
                 <div className="col-12 col-sm-6 offset-sm-3">
                   <p className={sectionDescription}>
-                    Quillon. A new cryptocurrency featuring state of the art privacy features, self-governance and masternodes while changing the game through a focus on a superior user experience. Join us now!
+                    Quillon. A new stable cryptocurrency with an algorithm based central bank supporting a user friendly business to consumer software as a service platform. Featuring state-of-the-art privacy, self-governance, masternodes and a superior user experience.
                   </p>
                 </div>
               </div>
