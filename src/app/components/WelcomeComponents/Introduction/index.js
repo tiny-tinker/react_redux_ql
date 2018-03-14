@@ -41,9 +41,9 @@ const IntroductionSection = function IntroductionSection() {
               <h1 className={title}>INTRODUCTION </h1>
               <span className="skilltechtypetext">
                 <Typist cursor={typistCursor}>
-                  NEW OPPORTUNITY
-                  <Typist.Backspace count={15} delay={200} />
-                  JUST A CLICK AWAY
+                  Our Stable Foundation
+                  <Typist.Backspace count={21} delay={200} />
+                  Your Strong Investment
                 </Typist>
               </span>
               <div className="mt-5 w-100">
