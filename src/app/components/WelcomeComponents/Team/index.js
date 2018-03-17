@@ -7,7 +7,7 @@ import avatar2 from '../../../../assets/images/team2_Mark_Reynolds.png';
 import avatar3 from '../../../../assets/images/team3_Zachary_Elfman.png';
 import avatar4 from '../../../../assets/images/team4_Xinzhe_Li.png';
 import avatar5 from '../../../../assets/images/team5_Qiang_Dong.png';
-import avatar7 from '../../../../assets/images/team7_John Magdy.png';
+import avatar6 from '../../../../assets/images/team7_John Magdy.png';
 import avatar8 from '../../../../assets/images/team8_Chloe_Boc.png';
 
 import teamIn from '../../../../assets/images/team_in.png';
@@ -54,7 +54,7 @@ const TeamSection = function TeamSection() {
     'Freelance Designer with a focus on branding and corporate messaging. Educated in electrical engineering and passionate about blockchain technology.',
     'Blockchain and Cryptocurrency enthusiast. Deep professional expertise in privacy law. On top of cryptocurrency regulation. Law Degree from Goethe-University in Frankfurt.',
     'Marketing specialist having worked for Hubspot and previously at Micro Focus. Experienced in implementing and assessing marketing automation strategies.'];
-  const teamPhoto = [avatar1, avatar2, avatar3, avatar4, avatar5, avatar, avatar7, avatar8];
+  const teamPhoto = [avatar1, avatar2, avatar3, avatar4, avatar5, avatar6, avatar, avatar8];
   return (
     <section id="team_section">
       <div className={title}>
