@@ -20,6 +20,7 @@ import roadmap_item6 from '../../../../assets/images/roadmap_item6.png';
 import roadmap_item7 from '../../../../assets/images/roadmap_item7.png';
 import roadmap_item8 from '../../../../assets/images/roadmap_item8.png';
 import roadmap_item9 from '../../../../assets/images/roadmap_item9.png';
+import roadmap_item10 from '../../../../assets/images/roadmap_item10.png';
 
 import arrow_up from '../../../../assets/images/arrow_up.png';
 import arrow_down from '../../../../assets/images/arrow_down.png';
@@ -59,7 +60,7 @@ class RoadmapSection extends React.Component {
             ROADMAP
           </div>
           <div className={subTitleDetail}>
-            <p> QUIS BIBENDUM AUCTOR, NISI ELIT CONSEQUAT IPSUM, NEC SAGITTIS SEM NIBH ID ELIF. DUIS SED ODIO SIT AMET NIBH IM </p>
+            <p> Take a look at our roadmap to see how we intent to fulfill our vision. Over the coming weeks and months we have a lot in store to bring you the most successful currency possible! </p>
           </div>
         </div>
         <div className="container">
@@ -86,6 +87,7 @@ class RoadmapSection extends React.Component {
                     <img src={roadmap_item7} />
                     <img src={roadmap_item8} />
                     <img src={roadmap_item9} />
+                    <img src={roadmap_item10} />
                   </div>
                   <div className={linedot}>
                     <img src={roadmap_line_new} className={styles.roadmap_line_new} />
@@ -103,8 +105,8 @@ class RoadmapSection extends React.Component {
             <div className="col-md-6 col-10">
               <div className={roadDiv} id="roadDiv">
                 <div className={styles.roadDetailTitle} id="itemTitle"> 1POW PHASE PERIOD </div>
-                <div className={styles.roadDetailDate}> 1August 17th 2016 </div>
-                <div className={styles.roadDetails}>
+                <div className={styles.roadDetailDate} id="itemDate"> 1August 17th 2016 </div>
+                <div className={styles.roadDetails} id="itemDetail">
                   1Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nt taciton neqtum nunc. Etiatas,  massa nisl quis neque. Sein orci enim
                 </div>
               </div>

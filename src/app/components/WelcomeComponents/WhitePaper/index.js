@@ -2,13 +2,13 @@ import React from 'react';
 import MoreButton from '../../MoreButton';
 import * as styles from './styles.css';
 
-const WhitePaperSection = function WhitePaperSection(){
-  const title = ["wow fadeInLeft  animated", styles.whitepaperTitle].join(" ");
-  const subTitle = ["wow fadeInUp  animated", styles.whitepaperSubTitle].join(" ");
-  const buttonDownload = ["wow fadeInLeft animated", styles.buttonDownload].join(" ");
+const WhitePaperSection = function WhitePaperSection() {
+  const title = ['wow fadeInLeft  animated', styles.whitepaperTitle].join(' ');
+  const subTitle = ['wow fadeInUp  animated', styles.whitepaperSubTitle].join(' ');
+  const buttonDownload = ['wow fadeInLeft animated', styles.buttonDownload].join(' ');
 
-  const content = ["col-md-6 col-12", styles.content].join(" ");
-  return(
+  const content = ['col-md-6 col-12', styles.content].join(' ');
+  return (
     <section id="whitepaper_section">
       <div className={title}>
         KNOW MORE
@@ -23,7 +23,7 @@ const WhitePaperSection = function WhitePaperSection(){
           <div className="col-sm-10 col-xs-12">
             <div className={content}>
               <p className={styles.description}>
-                Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accequat auctor eu in elit. Class aptent taciti sociosrna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra enim
+                Our roadmap is the result of extensive research and development which we are happy to share in more detail through our whitepaper. The result of hours of work from our whole team the Quillon Whitepaper aims to give the interested investor, user and developer a deeper look at our intent. It covers the importance of a great user experience, the necessity of privacy in cryptocurrency as well as smart contracts and its applications in financial- and user-focused services on the Quillon Blockchain. It also gives you a deep insight into the technical specifications, supply schedule and more.
               </p>
               <div className="mt-5">
                 <MoreButton label="download now" btnWidth="160px" />
@@ -33,7 +33,7 @@ const WhitePaperSection = function WhitePaperSection(){
         </div>
       </div>
     </section>
-  )
+  );
 };
 
 export default WhitePaperSection;

@@ -1,6 +1,16 @@
 // roadmap items
-const itemTitle = ['POW PHASE PERIOD1', 'POW PHASE PERIOD2', 'POW PHASE PERIOD3', 'POW PHASE PERIOD4', 'POW PHASE PERIOD5', 'POW PHASE PERIOD6', 'POW PHASE PERIOD7', 'POW PHASE PERIOD8', 'POW PHASE PERIOD9'];
-const itemDate = ['August 17th 2016', 'August 17th 2016', 'August 17th 2016', 'August 17th 2016', 'August 17th 2016', 'August 17th 2016', 'August 17th 2016', 'August 17th 2016', 'August 17th 2016'];
+const itemTitle = ['Quillon Blockchain Launch', 'Quillon Foundation Setup', 'Quillon Platform Launch', 'Multi-Currency Wallet Support', 'Privacy Enhancements', 'Smart Contract Engine Release', 'Cryptocurrency Exchange', 'Self-Governance Budget Voting', 'Peer to Peer Lending V1.0', 'Decentralized Fractional Reserve Bank V1.0'];
+const itemDate = ['Q2 2018', 'Q3 2018', 'Q4 2018', 'Q4 2018', 'Q4 2018 to Q1 2019', 'Q1 2019', 'Q1 2019', 'Q1 2019', 'Q2 2019', 'Q3 2019'];
+const itemDetail = ['Quillon blockchain launches and allows everybody to become a part of the vibrant community interested in making cryptocurrency a simpler and more inclusive space. Quillon will be launching with a multi month proof-of-work period to achieve widespread distribution.',
+  'After gaining initial traction Quillon aims to incorporate as a not for profit foundation in Zug, Switzerland. Similar to the Ethereum and Bitcoin Foundations we believe that cryptocurrencies need to be built on independence, only being accountable to the community of users.',
+  'Quillon aims to launch its web platform late this year. Providing users access to a simple, gamified, easy to understand and use environment to manage, spend and earn our coin. In our initial release giving users access to one-click masternode hosting, one-click staking and more.',
+  'To provide a truly inclusive user experience we believe it is vital for our community to have access to the most important cryptocurrencies today. For this reason we aim to provide a Multi-Currency Wallet at or close to launch of our platform.',
+  'User Privacy is becoming more important, and more threatened, each day. We aim to substantially improve on existing security and privacy features by implementing improvements to the LibZeroCoin protocol as well as a TOR Network Integration and a Double Anonymous Send and Receive',
+  'To facilitate the financial and user experience related features of our future roadmap we aim to introduce a smart contract engine on our blockchain at the beginning of the coming year. Such an engine will unlock providing a domain name service, collectibles, lotteries and financial services.',
+  'To improve liquidity and availability of our currency and to simplify the process of buying in and out of Quillon and other currencies offered on the platform we intend to integrate with decentralized currency exchanges and offer trading directly through the Quillon web app.',
+  'As we move towards fulfilling the initial vision of our platform we will enable our community to play an active role in determining how we spend our budget and continue to develop and evangelize Quillon to the world.',
+  'As Quillon matures and we will add peer to peer lending to our platform which will both allow us to support our members, giving them the chance to take a loan or earn an interest rate on their investment. This further allows us to create an autonomous monetary policy through the establishment of an interest rate. ',
+  'Continuing along our journey to become a serious alternative to existing currencies we aim to reduce the volatility currently present in other cryptocurrencies through decentralized fractional reserve banking which allows for an organic expansion and contraction of the available money supply.'];
 let currentIndex = 0;
 // Main Particle Theme JS, '1POW PHASE PERIOD
 $(document).ready(() => {
@@ -764,11 +774,16 @@ function doAnimate() {
   $this = reset($this);
   $this.addClass('fadeInRight animated');
   $('#itemTitle').html(itemTitle[currentIndex]);
+  $('#itemDate').html(itemDate[currentIndex]);
+  $('#itemDetail').html(itemDetail[currentIndex]);
   console.log(currentIndex);
 }
 
 
 $(document).ready(() => {
+  $('#itemTitle').html(itemTitle[0]);
+  $('#itemDate').html(itemDate[0]);
+  $('#itemDetail').html(itemDetail[0]);
   const carousel = $('.carousel').waterwheelCarousel();
   let roadmap_value = 1;
   $('#button_left').css({ opacity: 0.1 });
