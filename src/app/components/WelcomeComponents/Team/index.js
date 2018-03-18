@@ -65,7 +65,7 @@ const TeamSection = function TeamSection() {
           TEAM
         </div>
         <div className={styles.teamDetail}>
-          Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nelit. Duis sed od amet nibh
+          Nothing beats a strong team which allows all members to contribute to the best of their ability. You can learn more about each member here. Feel free to get in touch if you are interested in contributing yourself.
         </div>
       </div>
       <div className={profileContainer}>
@@ -78,12 +78,6 @@ const TeamSection = function TeamSection() {
           <Profile name={teamName[5]} level={teamLevel[5]} description={teamDescription[5]} photo={teamPhoto[5]} />
           <Profile name={teamName[6]} level={teamLevel[6]} description={teamDescription[6]} photo={teamPhoto[6]} />
           <Profile name={teamName[7]} level={teamLevel[7]} description={teamDescription[7]} photo={teamPhoto[7]} />
-          {/* <Profile name="Maria" />*/}
-          {/* <Profile name="Maria" />*/}
-          {/* <Profile name="Maria" />*/}
-          {/* <Profile name="Maria" />*/}
-          {/* <Profile name="Maria" />*/}
-          {/* <Profile name="Maria" />*/}
         </div>
       </div>
     </section>
