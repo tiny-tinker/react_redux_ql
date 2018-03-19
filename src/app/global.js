@@ -539,8 +539,8 @@ $(document).ready(() => {
        */
       $(this).find('img').bind('click', function () {
         const itemPosition = $(this).data().currentPosition;
-        currentIndex = 9 + currentIndex + itemPosition;
-        currentIndex %= 9;
+        currentIndex = 10 + currentIndex + itemPosition;
+        currentIndex %= 10;
         doAnimate();
         if (options.imageNav == false) {
           return;
@@ -625,15 +625,15 @@ $(document).ready(() => {
             // calculate currentIndex
             currentIndex--;
             if (currentIndex < 0) {
-              currentIndex = 8;
+              currentIndex = 9;
             }
-            currentIndex %= 9;
+            currentIndex %= 10;
           } else if (direction == 'forward') {
             options.movingToCenter(nextItemFromCenter());
             data.currentDirection = 'forward';
             // calculate currentIndex
             currentIndex++;
-            currentIndex %= 9;
+            currentIndex %= 10;
           }
         }
 

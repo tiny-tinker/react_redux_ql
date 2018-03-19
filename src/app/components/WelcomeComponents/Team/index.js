@@ -49,9 +49,9 @@ const TeamSection = function TeamSection() {
   const teamDescription = ['Experienced PM working on seven figure projects for premier user experience focused B2C unicorn at Dropbox and infrastructure IT giant Micro Focus.',
     'PhD in Computer Science from Boston University and MS in Mathematics from MIT. R&D Wizard. 20+ years of experience in cryptography and IT security. Cypherpunk.',
     'Experienced Macroeconomist with a MS from the London School of Economics. Spend eight years working at various hedgefunds in London.',
-    'Full stack developer with seven years of experience in different languages and frameworks. Experienced in Decentralized Exchange and Blockchain technology.',
+    'Full stack developer in various languages and frameworks. Experienced in Decentralized Exchange and Blockchain technology.',
     'Majored in Computer Networking from Liaoning University of technology. 8 years of experience in web development.',
-    'Freelance Designer with a focus on branding and corporate messaging. Educated in electrical engineering and passionate about blockchain technology.',
+    'Freelance Designer with a focus on branding and corporate messaging. Educated in Computer Engineering and passionate about blockchain technology.',
     'Blockchain and Cryptocurrency enthusiast. Deep professional expertise in privacy law. On top of cryptocurrency regulation. Law Degree from Goethe-University in Frankfurt.',
     'Marketing specialist having worked for Hubspot and previously at Micro Focus. Experienced in implementing and assessing marketing automation strategies.'];
   const teamPhoto = [avatar1, avatar2, avatar3, avatar4, avatar5, avatar6, avatar, avatar8];
