@@ -10,19 +10,15 @@ const FooterComponent = function FooterComponent() {
           <div className="col-lg-2 col-sm-4">
             <div className="text-left">
               <h3 className={footerTitle}> <b>quillon</b></h3>
-              <p className="text-white">  lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, nisi nc. Etiam pharetra, erat sed ferms neque. Suspendisse in orci enim</p>
+              <p className="text-white">  Quillon. A new stable cryptocurrency with an algorithm based central bank supporting a user friendly business to consumer software as a service platform.</p>
             </div>
           </div>
-          <div className="col-lg-2 offset-lg-1 col-md-2 col-sm-3"> </div>
-          <div className="col-lg-2 offset-lg-1 col-md-2 col-sm-3">
+          <div className="col-lg-1 offset-lg-1 col-md-1 col-sm-3"> </div>
+          <div className="col-lg-3 offset-lg-1 col-md-3 col-sm-3">
             <dl className={styles.menu}>
-              <dd><a href="" className="text-white">About us</a></dd>
-              <dd><a href="" className="text-white">Roadmap</a></dd>
-              <dd><a href="" className="text-white">Connect</a></dd>
-              <dd><a href="" className="text-white">Wallets</a></dd>
-              <dd><a href="" className="text-white">Exchanges</a></dd>
-              <dd><a href="" className="text-white">Mining pool</a></dd>
-              <dd><a href="" className="text-white">Guides</a></dd>
+              <dd><a href="#hero" className="text-white">1. Links at top menu</a></dd>
+              <dd><a href="#join_section" className="text-white">2. Links on network section</a></dd>
+              <dd><a href="#connect_section" className="text-white">3. Links in connect area</a></dd>
             </dl>
           </div>
           <div className="col-lg-6 col-sm-6"> </div>
