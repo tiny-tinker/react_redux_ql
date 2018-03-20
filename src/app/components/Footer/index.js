@@ -26,7 +26,7 @@ const FooterComponent = function FooterComponent() {
           </div>
           <div className="col-lg-3 col-md-3 col-sm-3">
             <dl className={styles.menu}>
-              <dd><a href="#hero" className="text-white">Wallets</a></dd>
+              <dd><a href="#" className="text-white">Wallets</a></dd>
               <dd><a href="#" className="text-white">- Windows</a></dd>
               <dd><a href="#" className="text-white">- Linux</a></dd>
               <dd><a href="#" className="text-white">- Mac OS</a></dd>
@@ -38,7 +38,7 @@ const FooterComponent = function FooterComponent() {
           </div>
           <div className="col-lg-3 col-md-2 col-sm-2">
             <dl className={styles.menu}>
-              <dd><a href="#hero" className="text-white">Facebook</a></dd>
+              <dd><a href="#" className="text-white">Facebook</a></dd>
               <dd><a href="#" className="text-white">Instagram</a></dd>
               <dd><a href="#" className="text-white">Twitter</a></dd>
               <dd><a href="#" className="text-white">GitHub</a></dd>
