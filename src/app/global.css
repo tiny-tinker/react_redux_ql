@@ -397,10 +397,23 @@ http://www.Mkrtchyan.zz.mu
   background:url('../assets/images/dot.png') no-repeat;
 }
 
-#dot_down:hover, #dot_up:hover{
+#dot_bright{
+  width:150px;
+  height:150px;
+  background:url('../assets/images/bright_dot.png') no-repeat;
+}
+
+#dot_up:hover, #dot_down:hover{
   /*-webkit-transition: all 300ms ease-in;*/
   /*-webkit-transform: scale(1);*/
   background:url('../assets/images/bright_dot.png') no-repeat;
+}
+
+#dot_up:hover + #dot_bright {
+  background:url('../assets/images/dot.png') no-repeat;
+}
+#dot_down:hover + #dot_bright {
+  background:url('../assets/images/dot.png') no-repeat;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -428,6 +441,10 @@ http://www.Mkrtchyan.zz.mu
 /*================================ Footer Section ==================*/
 footer p {
   font-size: unset !important;
+}
+
+footer {
+  height:320px !important;
 }
 
 /*========================================= Roadmap Section ==================*/

@@ -26,7 +26,7 @@ const WhitePaperSection = function WhitePaperSection() {
                 Our roadmap is the result of extensive research and development which we are happy to share in more detail through our whitepaper. The result of hours of work from our whole team the Quillon Whitepaper aims to give the interested investor, user and developer a deeper look at our intent. It covers the importance of a great user experience, the necessity of privacy in cryptocurrency as well as smart contracts and its applications in financial- and user-focused services on the Quillon Blockchain. It also gives you a deep insight into the technical specifications, supply schedule and more.
               </p>
               <div className="mt-5">
-                <MoreButton label="download now" btnWidth="160px" />
+                <MoreButton label="Download Now" btnWidth="160px" />
               </div>
             </div>
           </div>

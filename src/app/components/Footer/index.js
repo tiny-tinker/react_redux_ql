@@ -13,15 +13,37 @@ const FooterComponent = function FooterComponent() {
               <p className="text-white">  Quillon. A new stable cryptocurrency with an algorithm based central bank supporting a user friendly business to consumer software as a service platform.</p>
             </div>
           </div>
-          <div className="col-lg-1 offset-lg-1 col-md-1 col-sm-3"> </div>
+          {/*<div className="col-lg-1 offset-lg-1 col-md-1 col-sm-3"> </div>*/}
           <div className="col-lg-3 offset-lg-1 col-md-3 col-sm-3">
             <dl className={styles.menu}>
-              <dd><a href="#hero" className="text-white">1. Links at top menu</a></dd>
-              <dd><a href="#join_section" className="text-white">2. Links on network section</a></dd>
-              <dd><a href="#connect_section" className="text-white">3. Links in connect area</a></dd>
+              <dd><a href="#hero" className="text-white">Home</a></dd>
+              <dd><a href="#" className="text-white">Benefits</a></dd>
+              <dd><a href="#" className="text-white">Statistics</a></dd>
+              <dd><a href="#" className="text-white">Network</a></dd>
+              <dd><a href="#" className="text-white">Roadmap</a></dd>
+              <dd><a href="#" className="text-white">Team</a></dd>
             </dl>
           </div>
-          <div className="col-lg-6 col-sm-6"> </div>
+          <div className="col-lg-3 col-md-3 col-sm-3">
+            <dl className={styles.menu}>
+              <dd><a href="#hero" className="text-white">Wallets</a></dd>
+              <dd><a href="#" className="text-white">- Windows</a></dd>
+              <dd><a href="#" className="text-white">- Linux</a></dd>
+              <dd><a href="#" className="text-white">- Mac OS</a></dd>
+              <dd><a href="#" className="text-white">Tradesatoshi</a></dd>
+              <dd><a href="#" className="text-white">Crytopia</a></dd>
+              <dd><a href="#" className="text-white">Masternode Guide</a></dd>
+              <dd><a href="#" className="text-white">Mining Pool</a></dd>
+            </dl>
+          </div>
+          <div className="col-lg-3 col-md-2 col-sm-2">
+            <dl className={styles.menu}>
+              <dd><a href="#hero" className="text-white">Facebook</a></dd>
+              <dd><a href="#" className="text-white">Instagram</a></dd>
+              <dd><a href="#" className="text-white">Twitter</a></dd>
+              <dd><a href="#" className="text-white">GitHub</a></dd>
+            </dl>
+          </div>
         </div>
       </div>
     </footer>
