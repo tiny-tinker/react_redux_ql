@@ -51,7 +51,7 @@ const ConnectSection = function ConnectSection() {
                   <div className={['col-12', styles.signInputContainer].join(' ')}>
                     <input className={styles.signInput} type="text" placeholder="enter your email address" />
                     <div className={styles.signInputBtn}>
-                      <MoreButton label="sign up" width="110px" />
+                      <MoreButton label="Sign Up" width="110px" />
                     </div>
                   </div>
                 </div>

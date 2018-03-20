@@ -94,7 +94,8 @@ class RoadmapSection extends React.Component {
                     <div className={styles.dotDiv}>
                       {/*<img src={dot} id="dot_up" />*/}
                       <div id="dot_up" />
-                      <img src={bright_dot} id="dot_bright" />
+                      {/*<img src={bright_dot} id="dot_bright" />*/}
+                      <div id="dot_bright" />
                       <div id="dot_down" />
                     </div>
                   </div>
@@ -105,7 +106,6 @@ class RoadmapSection extends React.Component {
             <div className="col-md-6 col-10">
               <div className={roadDiv} id="roadDiv">
                 <div className={styles.roadDetailTitle} id="itemTitle"> 1POW PHASE PERIOD </div>
-                <div className={styles.roadDetailDate} id="itemDate"> 1August 17th 2016 </div>
                 <div className={styles.roadDetails} id="itemDetail">
                   1Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nt taciton neqtum nunc. Etiatas,  massa nisl quis neque. Sein orci enim
                 </div>
