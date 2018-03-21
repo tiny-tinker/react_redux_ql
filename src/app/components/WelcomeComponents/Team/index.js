@@ -22,10 +22,10 @@ const Profile = function Profile(props) {
     <div className={PersonProfile}>
       <div className="row wow fadeInLeft animated">
         <div className="col-lg-4 text-center">
-          <a href="#" className="d-block mb-4 h-100">
+          <div className="d-block mb-4 h-100">
             <img className={styles.imgCircle} src={props.photo} width="200" height="200" alt="" />
-            <img className={styles.teamIn} src={teamIn} alt="" />
-          </a>
+            <a href={props.linkedIn} target="blank"> <img className={styles.teamIn} src={teamIn} alt="" /> </a>
+          </div>
         </div>
         <div className={Detail}>
           <div className={styles.name}> {props.name} </div>
@@ -56,6 +56,14 @@ const TeamSection = function TeamSection() {
     'Blockchain and Cryptocurrency enthusiast. Deep professional expertise in privacy law. On top of cryptocurrency regulation. Law Degree from Goethe-University in Frankfurt.',
     'Marketing specialist having worked for Hubspot and previously at Micro Focus. Experienced in implementing and assessing marketing automation strategies.'];
   const teamPhoto = [avatar1, avatar2, avatar3, avatar4, avatar5, avatar6, avatar7, avatar8];
+  const urlLinkedin = ['https://www.linkedin.com/in/henning-luebberding-11b74a88/',
+    'https://www.linkedin.com/in/mark-reynolds-991a2114/',
+    'https://www.linkedin.com/in/zachary-elfman-66389b4/',
+    'https://www.linkedin.com/in/xinzhe-li-16586b15b/',
+    'https://www.linkedin.com/in/qiang-dong-7b5a3415b/',
+    'https://www.linkedin.com/in/john-magdy-a95852b6/',
+    '',
+    'https://www.linkedin.com/in/chlo%C3%A9-bocquillon-052a8b74/'];
   return (
     <section id="team_section">
       <div className={title}>
@@ -71,14 +79,14 @@ const TeamSection = function TeamSection() {
       </div>
       <div className={profileContainer}>
         <div className="row">
-          <Profile name={teamName[0]} level={teamLevel[0]} description={teamDescription[0]} photo={teamPhoto[0]} />
-          <Profile name={teamName[1]} level={teamLevel[1]} description={teamDescription[1]} photo={teamPhoto[1]} />
-          <Profile name={teamName[2]} level={teamLevel[2]} description={teamDescription[2]} photo={teamPhoto[2]} />
-          <Profile name={teamName[3]} level={teamLevel[3]} description={teamDescription[3]} photo={teamPhoto[3]} />
-          <Profile name={teamName[4]} level={teamLevel[4]} description={teamDescription[4]} photo={teamPhoto[4]} />
-          <Profile name={teamName[5]} level={teamLevel[5]} description={teamDescription[5]} photo={teamPhoto[5]} />
-          <Profile name={teamName[6]} level={teamLevel[6]} description={teamDescription[6]} photo={teamPhoto[6]} />
-          <Profile name={teamName[7]} level={teamLevel[7]} description={teamDescription[7]} photo={teamPhoto[7]} />
+          <Profile name={teamName[0]} level={teamLevel[0]} description={teamDescription[0]} photo={teamPhoto[0]} linkedIn={urlLinkedin[0]} />
+          <Profile name={teamName[1]} level={teamLevel[1]} description={teamDescription[1]} photo={teamPhoto[1]} linkedIn={urlLinkedin[1]} />
+          <Profile name={teamName[2]} level={teamLevel[2]} description={teamDescription[2]} photo={teamPhoto[2]} linkedIn={urlLinkedin[2]} />
+          <Profile name={teamName[3]} level={teamLevel[3]} description={teamDescription[3]} photo={teamPhoto[3]} linkedIn={urlLinkedin[3]} />
+          <Profile name={teamName[4]} level={teamLevel[4]} description={teamDescription[4]} photo={teamPhoto[4]} linkedIn={urlLinkedin[4]} />
+          <Profile name={teamName[5]} level={teamLevel[5]} description={teamDescription[5]} photo={teamPhoto[5]} linkedIn={urlLinkedin[5]} />
+          <Profile name={teamName[6]} level={teamLevel[6]} description={teamDescription[6]} photo={teamPhoto[6]} linkedIn={urlLinkedin[6]} />
+          <Profile name={teamName[7]} level={teamLevel[7]} description={teamDescription[7]} photo={teamPhoto[7]} linkedIn={urlLinkedin[7]} />
         </div>
       </div>
     </section>

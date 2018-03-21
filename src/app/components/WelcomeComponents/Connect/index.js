@@ -25,16 +25,16 @@ const ConnectSection = function ConnectSection() {
               <div className="col-md-10 col-lg-5 col-12">
                 <div className="row">
                   <div className="col">
-                    <a href="#" className={styles.connectIcon}> <i className="fa fa-facebook wow fadeInUp  animated"> </i> </a>
+                    <a href="https://www.facebook.com/quilloncurrency/" target="blank" className={styles.connectIcon}> <i className="fa fa-facebook wow fadeInUp  animated"> </i> </a>
                   </div>
                   <div className="col">
-                    <a href="#" className={styles.connectIcon}> <i className="fa fa-instagram wow fadeInUp  animated"> </i> </a>
+                    <a href="https://www.instagram.com/quilloncurrency/" target="blank" className={styles.connectIcon}> <i className="fa fa-instagram wow fadeInUp  animated"> </i> </a>
                   </div>
                   <div className="col">
-                    <a href="#" className={styles.connectIcon}> <i className="fa fa-twitter wow fadeInUp  animated"> </i> </a>
+                    <a href="https://twitter.com/QuillonCurrency" target="blank" className={styles.connectIcon}> <i className="fa fa-twitter wow fadeInUp  animated"> </i> </a>
                   </div>
                   <div className="col">
-                    <a href="#" className={styles.connectIcon}> <i className="fa fa-github wow fadeInUp  animated"> </i> </a>
+                    <a href="https://github.com/QuillonCurrency" target="blank" className={styles.connectIcon}> <i className="fa fa-github wow fadeInUp  animated"> </i> </a>
                   </div>
                 </div>
               </div>
@@ -49,10 +49,12 @@ const ConnectSection = function ConnectSection() {
                 </div>
                 <div className="row">
                   <div className={['col-12', styles.signInputContainer].join(' ')}>
-                    <input className={styles.signInput} type="text" placeholder="enter your email address" />
-                    <div className={styles.signInputBtn}>
-                      <MoreButton label="Sign Up" width="110px" />
-                    </div>
+                    <form action="" type="post">
+                      <input className={styles.signInput} type="email" placeholder="enter your email address" name="mail" />
+                      <div className={styles.signInputBtn}>
+                        <MoreButton label="Sign Up" width="110px" type="submit" />
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>

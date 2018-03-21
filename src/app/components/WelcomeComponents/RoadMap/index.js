@@ -94,9 +94,8 @@ class RoadmapSection extends React.Component {
                     <div className={styles.dotDiv}>
                       {/*<img src={dot} id="dot_up" />*/}
                       <div id="dot_up" />
-                      {/*<img src={bright_dot} id="dot_bright" />*/}
-                      <div id="dot_bright" />
                       <div id="dot_down" />
+                      <div id="dot_bright" />
                     </div>
                   </div>
                 <div className="col-md-1">
