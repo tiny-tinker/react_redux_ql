@@ -391,30 +391,38 @@ http://www.Mkrtchyan.zz.mu
   /*-webkit-transform: scale(0.9);*/
   /*background:url('../assets/images/bright_dot.png') no-repeat;*/
 /*}*/
-#dot_down, #dot_up{
-  /*-webkit-transition: all 300ms ease-in;*/
-  /*-webkit-transform: scale(1);*/
+#dot_up{
   width:150px;
   height:150px;
   background:url('../assets/images/dot.png') no-repeat;
+}
+#dot_down{
+  width:150px;
+  height:150px;
+  background:url('../assets/images/dot.png') no-repeat;
+  position: relative;
+  top: 150px;
 }
 
 #dot_bright{
   width:150px;
   height:150px;
   background:url('../assets/images/bright_dot.png') no-repeat;
+  position:relative;
+  top:-150px;
 }
 
-#dot_up:hover, #dot_down:hover{
-  /*-webkit-transition: all 300ms ease-in;*/
-  /*-webkit-transform: scale(1);*/
+#dot_up:hover{
+  background:url('../assets/images/bright_dot.png') no-repeat;
+}
+#dot_down:hover{
   background:url('../assets/images/bright_dot.png') no-repeat;
 }
 
-#dot_up:hover + #dot_bright {
+#dot_up:hover ~ #dot_bright {
   background:url('../assets/images/dot.png') no-repeat;
 }
-#dot_down:hover + #dot_bright {
+#dot_down:hover ~ #dot_bright {
   background:url('../assets/images/dot.png') no-repeat;
 }
 
