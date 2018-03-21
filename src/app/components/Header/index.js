@@ -29,25 +29,25 @@ const HeaderComponent = function HeaderComponent() {
         <nav id="st-main-nav">
           <ul>
             <li>
-              <a onClick={(e) => handleClick('#hero', e)} className="page-scroll hvr-underline-from-center" href="#hero">home</a>
+              <a onClick={(e) => handleClick('#hero', e)} className="page-scroll hvr-underline-from-center" href="#hero">Home</a>
             </li>
             <li>
-              <a onClick={(e) => handleClick('#benefits_section', e)} className="page-scroll hvr-underline-from-center" href="#benefits_section">benefits</a>
+              <a onClick={(e) => handleClick('#benefits_section', e)} className="page-scroll hvr-underline-from-center" href="#benefits_section">Benefits</a>
             </li>
             <li>
-              <a onClick={(e) => handleClick('#compare_section', e)} className="page-scroll hvr-underline-from-center" href="#compare_section">statistics</a>
+              <a onClick={(e) => handleClick('#compare_section', e)} className="page-scroll hvr-underline-from-center" href="#compare_section">Statistics</a>
             </li>
             <li>
-              <a onClick={(e) => handleClick('#join_section', e)} className="page-scroll hvr-underline-from-center" href="#join_section">network</a>
+              <a onClick={(e) => handleClick('#join_section', e)} className="page-scroll hvr-underline-from-center" href="#join_section">Network</a>
             </li>
             <li>
-              <a onClick={(e) => handleClick('#roadmap_section', e)} className="page-scroll hvr-underline-from-center" href="#roadmap_section">roadmap</a>
+              <a onClick={(e) => handleClick('#roadmap_section', e)} className="page-scroll hvr-underline-from-center" href="#roadmap_section">Roadmap</a>
             </li>
             <li>
-              <a onClick={(e) => handleClick('#team_section', e)} className="page-scroll hvr-underline-from-center" href="#team_section">team</a>
+              <a onClick={(e) => handleClick('#team_section', e)} className="page-scroll hvr-underline-from-center" href="#team_section">Team</a>
             </li>
             <li>
-              <a onClick={(e) => handleClick('#connect_section', e)} className="page-scroll hvr-underline-from-center" href="#connect_section">contact</a>
+              <a onClick={(e) => handleClick('#connect_section', e)} className="page-scroll hvr-underline-from-center" href="#connect_section">Contact</a>
             </li>
           </ul>
         </nav>

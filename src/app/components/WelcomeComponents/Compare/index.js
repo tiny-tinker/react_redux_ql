@@ -15,10 +15,13 @@ import cryptoPia from '../../../../assets/images/cryptopia.svg';
 import cryptoPiaHover from '../../../../assets/images/cryptopia_hover.svg';
 import masterNode from '../../../../assets/images/master_node.svg';
 import masterNodeHover from '../../../../assets/images/master_node_hover.svg';
-import holdSubImg from '../../../../assets/images/hold_img.svg';
-import holdSubImgHover from '../../../../assets/images/hold_img_hover.svg';
+import ubuntu from '../../../../assets/images/ubuntu.svg';
+import ubuntuHover from '../../../../assets/images/ubuntu_hover.svg';
+import windows from '../../../../assets/images/windows.svg';
+import windowsHover from '../../../../assets/images/windows_hover.svg';
+import mac from '../../../../assets/images/apple.svg';
+import macHover from '../../../../assets/images/apple_hover.svg';
 import chooseWallet from '../../../../assets/images/choose_wallet.svg';
-import chooseWalletHover from '../../../../assets/images/choose_wallet_hover.svg';
 import joinEllipse from '../../../../assets/images/join_ellipse.png';
 import compareStatsCloud from '../../../../assets/images/compare_stats_cloud.png';
 import joinCloud1 from '../../../../assets/images/join_cloud_1.png';
@@ -48,7 +51,7 @@ class CompareSection extends React.Component {
             <div className={subtitle}>EXPLORE</div>
             <div className="row">
               <p className={sectionDescription}>
-                Being a new cryptocurrency, Quillon offers a low barrier for entry while at the same time having the best return on investment of the more serious masternode based coins today. Invest now and win big!
+                Explore the impact Quillon is looking to make. Featuring masternodes, and a proof of work consensus algorithm, Quillon is able to lay the foundation for a bright future. A coin that’s build to last and protect your investment!
               </p>
             </div>
           </div>
@@ -79,9 +82,9 @@ class CompareSection extends React.Component {
                 <br />
                 <img src={compareStatsCloud} className={styles.compareStatsCloud} role="presentation" />
                 <h4 className={styles.compareStats}>COMPARE LIVE STATS</h4>
-                <p className="text-left">quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed ot maucumsan </p>
+                <p className="text-left">Check out Quillon with statistics taken directly from our block explorer. All the information you need, directly at your fingertips.</p>
                 <div className="float-left">
-                  <MoreButton label="BLOCKEXPLORER" btnWidth="180px"> </MoreButton>
+                  <MoreButton label="Blockexplorer" btnWidth="180px"> </MoreButton>
                 </div>
               </div>
             </div>
@@ -97,7 +100,7 @@ class CompareSection extends React.Component {
             <br /> <br />
             <div className="row">
               <p className={sectionDescription}>
-                Being a new cryptocurrency, Quillon offers a low barrier for entry while at the same time having the best return on investment of the more serious masternode based coins today. Invest now and win big!
+                Being a new cryptocurrency, Quillon offers a low barrier for entry. Join our network today and become one of the first to take advantage of our revolutionary monetary policy. You can trade, hold and earn our currency via the links below!
               </p>
             </div>
           </div>
@@ -109,7 +112,7 @@ class CompareSection extends React.Component {
               <img className={styles.joinBlockImg} src={tradeImg} role="presentation" />
               <div className={styles.joinBlockTitle}> TRADE </div>
               <div className="row hover12">
-                <div className="d-inline-block">
+                <div className="d-block mx-auto">
                   <figure>
                     <img className={['bottom', styles.joinBlockSubImg].join(' ')} src={tradesatoshiBadge} role="presentation" />
                     <img className={['top ', styles.joinBlockSubImg].join(' ')} src={tradesatoshiBadgeHover} role="presentation" />
@@ -117,7 +120,7 @@ class CompareSection extends React.Component {
                 </div>
               </div>
               <div className="row hover12">
-                <div className="d-inline-block">
+                <div className="d-block mx-auto">
                   <figure>
                     <img className={['bottom', styles.joinBlockSubImg].join(' ')} src={cryptoPia} role="presentation" />
                     <img className={['top', styles.joinBlockSubImg].join(' ')} src={cryptoPiaHover} role="presentation" />
@@ -129,7 +132,7 @@ class CompareSection extends React.Component {
               <img className={styles.joinBlockImg} src={earnImg} role="presentation" />
               <div className={styles.joinBlockTitle}> EARN </div>
               <div className="row hover12">
-                <div className="d-inline-block">
+                <div className="d-block mx-auto">
                   <figure>
                     <img className={['bottom', styles.joinBlockSubImg].join(' ')} src={miningPool} role="presentation" />
                     <img className={['top', styles.joinBlockSubImg].join(' ')} src={miningPoolHover} role="presentation" />
@@ -137,7 +140,7 @@ class CompareSection extends React.Component {
                 </div>
               </div>
               <div className="row hover12">
-                <div className="d-inline-block">
+                <div className="d-block mx-auto">
                   <figure>
                     <img className={['bottom', styles.joinBlockSubImg].join(' ')} src={masterNode} role="presentation" />
                     <img className={['top', styles.joinBlockSubImg].join(' ')} src={masterNodeHover} role="presentation" />
@@ -148,19 +151,36 @@ class CompareSection extends React.Component {
             <div className="col-md-4">
               <img className={styles.joinBlockImg} src={holdImg} role="presentation" />
               <div className={styles.joinBlockTitle}> HOLD </div>
-              <div className="row hover12">
-                <div className="d-inline-block">
-                  <figure>
-                    <img className={['bottom', styles.joinBlockHoldTop].join(' ')} src={holdSubImg} role="presentation" />
-                    <img className={['top', styles.joinBlockHoldTop].join(' ')} src={holdSubImgHover} role="presentation" />
-                  </figure>
+              <div className={[styles.margin_top_18px, 'row pl-3 pr-3'].join(' ')}>
+                <div className="col-3 p-4 hover12 ml-auto">
+                  <div className="d-block">
+                    <figure>
+                      <img className={['bottom', styles.joinBlockHoldTop].join(' ')} src={windows} role="presentation" />
+                      <img className={['top', styles.joinBlockHoldTop].join(' ')} src={windowsHover} role="presentation" />
+                    </figure>
+                  </div>
+                </div>
+                <div className="col-3 p-4 hover12 mx-auto">
+                  <div className="d-block">
+                    <figure>
+                      <img className={['bottom', styles.joinBlockHoldTop].join(' ')} src={mac} role="presentation" />
+                      <img className={['top', styles.joinBlockHoldTop].join(' ')} src={macHover} role="presentation" />
+                    </figure>
+                  </div>
+                </div>
+                <div className="col-3 p-4 hover12 mr-auto">
+                  <div className="d-block">
+                    <figure>
+                      <img className={['bottom', styles.joinBlockHoldTop].join(' ')} src={ubuntu} role="presentation" />
+                      <img className={['top', styles.joinBlockHoldTop].join(' ')} src={ubuntuHover} role="presentation" />
+                    </figure>
+                  </div>
                 </div>
               </div>
-              <div className="row hover12">
-                <div className="d-inline-block">
+              <div className="row">
+                <div className="d-block mx-auto">
                   <figure>
                     <img className={['bottom', styles.joinBlockHoldBottom].join(' ')} src={chooseWallet} role="presentation" />
-                    <img className={['top', styles.joinBlockHoldBottom].join(' ')} src={chooseWalletHover} role="presentation" />
                   </figure>
                 </div>
               </div>
