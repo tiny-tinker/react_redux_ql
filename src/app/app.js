@@ -58,7 +58,7 @@ import '!script-loader!../assets/js/libraries/jquery.counterup';
 import '!script-loader!../app/global';
 
 // Import selector for `syncHistoryWithStore`
-//import { makeSelectLocationState } from 'containers/App/selectors';
+// import { makeSelectLocationState } from 'containers/App/selectors';
 
 // Load favicon and manifest.json file
 /* eslint-disable import/no-unresolved, import/extensions */
