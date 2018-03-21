@@ -7,8 +7,9 @@ import avatar2 from '../../../../assets/images/team2_Mark_Reynolds.png';
 import avatar3 from '../../../../assets/images/team3_Zachary_Elfman.png';
 import avatar4 from '../../../../assets/images/team4_Xinzhe_Li.png';
 import avatar5 from '../../../../assets/images/team5_Qiang_Dong.png';
-import avatar6 from '../../../../assets/images/team7_John Magdy.png';
-import avatar8 from '../../../../assets/images/team8_Chloe_Boc.png';
+import avatar6 from '../../../../assets/images/team6_John Magdy.png';
+import avatar7 from '../../../../assets/images/team7_Damian_Thiele.png';
+import avatar8 from '../../../../assets/images/team8_Chloe_Bocq.png';
 
 import teamIn from '../../../../assets/images/team_in.png';
 import teamWave from '../../../../assets/images/team_wave.png';
@@ -44,17 +45,17 @@ const TeamSection = function TeamSection() {
   const subTitle = ['wow fadeInUp  animated', styles.teamSubTitle].join(' ');
   const profileContainer = ['container', styles.profileContainer].join(' ');
 
-  const teamName = ['Henning Lubberding', 'Mark Reynolds', 'Zachary Elfman', 'Xinzhe Li', 'Qiang Dong', 'John Magdy', 'Damian Thiele', 'Chloe Boc'];
+  const teamName = ['Henning Lübberding', 'Mark Reynolds', 'Zachary Elfman', 'Xinzhe Li', 'Qiang Dong', 'John Magdy', 'Damian Thiele', 'Chloé Bocquillon'];
   const teamLevel = ['Founder', 'Head of Development', 'Head of Monetary Policy', 'Senior Developer', 'Senior Developer', 'Designer', 'Legal Advisor', 'Marketing'];
-  const teamDescription = ['Experienced PM working on seven figure projects for premier user experience focused B2C unicorn at Dropbox and infrastructure IT giant Micro Focus.',
+  const teamDescription = ['Experienced leading large scale projects for premier user experience focused B2C unicorn at Dropbox and infrastructure IT giant Micro Focus.',
     'PhD in Computer Science from Boston University and MS in Mathematics from MIT. R&D Wizard. 20+ years of experience in cryptography and IT security. Cypherpunk.',
-    'Experienced Macroeconomist with a MS from the London School of Economics. Spend eight years working at various hedgefunds in London.',
-    'Full stack developer with seven years of experience in different languages and frameworks. Experienced in Decentralized Exchange and Blockchain technology.',
+    'Experienced Macroeconomist with a MS from the London School of Economics. Spent eight years working at various hedgefunds in London.',
+    'Full stack developer in designing and developing web application development with various languages and frameworks. Experienced in Decentralized Exchange and Blockchain technology.',
     'Majored in Computer Networking from Liaoning University of technology. 8 years of experience in web development.',
-    'Freelance Designer with a focus on branding and corporate messaging. Educated in electrical engineering and passionate about blockchain technology.',
+    'Freelance Designer with a focus on branding and corporate messaging. Educated in Computer Engineering and passionate about blockchain technology.',
     'Blockchain and Cryptocurrency enthusiast. Deep professional expertise in privacy law. On top of cryptocurrency regulation. Law Degree from Goethe-University in Frankfurt.',
     'Marketing specialist having worked for Hubspot and previously at Micro Focus. Experienced in implementing and assessing marketing automation strategies.'];
-  const teamPhoto = [avatar1, avatar2, avatar3, avatar4, avatar5, avatar6, avatar, avatar8];
+  const teamPhoto = [avatar1, avatar2, avatar3, avatar4, avatar5, avatar6, avatar7, avatar8];
   return (
     <section id="team_section">
       <div className={title}>

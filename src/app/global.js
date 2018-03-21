@@ -1,6 +1,5 @@
 // roadmap items
 const itemTitle = ['Quillon Blockchain Launch', 'Quillon Foundation Setup', 'Quillon Platform Launch', 'Multi-Currency Wallet Support', 'Privacy Enhancements', 'Smart Contract Engine Release', 'Cryptocurrency Exchange', 'Self-Governance Budget Voting', 'Peer to Peer Lending V1.0', 'Decentralized Fractional Reserve Bank V1.0'];
-const itemDate = ['Q2 2018', 'Q3 2018', 'Q4 2018', 'Q4 2018', 'Q4 2018 to Q1 2019', 'Q1 2019', 'Q1 2019', 'Q1 2019', 'Q2 2019', 'Q3 2019'];
 const itemDetail = ['Quillon blockchain launches and allows everybody to become a part of the vibrant community interested in making cryptocurrency a simpler and more inclusive space. Quillon will be launching with a multi month proof-of-work period to achieve widespread distribution.',
   'After gaining initial traction Quillon aims to incorporate as a not for profit foundation in Zug, Switzerland. Similar to the Ethereum and Bitcoin Foundations we believe that cryptocurrencies need to be built on independence, only being accountable to the community of users.',
   'Quillon aims to launch its web platform late this year. Providing users access to a simple, gamified, easy to understand and use environment to manage, spend and earn our coin. In our initial release giving users access to one-click masternode hosting, one-click staking and more.',
@@ -539,8 +538,8 @@ $(document).ready(() => {
        */
       $(this).find('img').bind('click', function () {
         const itemPosition = $(this).data().currentPosition;
-        currentIndex = 9 + currentIndex + itemPosition;
-        currentIndex %= 9;
+        currentIndex = 10 + currentIndex + itemPosition;
+        currentIndex %= 10;
         doAnimate();
         if (options.imageNav == false) {
           return;
@@ -625,15 +624,15 @@ $(document).ready(() => {
             // calculate currentIndex
             currentIndex--;
             if (currentIndex < 0) {
-              currentIndex = 8;
+              currentIndex = 9;
             }
-            currentIndex %= 9;
+            currentIndex %= 10;
           } else if (direction == 'forward') {
             options.movingToCenter(nextItemFromCenter());
             data.currentDirection = 'forward';
             // calculate currentIndex
             currentIndex++;
-            currentIndex %= 9;
+            currentIndex %= 10;
           }
         }
 
@@ -774,7 +773,6 @@ function doAnimate() {
   $this = reset($this);
   $this.addClass('fadeInRight animated');
   $('#itemTitle').html(itemTitle[currentIndex]);
-  $('#itemDate').html(itemDate[currentIndex]);
   $('#itemDetail').html(itemDetail[currentIndex]);
   console.log(currentIndex);
 }
@@ -782,7 +780,6 @@ function doAnimate() {
 
 $(document).ready(() => {
   $('#itemTitle').html(itemTitle[0]);
-  $('#itemDate').html(itemDate[0]);
   $('#itemDetail').html(itemDetail[0]);
   const carousel = $('.carousel').waterwheelCarousel();
   let roadmap_value = 1;
@@ -868,4 +865,5 @@ $(document).ready(() => {
     carousel.prev();
     doAnimate();
   });
+
 });
