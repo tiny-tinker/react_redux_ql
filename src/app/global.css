@@ -55,8 +55,10 @@ input::-moz-placeholder {
 
 .hover12 figure img {
   opacity: 1;
+  width: 100%;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
+  vertical-align: middle;
 }
 
 .hover12 figure:hover img.top {
