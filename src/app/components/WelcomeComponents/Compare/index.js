@@ -84,7 +84,7 @@ class CompareSection extends React.Component {
                 <h4 className={styles.compareStats}>COMPARE LIVE STATS</h4>
                 <p className="text-left">Check out Quillon with statistics taken directly from our block explorer. All the information you need, directly at your fingertips.</p>
                 <div className="float-left">
-                  <MoreButton label="BLOCKEXPLORER" btnWidth="180px"> </MoreButton>
+                  <MoreButton label="Blockexplorer" btnWidth="180px"> </MoreButton>
                 </div>
               </div>
             </div>

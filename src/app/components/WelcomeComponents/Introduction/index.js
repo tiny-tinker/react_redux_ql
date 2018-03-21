@@ -53,7 +53,7 @@ const IntroductionSection = function IntroductionSection() {
                   </p>
                 </div>
               </div>
-              <MoreButton label="explore"> </MoreButton>
+              <MoreButton label="Explore"> </MoreButton>
             </div>
           </div>
           <div className={scrollIndicator}>
