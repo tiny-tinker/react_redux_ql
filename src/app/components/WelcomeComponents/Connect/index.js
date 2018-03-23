@@ -49,10 +49,10 @@ const ConnectSection = function ConnectSection() {
                 </div>
                 <div className="row">
                   <div className={['col-12', styles.signInputContainer].join(' ')}>
-                    <form action="" type="post">
-                      <input className={styles.signInput} type="email" placeholder="enter your email address" name="mail" />
-                      <div className={styles.signInputBtn}>
-                        <MoreButton label="Sign Up" width="110px" type="submit" />
+                    <form action="#">
+                      <input className={styles.signInput} type="email" placeholder="enter your email address" id="emailInput" required />
+                      <div className={styles.signInputBtn} id="btn_submit">
+                        <MoreButton label="Sign Up" width="110px" />
                       </div>
                     </form>
                   </div>
