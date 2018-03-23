@@ -55,6 +55,7 @@ import '!script-loader!../assets/js/libraries/wow';
 import '!script-loader!../assets/js/libraries/particles';
 import '!script-loader!../assets/js/libraries/waypoint';
 import '!script-loader!../assets/js/libraries/jquery.counterup';
+import '!script-loader!../assets/js/libraries/hsform';
 import '!script-loader!../app/global';
 
 // Import selector for `syncHistoryWithStore`

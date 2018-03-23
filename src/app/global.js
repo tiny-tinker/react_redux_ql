@@ -865,5 +865,37 @@ $(document).ready(() => {
     carousel.prev();
     doAnimate();
   });
+  // newsletter setting
+  setTimeout(() => {
+    $('#email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37').val('');
+  }, 1000);
 
+  $('#emailInput').change(() => {
+    const email = $('#emailInput').val();
+    $('#email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37').val(email);
+  });
+  $('#btn_submit').click(() => {
+    const submitBtn = $('.hs-button');
+    submitBtn.trigger('click');
+  });
 });
+
+// (function (id, src) {
+//   if (document.getElementById(id)) { return; }
+//   const js = document.createElement('script');
+//   js.src = src;
+//   js.type = 'text/javascript';
+//   js.id = id;
+//   // const e = document.getElementsByTagName('script')[0];
+//   const e = document.getElementById('hs-script-loader');
+//   e.parentNode.insertBefore(js, e);
+// }('hs-analytics', '//js.hs-analytics.net/analytics/1521740700000/4082766.js'));
+//
+// $(document).ready(() => {
+//   // HubSpot Script Loader. Please do not block this resource. See more: http://hubs.ly/H0702_H0
+//   hbspt.forms.create({
+//     portalId: '4082766',
+//     formId: 'ba8d0f4b-f507-4750-a97c-cfc2e0b95c37',
+//     css: '',
+//   });
+// });
