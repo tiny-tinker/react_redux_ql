@@ -514,6 +514,78 @@ footer {
   background-size:cover;
 }
 
-.hbspt-form{
+
+#hbspt-form-1522078734157-1596341294{
+  display:inline;
+}
+
+#label-email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37{
   display:none;
+}
+
+#email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37{
+  border-radius: 50px;
+  height: 36px;
+  background: transparent;
+  padding-left: 13px;
+  color: #fff;
+  margin-right:10px;
+  width: 100%;
+}
+.hs_email{
+  display:inline-block;
+}
+.hs_submit{
+  display:inline-block;
+  margin-left:10px;
+}
+/*.hs_submit{*/
+  /*position: relative;*/
+  /*height: 38px;*/
+  /*font-weight: bold;*/
+  /*font-family: Montserrat, sans-serif;*/
+  /*color: #fff;*/
+  /*font-size: 16px;*/
+  /*background: none;*/
+  /*border: none;*/
+  /*outline: none;*/
+  /*vertical-align: top;*/
+  /*zoom: 1;*/
+  /*padding: 0;*/
+  /*text-align: center;*/
+  /*width: 120px;*/
+/*}*/
+/*.hs_submit:before {*/
+  /*content: "";*/
+  /*display: block;*/
+  /*clear: both;*/
+  /*position: absolute;*/
+  /*right: 20px;*/
+  /*left: 0;*/
+  /*top: 0;*/
+  /*height: 100%;*/
+  /*background: url(../assets/images/orange-btn-l.png) no-repeat;*/
+/*}*/
+
+/*.hs_submit:after {*/
+  /*content: "";*/
+  /*display: block;*/
+  /*clear: both;*/
+  /*position: absolute;*/
+  /*right: 0;*/
+  /*top: 0;*/
+  /*height: 38px;*/
+  /*background: url(../assets/images/orange-btn-r.png) no-repeat;*/
+  /*width: 20px;*/
+/*}*/
+
+.hs-button{
+  background: transparent;
+  color: white;
+  border: solid #a24a26 2px;
+  border-radius: 50px;
+  padding: 3px 30px;
+}
+.hs-button:active{
+  border-color:#FF4741;
 }
