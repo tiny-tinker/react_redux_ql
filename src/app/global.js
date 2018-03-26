@@ -870,13 +870,16 @@ $(document).ready(() => {
     $('#email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37').val('');
   }, 1000);
 
-  $('#emailInput').change(() => {
+  $('#emailInput').keyup(() => {
     const email = $('#emailInput').val();
     $('#email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37').val(email);
   });
   $('#btn_submit').click(() => {
+    const email = $('#emailInput').val();
+    $('#email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37').val(email);
     const submitBtn = $('.hs-button');
     submitBtn.trigger('click');
+    console.log('signup is ok');
   });
 });
 
