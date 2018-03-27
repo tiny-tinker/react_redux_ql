@@ -111,7 +111,9 @@ class RoadmapSection extends React.Component {
               </div>
             </div>
           </div>
-          <img src={roadmap_cloud} role="presentation" className={styles.roadmap_cloud} />
+          <div className="floating">
+            <img src={roadmap_cloud} role="presentation" className={styles.roadmap_cloud} />
+          </div>
         </div>
       </div>
     );

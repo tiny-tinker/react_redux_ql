@@ -36,6 +36,12 @@ const ConnectSection = function ConnectSection() {
                   <div className="col">
                     <a href="https://github.com/QuillonCurrency" target="blank" className={styles.connectIcon}> <i className="fa fa-github wow fadeInUp  animated"> </i> </a>
                   </div>
+                  <div className="col">
+                    <a href="" target="blank" className={styles.connectIcon}> <i className="fa fa-linkedin-square wow fadeInUp  animated"> </i> </a>
+                  </div>
+                  <div className="col">
+                    <a href="" target="blank" className={styles.connectIcon}> <i className="fa fa-slack wow fadeInUp  animated"> </i> </a>
+                  </div>
                 </div>
               </div>
             </div>
