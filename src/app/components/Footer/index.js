@@ -27,9 +27,6 @@ const FooterComponent = function FooterComponent() {
           <div className="col-lg-3 col-md-3 col-sm-3">
             <dl className={styles.menu}>
               <dd><a href="#" className="text-white">Wallets</a></dd>
-              <dd><a href="#" className="text-white">- Windows</a></dd>
-              <dd><a href="#" className="text-white">- Linux</a></dd>
-              <dd><a href="#" className="text-white">- Mac OS</a></dd>
               <dd><a href="#" className="text-white">Tradesatoshi</a></dd>
               <dd><a href="#" className="text-white">Crytopia</a></dd>
               <dd><a href="#" className="text-white">Masternode Guide</a></dd>
@@ -42,6 +39,8 @@ const FooterComponent = function FooterComponent() {
               <dd><a href="https://www.instagram.com/quilloncurrency/" target="blank" className="text-white">Instagram</a></dd>
               <dd><a href="https://twitter.com/QuillonCurrency" target="blank" className="text-white">Twitter</a></dd>
               <dd><a href="https://github.com/QuillonCurrency" target="blank" className="text-white">GitHub</a></dd>
+              <dd><a href="" target="blank" className="text-white">LinkedIn</a></dd>
+              <dd><a href="" target="blank" className="text-white">Slack</a></dd>
             </dl>
           </div>
         </div>
