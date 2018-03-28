@@ -22,7 +22,7 @@ const ConnectSection = function ConnectSection() {
         <div className="row">
           <div className="col-sm-10 offset-sm-1 col-12">
             <div className="row">
-              <div className="col-md-10 col-lg-5 col-12">
+              <div className="col-md-12 col-lg-8 col-12">
                 <div className="row">
                   <div className="col">
                     <a href="https://www.facebook.com/quilloncurrency/" target="blank" className={styles.connectIcon}> <i className="fa fa-facebook wow fadeInUp  animated"> </i> </a>
