@@ -48,8 +48,8 @@ class RoadmapSection extends React.Component {
     const carousel = ['col-md-1', 'carousel', styles.carousel].join(' ');
     const linedot = ['col-md-2', styles.line_dot_Div].join(' ');
     const roadDiv = ['wow fadeInRight animated', styles.roadDiv].join(' ');
+    const img_parallax = ['img-parallax', styles.roadmap_cloud].join(' ');
 
-    const { roadmaps, roadmapClick, activeRoadmap } = this.props;
     return (
       <div id="roadmap_section">
         <div className={title}>
@@ -112,7 +112,7 @@ class RoadmapSection extends React.Component {
             </div>
           </div>
           <div className="floating">
-            <img src={roadmap_cloud} role="presentation" className={styles.roadmap_cloud} />
+            <img src={roadmap_cloud} role="presentation" className={img_parallax} />
           </div>
         </div>
       </div>
