@@ -1,5 +1,6 @@
 import React from 'react';
 import * as styles from './styles.css';
+import { Parallax, Background } from 'react-parallax';
 import glowEffect from '../../../../assets/images/glow.png';
 import MeteorShower from '../../MeteorShower';
 import ExploreStaticBlock from '../../ExploreStaticBlock';
@@ -44,11 +45,10 @@ class CompareSection extends React.Component {
         <div className={glownImage}>
           <img src={glowEffect} role="presentation" />
         </div>
-
         <div className="container-fluid">
           <div className="col-md-10 offset-md-1 col-sm-12">
-            <div className={title}>STATISTICS</div>
-            <div className={subtitle}>EXPLORE</div>
+            <div className={title}>EXPLORE</div>
+            <div className={subtitle}>STATISTICS</div>
             <div className="row">
               <p className={sectionDescription}>
                 Explore the impact Quillon is looking to make. Featuring masternodes, and a proof of work consensus algorithm, Quillon is able to lay the foundation for a bright future. A coin that’s build to last and protect your investment!
@@ -66,7 +66,7 @@ class CompareSection extends React.Component {
                     <ExploreStaticBlock imgName="group.png" name="NUMBER OF\nMASTERNODES" value="1254" />
                   </div>
                   <div className="col-6">
-                    <ExploreStaticBlock imgName="forma.png" name="QLN IN\nCIRCULATION" value="3.500.000" />
+                    <ExploreStaticBlock imgName="forma.png" name="QLN IN\nCIRCULATION" value="3500000" />
                   </div>
                 </div>
                 <div className="row mt-5">
@@ -74,13 +74,21 @@ class CompareSection extends React.Component {
                     <ExploreStaticBlock imgName="hashrate.png" name="HASHRATE\nIN GH/S" value="452.92" />
                   </div>
                   <div className="col-6">
-                    <ExploreStaticBlock imgName="group.png" name="CURRENT BLOCK\nNUMBER" value="281.377" />
+                    <ExploreStaticBlock imgName="shape.png" name="CURRENT BLOCK\nNUMBER" value="281.377" />
                   </div>
                 </div>
               </div>
               <div className="col-md-4 col-sm-12 pt-5">
                 <br />
-                <img src={compareStatsCloud} className={styles.compareStatsCloud} role="presentation" />
+                <div className={styles.compareStatsCloud}>
+                  <Parallax
+                    strength={150}
+                    bgImage={compareStatsCloud}
+                    bgClassName="cloud-parallax-img"
+                    className="cloud-parallax"
+                  >
+                  </Parallax>
+                </div>
                 <h4 className={styles.compareStats}>COMPARE LIVE STATS</h4>
                 <p className="text-left">Check out Quillon with statistics taken directly from our block explorer. All the information you need, directly at your fingertips.</p>
                 <div className="float-left">
@@ -90,9 +98,26 @@ class CompareSection extends React.Component {
             </div>
           </div>
         </div>
-        <img src={joinCloud1} role="presentation" className={styles.joinCloud1} />
-        <img src={joinCloud2} role="presentation" className={styles.joinCloud2} />
-
+        <div className="row">
+          <div className={['ml-auto', styles.joinCloud1].join(' ')}>
+            <Parallax
+              strength={200}
+              bgImage={joinCloud1}
+              bgClassName="cloud-parallax-img"
+              className="cloud-parallax"
+            >
+            </Parallax>
+          </div>
+          <div className={['mr-auto', styles.joinCloud2].join(' ')}>
+            <Parallax
+              strength={300}
+              bgImage={joinCloud2}
+              bgClassName="cloud-parallax-img"
+              className="cloud-parallax"
+            >
+            </Parallax>
+          </div>
+        </div>
         <div id="join_section" className="container-fluid">
           <div className="col-lg-12 col-sm-12">
             <div className={joinTitle}>JOIN</div>
