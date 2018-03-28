@@ -38,7 +38,7 @@ const IntroductionSection = function IntroductionSection() {
         <div className="row">
           <div className="col-lg-12">
             <div className="headlines-wrapper">
-              <h1 className={title}>INTRODUCTION </h1>
+              <h1 className={title}></h1>
               <span className="skilltechtypetext">
                 <Typist cursor={typistCursor}>
                   Our Stable Foundation

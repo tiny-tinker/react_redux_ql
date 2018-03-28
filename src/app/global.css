@@ -10,6 +10,18 @@
   background-color: #000131;
 }
 
+.cloud-parallax-img {
+  margin-top:100px;
+  overflow: visible;
+}
+
+.cloud-parallax {
+  overflow: visible !important;
+}
+
+#join_section {
+  margin-top:150px;
+}
 body {
   background-color: #000131;
 }
