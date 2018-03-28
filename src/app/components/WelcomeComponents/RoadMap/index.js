@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { createStructuredSelector } from 'reselect';
+import { Parallax, Background } from 'react-parallax';
 import PropTypes from 'prop-types';
 
 import { makeSelectRoadmaps, makeActiveRoadmap } from './selectors';
@@ -111,8 +112,14 @@ class RoadmapSection extends React.Component {
               </div>
             </div>
           </div>
-          <div className="floating">
-            <img src={roadmap_cloud} role="presentation" className={img_parallax} />
+          <div className={['mr-auto', styles.roadmap_cloud].join(' ')}>
+            <Parallax
+              strength={200}
+              bgImage={roadmap_cloud}
+              bgClassName="cloud-parallax-img"
+              className="cloud-parallax"
+            >
+            </Parallax>
           </div>
         </div>
       </div>
