@@ -13,6 +13,9 @@
 .cloud-parallax-img {
   margin-top:100px;
   overflow: visible;
+  width: 100% !important;
+  height: auto !important;
+  left:0;
 }
 
 .cloud-parallax {
@@ -318,19 +321,19 @@ http://www.Mkrtchyan.zz.mu
 @media only screen and (max-width: 992px) {
   .benefits {
     position: relative;
-    top: 60px;
+    top: 120px;
   }
 }
 @media only screen and (max-width: 767px) {
   .benefits {
     position: relative;
-    top: 60px;
+    top: 120px;
   }
 }
 @media only screen and (max-width: 576px) {
   .benefits {
     position: relative;
-    top: 120px;
+    top: 200px;
   }
 }
 .bounce-enter {

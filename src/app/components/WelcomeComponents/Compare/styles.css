@@ -214,16 +214,22 @@
   position: absolute;
   left: -36px;
   top: -40px;
-  width: 100%;
+  width: 90%;
   z-index: -1;
 }
 
 .joinCloud1 {
   z-index: -1;
   width: 25%;
+  margin-left:25%;
+  display: block;
+  min-height: 1px;
 }
 
 .joinCloud2 {
   z-index: -1;
-  width: 36%;
+  width: 25%;
+  margin-left:50%;
+  display: block;
+  min-height: 1px;
 }
