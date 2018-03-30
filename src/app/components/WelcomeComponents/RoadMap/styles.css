@@ -201,6 +201,7 @@
   .roadDiv{
     margin-top: 50px;
     width: 500px;
+    height:200px;
   }
   .roadDetailTitle{
     font-size:40px;
@@ -243,6 +244,7 @@
   .roadDiv{
     width:250px;
     margin-left:0px;
+    height:300px;
   }
   .roadDetailTitle{
     font-size: 21px;
