@@ -32,7 +32,7 @@ const IntroductionSection = function IntroductionSection() {
   return (
     <section id="hero" className={sectionClass}>
       <div className={styles.particleContainer}>
-        <MeteorShower opacity={0.3} sectionId={2} showMeteor={1}/>
+        <MeteorShower opacity={0.3} sectionId={2} showMeteor={0}/>
       </div>
       <div className="container-fluid">
         <div className="row">

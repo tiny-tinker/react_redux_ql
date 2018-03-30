@@ -82,7 +82,7 @@ class CompareSection extends React.Component {
                 <br />
                 <div className={styles.compareStatsCloud}>
                   <Parallax
-                    strength={150}
+                    strength={100}
                     bgImage={compareStatsCloud}
                     bgClassName="cloud-parallax-img"
                     className="cloud-parallax"
@@ -98,8 +98,8 @@ class CompareSection extends React.Component {
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className={['ml-auto', styles.joinCloud1].join(' ')}>
+        <div className="w-100 position-relative">
+          <div className={[styles.joinCloud1].join(' ')}>
             <Parallax
               strength={200}
               bgImage={joinCloud1}
@@ -108,9 +108,9 @@ class CompareSection extends React.Component {
             >
             </Parallax>
           </div>
-          <div className={['mr-auto', styles.joinCloud2].join(' ')}>
+          <div className={[styles.joinCloud2].join(' ')}>
             <Parallax
-              strength={300}
+              strength={200}
               bgImage={joinCloud2}
               bgClassName="cloud-parallax-img"
               className="cloud-parallax"
