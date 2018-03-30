@@ -95,12 +95,12 @@
 
 @media only screen and (max-width: 767px) {
   .whitepaperTitle{
-    top: 490px;
+    top: 530px;
     left: 15px;
     font-size: 4em;
   }
   .whitepaperSubTitle{
-    top: 518px;
+    top: 555px;
     left: 30px;
     font-size: 30px;
   }
@@ -130,12 +130,12 @@
 
 @media only screen and (max-width: 490px) {
   .whitepaperTitle{
-    top: 490px;
+    top: 535px;
     left: 15px;
     font-size: 3.5em;
   }
   .whitepaperSubTitle{
-    top: 512px;
+    top: 555px;
     left: 30px;
     font-size: 30px;
   }

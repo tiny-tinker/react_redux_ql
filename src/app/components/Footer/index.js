@@ -9,7 +9,7 @@ const FooterComponent = function FooterComponent() {
         <div className="row">
           <div className="col-lg-2 col-sm-4">
             <div className="text-left">
-              <h3 className={footerTitle}> <b>quillon</b></h3>
+              <h3 className={footerTitle}> <b>Quillon</b></h3>
               <p className="text-white">  Quillon. A new stable cryptocurrency with an algorithm based central bank supporting a user friendly business to consumer software as a service platform.</p>
             </div>
           </div>

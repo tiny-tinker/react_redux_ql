@@ -76,29 +76,29 @@ class RoadmapSection extends React.Component {
             </div>
             <div className={roadCol6}>
               <div className={roadRow}>
-                  <div className="col-md-8">
+                <div className="col-md-8">
+                </div>
+                <div className={carousel}>
+                  <img src={roadmap_item1} />
+                  <img src={roadmap_item2} />
+                  <img src={roadmap_item3} />
+                  <img src={roadmap_item4} />
+                  <img src={roadmap_item5} />
+                  <img src={roadmap_item6} />
+                  <img src={roadmap_item7} />
+                  <img src={roadmap_item8} />
+                  <img src={roadmap_item9} />
+                  <img src={roadmap_item10} />
+                </div>
+                <div className={linedot}>
+                  <img src={roadmap_line_new} className={styles.roadmap_line_new} />
+                  <div className={styles.dotDiv}>
+                    {/* <img src={dot} id="dot_up" />*/}
+                    <div id="dot_up" />
+                    <div id="dot_down" />
+                    <div id="dot_bright" />
                   </div>
-                  <div className={carousel}>
-                    <img src={roadmap_item1} />
-                    <img src={roadmap_item2} />
-                    <img src={roadmap_item3} />
-                    <img src={roadmap_item4} />
-                    <img src={roadmap_item5} />
-                    <img src={roadmap_item6} />
-                    <img src={roadmap_item7} />
-                    <img src={roadmap_item8} />
-                    <img src={roadmap_item9} />
-                    <img src={roadmap_item10} />
-                  </div>
-                  <div className={linedot}>
-                    <img src={roadmap_line_new} className={styles.roadmap_line_new} />
-                    <div className={styles.dotDiv}>
-                      {/*<img src={dot} id="dot_up" />*/}
-                      <div id="dot_up" />
-                      <div id="dot_down" />
-                      <div id="dot_bright" />
-                    </div>
-                  </div>
+                </div>
                 <div className="col-md-1">
                 </div>
               </div>

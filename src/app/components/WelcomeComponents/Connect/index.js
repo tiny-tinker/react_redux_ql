@@ -46,7 +46,7 @@ const ConnectSection = function ConnectSection() {
               </div>
             </div>
             <div className="row">
-              <div className="col-md-12 col-lg-6 col-12 mt-md-5">
+              <div className="col-md-12 col-lg-12 col-12 mt-md-5">
                 <div className={styles.signTitle}>
                   JOIN OUR NEWSLETTER
                 </div>
