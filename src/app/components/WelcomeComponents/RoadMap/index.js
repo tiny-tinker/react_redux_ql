@@ -49,7 +49,6 @@ class RoadmapSection extends React.Component {
     const carousel = ['col-md-1', 'carousel', styles.carousel].join(' ');
     const linedot = ['col-md-2', styles.line_dot_Div].join(' ');
     const roadDiv = ['wow fadeInRight animated', styles.roadDiv].join(' ');
-    const img_parallax = ['img-parallax', styles.roadmap_cloud].join(' ');
 
     return (
       <div id="roadmap_section">
@@ -93,7 +92,6 @@ class RoadmapSection extends React.Component {
                 <div className={linedot}>
                   <img src={roadmap_line_new} className={styles.roadmap_line_new} />
                   <div className={styles.dotDiv}>
-                    {/* <img src={dot} id="dot_up" />*/}
                     <div id="dot_up" />
                     <div id="dot_down" />
                     <div id="dot_bright" />

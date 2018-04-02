@@ -143,14 +143,40 @@
 
 @media only screen and (max-width: 430px) {
   .whitepaperTitle{
-    top: 496px;
+    top: 550px;
     left: 15px;
     font-size: 3.2em;
   }
   .whitepaperSubTitle{
-    top: 512px;
+    top: 570px;
     left: 30px;
-    font-size: 30px;
+    font-size: 27px;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .whitepaperTitle{
+    top: 580px;
+    left: 15px;
+    font-size: 3em;
+  }
+  .whitepaperSubTitle{
+    top: 598px;
+    left: 30px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .whitepaperTitle{
+    top: 584px;
+    left: 15px;
+    font-size: 43px;
+  }
+  .whitepaperSubTitle{
+    top: 598px;
+    left: 30px;
+    font-size: 25px;
   }
 }
 

@@ -477,6 +477,11 @@ footer {
     height:720px !important;
   }
 }
+@media only screen and (max-width: 320px) {
+  footer {
+    height:750px !important;
+  }
+}
 
 /*========================================= Roadmap Section ==================*/
 #button_left{
