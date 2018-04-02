@@ -472,6 +472,12 @@ footer {
   height:320px !important;
 }
 
+@media only screen and (max-width: 576px) {
+  footer {
+    height:720px !important;
+  }
+}
+
 /*========================================= Roadmap Section ==================*/
 #button_left{
   position: absolute;
@@ -550,7 +556,12 @@ footer {
 }
 @media only screen and (max-width: 992px) {
   #email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37{
-    width: 330px;
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37{
+    width: 280px;
   }
 }
 .hs_email{
@@ -570,4 +581,15 @@ footer {
 }
 .hs-button:active{
   border-color:#FF4741;
+}
+@media only screen and (max-width: 750px) {
+  .hs-form{
+    text-align:center;
+  }
+  .hs-submit{
+    margin-top:15px;
+  }
+  .signInputContainer{
+    padding-right:0px !important;
+  }
 }

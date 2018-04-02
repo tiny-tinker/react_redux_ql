@@ -54,7 +54,7 @@ const ConnectSection = function ConnectSection() {
                   <p> get exclusive content, offers and more by joining our newsletter mailing list </p>
                 </div>
                 <div className="row">
-                  <div className={['col-12', styles.signInputContainer].join(' ')}>
+                  <div className={['col-12 signInputContainer', styles.signInputContainer].join(' ')}>
                     <div id="newsletterSignUpDiv">
                       {/*<input className={styles.signInput} type="email" placeholder="enter your email address" id="emailInput" required />*/}
                       {/*<div className={styles.signInputBtn} id="btn_submit">*/}
