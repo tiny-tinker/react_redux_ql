@@ -177,7 +177,7 @@ class CompareSection extends React.Component {
               <img className={styles.joinBlockImg} src={holdImg} role="presentation" />
               <div className={styles.joinBlockTitle}> HOLD </div>
               <div className={[styles.margin_top_18px, 'row pl-3 pr-3'].join(' ')}>
-                <div className="col-3 p-4 hover12 ml-auto">
+                <div className="col-3 hover12 ml-auto">
                   <div className="d-block">
                     <figure>
                       <img className={['bottom', styles.joinBlockHoldTop].join(' ')} src={windows} role="presentation" />
@@ -185,7 +185,7 @@ class CompareSection extends React.Component {
                     </figure>
                   </div>
                 </div>
-                <div className="col-3 p-4 hover12 mx-auto">
+                <div className="col-3 hover12 mx-auto">
                   <div className="d-block">
                     <figure>
                       <img className={['bottom', styles.joinBlockHoldTop].join(' ')} src={mac} role="presentation" />
@@ -193,7 +193,7 @@ class CompareSection extends React.Component {
                     </figure>
                   </div>
                 </div>
-                <div className="col-3 p-4 hover12 mr-auto">
+                <div className="col-3 hover12 mr-auto">
                   <div className="d-block">
                     <figure>
                       <img className={['bottom', styles.joinBlockHoldTop].join(' ')} src={ubuntu} role="presentation" />
