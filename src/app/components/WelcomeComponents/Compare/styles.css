@@ -207,7 +207,15 @@
 }
 
 .margin_top_18px {
-  margin-top:-18px;
+  margin-top: 0px;
+  padding-top: 42px;
+  margin-bottom: 25px;
+}
+
+.margin_top_18px img {
+  width: 41px !important;
+  height: 41px !important;
+  margin: auto auto;
 }
 
 .compareStatsCloud {
