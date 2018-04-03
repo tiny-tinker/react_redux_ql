@@ -321,7 +321,7 @@ http://www.Mkrtchyan.zz.mu
 @media only screen and (max-width: 992px) {
   .benefits {
     position: relative;
-    top: 120px;
+    top: 140px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -333,7 +333,7 @@ http://www.Mkrtchyan.zz.mu
 @media only screen and (max-width: 576px) {
   .benefits {
     position: relative;
-    top: 200px;
+    top: 130px;
   }
 }
 .bounce-enter {

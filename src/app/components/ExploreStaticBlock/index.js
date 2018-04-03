@@ -8,10 +8,14 @@ class ExploreStaticBlock extends React.Component {
   constructor(props) {
     super(props);
     this.handleWaypointEnter = this.handleWaypointEnter.bind(this);
+    this.state = { bAnimationTriggered: false};
   }
 
   handleWaypointEnter() {
-    startAnimation(this.myCountUp);
+    if (this.state.bAnimationTriggered == false) {
+      this.state.bAnimationTriggered = true;
+      startAnimation(this.myCountUp);
+    }
   }
 
   render() {
