@@ -95,12 +95,12 @@
 
 @media only screen and (max-width: 767px) {
   .whitepaperTitle{
-    top: 530px;
+    top: 560px;
     left: 15px;
     font-size: 4em;
   }
   .whitepaperSubTitle{
-    top: 555px;
+    top: 586px;
     left: 30px;
     font-size: 30px;
   }
@@ -130,12 +130,12 @@
 
 @media only screen and (max-width: 490px) {
   .whitepaperTitle{
-    top: 535px;
+    top: 562px;
     left: 15px;
     font-size: 3.5em;
   }
   .whitepaperSubTitle{
-    top: 555px;
+    top: 582px;
     left: 30px;
     font-size: 30px;
   }
@@ -143,27 +143,40 @@
 
 @media only screen and (max-width: 430px) {
   .whitepaperTitle{
-    top: 550px;
+    top: 570px;
     left: 15px;
     font-size: 3.2em;
   }
   .whitepaperSubTitle{
-    top: 570px;
+    top: 589px;
     left: 30px;
     font-size: 27px;
   }
 }
 
-@media only screen and (max-width: 395px) {
+@media only screen and (max-width: 394px) {
   .whitepaperTitle{
     top: 580px;
     left: 15px;
-    font-size: 3em;
+    font-size: 45px;
   }
   .whitepaperSubTitle{
     top: 598px;
     left: 30px;
-    font-size: 25px;
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .whitepaperTitle{
+    top: 580px;
+    left: 15px;
+    font-size: 40px;
+  }
+  .whitepaperSubTitle{
+    top: 594px;
+    left: 30px;
+    font-size: 22px;
   }
 }
 
@@ -171,7 +184,7 @@
   .whitepaperTitle{
     top: 584px;
     left: 15px;
-    font-size: 43px;
+    font-size: 41px;
   }
   .whitepaperSubTitle{
     top: 598px;
