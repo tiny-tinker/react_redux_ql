@@ -24,22 +24,22 @@ const ConnectSection = function ConnectSection() {
             <div className="row">
               <div className="col-md-12 col-lg-8 col-12">
                 <div className="row">
-                  <div className="col">
+                  <div className="col-2">
                     <a href="https://www.facebook.com/quilloncurrency/" target="blank" className={styles.connectIcon}> <i className="fa fa-facebook wow fadeInUp  animated"> </i> </a>
                   </div>
-                  <div className="col">
+                  <div className="col-2">
                     <a href="https://www.instagram.com/quilloncurrency/" target="blank" className={styles.connectIcon}> <i className="fa fa-instagram wow fadeInUp  animated"> </i> </a>
                   </div>
-                  <div className="col">
+                  <div className="col-2">
                     <a href="https://twitter.com/QuillonCurrency" target="blank" className={styles.connectIcon}> <i className="fa fa-twitter wow fadeInUp  animated"> </i> </a>
                   </div>
-                  <div className="col">
+                  <div className="col-2">
                     <a href="https://github.com/QuillonCurrency" target="blank" className={styles.connectIcon}> <i className="fa fa-github wow fadeInUp  animated"> </i> </a>
                   </div>
-                  <div className="col">
+                  <div className="col-2">
                     <a href="" target="blank" className={styles.connectIcon}> <i className="fa fa-linkedin-square wow fadeInUp  animated"> </i> </a>
                   </div>
-                  <div className="col">
+                  <div className="col-2">
                     <a href="" target="blank" className={styles.connectIcon}> <i className="fa fa-slack wow fadeInUp  animated"> </i> </a>
                   </div>
                 </div>

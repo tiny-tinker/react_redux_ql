@@ -541,6 +541,7 @@ footer {
   background-size:cover;
 }
 
+/*================================== nesletter signup ====================================*/
 
 #hbspt-form-1522078734157-1596341294{
   display:inline;
@@ -585,6 +586,9 @@ footer {
   padding: 3px 30px;
 }
 .hs-button:active{
+  border-color:#FF4741;
+}
+.hs-button:hover{
   border-color:#FF4741;
 }
 @media only screen and (max-width: 750px) {
