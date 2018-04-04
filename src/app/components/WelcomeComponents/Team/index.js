@@ -1,7 +1,6 @@
 import React from 'react';
 import * as styles from './styles.css';
 
-import avatar from '../../../../assets/images/team_avatar2.png';
 import avatar1 from '../../../../assets/images/team1_Henning_Lubberding.png';
 import avatar2 from '../../../../assets/images/team2_Mark_Reynolds.png';
 import avatar3 from '../../../../assets/images/team3_Zachary_Elfman.png';
