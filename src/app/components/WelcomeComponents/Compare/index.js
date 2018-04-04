@@ -212,7 +212,7 @@ class CompareSection extends React.Component {
             </div>
           </div>
         </div>
-        <img className={styles.joinEllipse} src={joinEllipse} role="presentation" />
+        {/*<img className={styles.joinEllipse} src={joinEllipse} role="presentation" />*/}
       </section>
     );
   }

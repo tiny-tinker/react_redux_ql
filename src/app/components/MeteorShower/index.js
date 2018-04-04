@@ -144,8 +144,8 @@ class MeteorShower extends React.Component {
     return (
       <div className="d-block w-100 h-100 position-relative" ref="cvsContainer" style={containerStyle}>
         <div className={bkgImgName} />
-        <div className={styles.stars} />
-        <div className={styles.twinkling} />
+        {/*<div className={styles.stars} />*/}
+        {/*<div className={styles.twinkling} />*/}
         <canvas ref="bgCanvas" className={styles.meteor}></canvas>
       </div>
     );

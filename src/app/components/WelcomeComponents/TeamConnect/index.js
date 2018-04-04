@@ -8,8 +8,8 @@ import TeamSection from './../Team';
 const TeamConnectSection = function TeamConnectSection() {
   return (
     <div className="team_connect">
-      <div className={styles.stars}> </div>
-      <div className={styles.twinkling}> </div>
+      {/*<div className={styles.stars}> </div>*/}
+      {/*<div className={styles.twinkling}> </div>*/}
       <TeamSection />
       <p> </p>
       <ConnectSection />
