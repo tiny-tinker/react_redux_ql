@@ -25,7 +25,7 @@ import '!style-loader!css-loader!../assets/fonts/montserrat-extrabold/style.css'
 
 // Particle theme library css
 import '!style-loader!css-loader!../assets/plugins/bootstrap-4.0.0-dist/css/bootstrap.css';
-import '!style-loader!css-loader!../assets/css/libraries/animate.css';
+// import '!style-loader!css-loader!../assets/css/libraries/animate.css';
 // Particle custom css
 import '!style-loader!css-loader!../assets/css/custom/theme.css';
 import '!style-loader!css-loader!../assets/css/custom/colors.css';
