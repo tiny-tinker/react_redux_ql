@@ -162,3 +162,10 @@
     top: 23px;
   }
 }
+
+/* ============================= title opacity ================*/
+@media only screen and (max-width: 800px) {
+  .connectTitle{
+    opacity:0.6 !important;
+  }
+}
