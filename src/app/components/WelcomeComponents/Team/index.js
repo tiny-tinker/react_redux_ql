@@ -2,17 +2,14 @@ import React from 'react';
 import * as styles from './styles.css';
 
 import avatar1 from '../../../../assets/images/team1_Henning_Lubberding.png';
-import avatar2 from '../../../../assets/images/team2_Mark_Reynolds.png';
+import avatar2 from '../../../../assets/images/team2_Mark_Reynolds.jpg';
 import avatar3 from '../../../../assets/images/team3_Zachary_Elfman.png';
-import avatar4 from '../../../../assets/images/team4_Xinzhe_Li.png';
+import avatar4 from '../../../../assets/images/team4_Xinzhe_Li.jpg';
 import avatar5 from '../../../../assets/images/team5_Qiang_Dong.png';
 import avatar6 from '../../../../assets/images/team6_John Magdy.png';
-import avatar7 from '../../../../assets/images/team7_Damian_Thiele.png';
-import avatar8 from '../../../../assets/images/team8_Chloe_Bocq.png';
-
+import avatar7 from '../../../../assets/images/team7_Damian_Thiele.jpg';
+import avatar8 from '../../../../assets/images/team8_Chloe_Bocq.jpg';
 import teamIn from '../../../../assets/images/team_in.png';
-import teamWave from '../../../../assets/images/team_wave.png';
-
 
 const Profile = function Profile(props) {
   const PersonProfile = ['col-lg-6 col-md-6 col-xs-12', styles.profile].join(' ');
@@ -34,7 +31,6 @@ const Profile = function Profile(props) {
           </div>
         </div>
       </div>
-
     </div>
   );
 };
