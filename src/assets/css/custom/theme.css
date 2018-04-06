@@ -510,7 +510,7 @@ header #st-logo img {
 .image-section {
     height: 700px;
     width: 100%;
-    background: url("../../images/image-section.jpg") no-repeat 50% 50% fixed;
+    /*background: url("../../images/image-section.jpg") no-repeat 50% 50% fixed;*/
     padding-top: 260px;
     padding-bottom: 260px;
 }
@@ -900,7 +900,7 @@ header #st-logo img {
 
 .quote-bottom {
     height: 400px;
-    background: url('../../images/quote-background.jpg') 50% 100% fixed;
+    /*background: url('../../images/quote-background.jpg') 50% 100% fixed;*/
     text-align: center;
     padding-top: 137px;
     padding-bottom: 137px;
@@ -1056,7 +1056,7 @@ header #st-logo img {
 .call-to-section {
     height: auto;
     width: 100%;
-    background: url('../../images/low-poly.jpg') no-repeat;
+    /*background: url('../../images/low-poly.jpg') no-repeat;*/
     background-size: cover;
     text-align: center;
     position: relative;
@@ -1288,7 +1288,7 @@ header #st-logo img {
     height: 830px;
     padding-top: 60px;
     text-align: center;
-    background: url('../../images/contact-hero.jpg') 0 50% fixed;
+    /*background: url('../../images/contact-hero.jpg') 0 50% fixed;*/
 }
 
 .contact-headline {
@@ -1502,7 +1502,7 @@ footer p a {
     height: 100%;
     width: 100%;
     margin-top: -100px;
-    background: url('../../images/portfolio-item.jpg') 100% 100% fixed;
+    /*background: url('../../images/portfolio-item.jpg') 100% 100% fixed;*/
     background-size: cover;
     position: relative;
 }
@@ -1633,7 +1633,7 @@ footer p a {
 }
 
 .portfolio-item-details {
-    background: url("../../images/image-section.jpg");
+    /*background: url("../../images/image-section.jpg");*/
     padding: 45px 0;
     background-size: cover;
 }
@@ -1796,7 +1796,7 @@ footer p a {
     height: 100%;
     width: 100%;
     margin-top: -100px;
-    background: url('../../images/service-item.jpg') fixed;
+    /*background: url('../../images/service-item.jpg') fixed;*/
     background-size: cover;
     position: relative;
 }
@@ -1910,7 +1910,7 @@ footer p a {
 
 .service-item-details {
     height: 780px;
-    background: url("../../images/image-section.jpg");
+    /*background: url("../../images/image-section.jpg");*/
     padding: 45px 0;
 }
 
