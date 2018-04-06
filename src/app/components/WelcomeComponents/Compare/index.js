@@ -23,7 +23,7 @@ import windowsHover from '../../../../assets/images/windows_hover.svg';
 import mac from '../../../../assets/images/apple.svg';
 import macHover from '../../../../assets/images/apple_hover.svg';
 import chooseWallet from '../../../../assets/images/choose_wallet.svg';
-import joinEllipse from '../../../../assets/images/join_ellipse.png';
+// import joinEllipse from '../../../../assets/images/join_ellipse.png';
 import compareStatsCloud from '../../../../assets/images/compare_stats_cloud.png';
 import joinCloud1 from '../../../../assets/images/join_cloud_1.png';
 import joinCloud2 from '../../../../assets/images/join_cloud_2.png';
