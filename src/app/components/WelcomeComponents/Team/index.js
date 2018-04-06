@@ -36,8 +36,8 @@ const Profile = function Profile(props) {
 };
 
 const TeamSection = function TeamSection() {
-  const title = ['wow fadeInLeft', styles.teamTitle].join(' ');
-  const subTitle = ['wow fadeInUp', styles.teamSubTitle].join(' ');
+  const title = ['fadeInLeft', styles.teamTitle].join(' ');
+  const subTitle = ['fadeInUp', styles.teamSubTitle].join(' ');
   const profileContainer = ['container', styles.profileContainer].join(' ');
 
   const teamName = ['Henning Lübberding', 'Mark Reynolds', 'Zachary Elfman', 'Xinzhe Li', 'Qiang Dong', 'John Magdy', 'Damian Thiele', 'Chloé Bocquillon'];
