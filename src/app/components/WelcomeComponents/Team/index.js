@@ -16,7 +16,7 @@ const Profile = function Profile(props) {
   const Detail = ['col-lg-8', styles.detail].join(' ');
   return (
     <div className={PersonProfile}>
-      <div className="row wow fadeInLeft">
+      <div className="row">
         <div className="col-lg-4 text-center">
           <div className="d-block mb-4 h-100">
             <img className={styles.imgCircle} src={props.photo} width="200" height="200" alt="" />
