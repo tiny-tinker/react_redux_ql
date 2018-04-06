@@ -26,7 +26,6 @@ import roadmap_item10 from '../../../../assets/images/roadmap_item10.png';
 import arrow_up from '../../../../assets/images/arrow_up.png';
 import arrow_down from '../../../../assets/images/arrow_down.png';
 import roadmap_line_new from '../../../../assets/images/roadmap_line_vertical.png';
-import bright_dot from '../../../../assets/images/bright_dot.png';
 import roadmap_cloud from '../../../../assets/images/roadmap_cloud.png';
 
 class RoadmapSection extends React.Component {

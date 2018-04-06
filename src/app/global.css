@@ -286,7 +286,7 @@ http://www.Mkrtchyan.zz.mu
 }
 
 .clouds{
-  background:transparent url(../assets/images/clouds3.png) repeat top center;
+  background:transparent url(../assets/images/clouds3.jpg) repeat top center;
   z-index:-3;
 
   -moz-animation:move-clouds-back 600s linear infinite;
@@ -308,7 +308,7 @@ http://www.Mkrtchyan.zz.mu
  */
 .benefits_section {
   padding-bottom: 146px;
-  background: url('../assets/images/our_benefits.png') no-repeat center;
+  background: url('../assets/images/our_benefits.jpg') no-repeat center;
   background-size: cover;
 }
 .benefits_section p {
@@ -488,14 +488,12 @@ footer {
   position: absolute;
   width:200px;
   height:200px;
-  background:url('../assets/images/arrow_left1.png') no-repeat;
   -webkit-transform: scale(0.7);
 }
 
 #button_left:hover{
   -webkit-transition: all 300ms ease-in;
   -webkit-transform: scale(0.9);
-  background:url('../assets/images/arrow_left2.png') no-repeat;
 }
 
 #button_right{
@@ -503,14 +501,12 @@ footer {
   left:130px;
   width:200px;
   height:200px;
-  background:url('../assets/images/arrow_right1.png') no-repeat;
   -webkit-transform: scale(0.7);
 }
 
 #button_right:hover{
   -webkit-transition: all 300ms ease-in;
   -webkit-transform: scale(0.9);
-  background:url('../assets/images/arrow_right2.png') no-repeat;
 }
 
 
@@ -535,11 +531,6 @@ footer {
 /*#join_section{*/
   /*background:#020a3e;*/
 /*}*/
-
-.join_section {
-  background: linear-gradient(rgba(20, 10, 170, 0.45),rgba(20, 10, 170, 0.45)), url('../assets/images/join_bg.png') no-repeat center;
-  background-size:cover;
-}
 
 /*================================== nesletter signup ====================================*/
 

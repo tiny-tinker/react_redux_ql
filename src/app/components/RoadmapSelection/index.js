@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import * as styles from './styles.css';
 
 import dot from '../../../assets/images/roadmap_dot.png';
-import clicked_dot from '../../../assets/images/roadmap_clicked_dot.png';
 
 class RoadNode extends React.Component{
   render(){
@@ -27,7 +26,7 @@ class RoadNode extends React.Component{
           <div> <span className={styles.span2}> {roadmap.date} </span> </div>
         </div>
         <img src={dot} className={styles.img} />
-        <img src={clicked_dot} className={activedDot} />
+        {/*<img src={clicked_dot} className={activedDot} />*/}
       </div>
     );
   }
