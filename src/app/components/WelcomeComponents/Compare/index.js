@@ -30,11 +30,11 @@ import joinCloud2 from '../../../../assets/images/join_cloud_2.png';
 
 class CompareSection extends React.Component {
   render() {
-    const title = ['wow fadeInRight animated', styles.title].join(' ');
-    const subtitle = ['wow fadeInLeft animated', styles.subTitle].join(' ');
+    const title = ['wow fadeInRight', styles.title].join(' ');
+    const subtitle = ['wow fadeInLeft', styles.subTitle].join(' ');
     const glownImage = ['d-none d-lg-block', styles.glowImg].join(' ');
-    const sectionDescription = ['wow fadeInLeft animated text-white col-sm-12 col-md-6 offset-md-3', styles.sectionDescription].join(' ');
-    const joinTitle = ['wow slideInUp animated text-center', styles.joinTitle].join(' ');
+    const sectionDescription = ['wow fadeInLeft text-white col-sm-12 col-md-6 offset-md-3', styles.sectionDescription].join(' ');
+    const joinTitle = ['wow slideInUp text-center', styles.joinTitle].join(' ');
     const joinsubTitle = ['text-white', styles.joinsubTitle].join(' ');
 
     return (

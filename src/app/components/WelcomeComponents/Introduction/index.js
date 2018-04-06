@@ -17,7 +17,7 @@ import MeteorShower from '../../MeteorShower';
 import * as styles from './style.css';
 
 const IntroductionSection = function IntroductionSection() {
-  const title = ['wow fadeInLeft animated', styles.title].join(' ');
+  const title = ['wow fadeInLeft', styles.title].join(' ');
   const scrollIndicator = ['col-lg-12', styles.scrollIndicator].join(' ');
   const sectionClass = ['hero-section-video-dark', styles.introSection].join(' ');
   const sectionDescription = ['text-center text-white', styles.robotoLight].join(' ');

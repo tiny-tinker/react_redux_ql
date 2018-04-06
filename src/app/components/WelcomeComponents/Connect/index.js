@@ -2,8 +2,8 @@ import React from 'react';
 import * as styles from './styles.css';
 
 const ConnectSection = function ConnectSection() {
-  const title = ['wow fadeInLeft animated', styles.connectTitle].join(' ');
-  const connectSubTitle = ['wow fadeInUp  animated', styles.connectSubTitle].join(' ');
+  const title = ['wow fadeInLeft', styles.connectTitle].join(' ');
+  const connectSubTitle = ['wow fadeInUp', styles.connectSubTitle].join(' ');
   return (
     <section id="connect_section">
       <div className="container-fluid">
@@ -23,22 +23,22 @@ const ConnectSection = function ConnectSection() {
               <div className="col-md-12 col-lg-8 col-12">
                 <div className="row">
                   <div className="col-2">
-                    <a href="https://www.facebook.com/quilloncurrency/" target="blank" className={styles.connectIcon}> <i className="fa fa-facebook wow fadeInUp  animated"> </i> </a>
+                    <a href="https://www.facebook.com/quilloncurrency/" target="blank" className={styles.connectIcon}> <i className="fa fa-facebook wow fadeInUp"> </i> </a>
                   </div>
                   <div className="col-2">
-                    <a href="https://www.instagram.com/quilloncurrency/" target="blank" className={styles.connectIcon}> <i className="fa fa-instagram wow fadeInUp  animated"> </i> </a>
+                    <a href="https://www.instagram.com/quilloncurrency/" target="blank" className={styles.connectIcon}> <i className="fa fa-instagram wow fadeInUp"> </i> </a>
                   </div>
                   <div className="col-2">
-                    <a href="https://twitter.com/QuillonCurrency" target="blank" className={styles.connectIcon}> <i className="fa fa-twitter wow fadeInUp  animated"> </i> </a>
+                    <a href="https://twitter.com/QuillonCurrency" target="blank" className={styles.connectIcon}> <i className="fa fa-twitter wow fadeInUp"> </i> </a>
                   </div>
                   <div className="col-2">
-                    <a href="https://github.com/QuillonCurrency" target="blank" className={styles.connectIcon}> <i className="fa fa-github wow fadeInUp  animated"> </i> </a>
+                    <a href="https://github.com/QuillonCurrency" target="blank" className={styles.connectIcon}> <i className="fa fa-github wow fadeInUp"> </i> </a>
                   </div>
                   <div className="col-2">
-                    <a href="" target="blank" className={styles.connectIcon}> <i className="fa fa-linkedin-square wow fadeInUp  animated"> </i> </a>
+                    <a href="" target="blank" className={styles.connectIcon}> <i className="fa fa-linkedin-square wow fadeInUp"> </i> </a>
                   </div>
                   <div className="col-2">
-                    <a href="" target="blank" className={styles.connectIcon}> <i className="fa fa-slack wow fadeInUp  animated"> </i> </a>
+                    <a href="" target="blank" className={styles.connectIcon}> <i className="fa fa-slack wow fadeInUp"> </i> </a>
                   </div>
                 </div>
               </div>

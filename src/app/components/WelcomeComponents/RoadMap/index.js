@@ -38,8 +38,8 @@ class RoadmapSection extends React.Component {
   }
 
   render() {
-    const title = ['wow fadeInLeft animated', styles.roadmapTitle].join(' ');
-    const subTitle = ['wow fadeInUp  animated', styles.roadmapSubTitle].join(' ');
+    const title = ['wow fadeInLeft', styles.roadmapTitle].join(' ');
+    const subTitle = ['wow fadeInUp', styles.roadmapSubTitle].join(' ');
     const subTitleDetail = [styles.subTitleDetail].join(' ');
 
     const arrowDiv = ['col-2', styles.arrowDiv].join(' ');
@@ -47,7 +47,7 @@ class RoadmapSection extends React.Component {
     const roadRow = ['row pl-5', styles.roadRow].join(' ');
     const carousel = ['col-md-1', 'carousel', styles.carousel].join(' ');
     const linedot = ['col-md-2', styles.line_dot_Div].join(' ');
-    const roadDiv = ['wow fadeInRight animated', styles.roadDiv].join(' ');
+    const roadDiv = ['wow fadeInRight', styles.roadDiv].join(' ');
 
     return (
       <div id="roadmap_section">

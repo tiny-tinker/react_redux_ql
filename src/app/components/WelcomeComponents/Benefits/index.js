@@ -8,8 +8,8 @@ import BenefitLists from '../../../components/BenefitList';
 class BenefitsSection extends React.Component {
 
   render() {
-    const title = ['wow fadeInLeft animated', styles.title].join(' ');
-    const subTitle = ['wow fadeInLeft animated text-left ', styles.subTitle].join(' ');
+    const title = ['wow fadeInLeft', styles.title].join(' ');
+    const subTitle = ['wow fadeInLeft text-left ', styles.subTitle].join(' ');
     const sectionDescription = ['mt-2 text-left text-white', styles.section_description].join(' ');
     const polgyonContainer = ['row', styles.polygonContainer].join(' ');
 
