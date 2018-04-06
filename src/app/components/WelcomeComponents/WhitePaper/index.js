@@ -3,8 +3,8 @@ import MoreButton from '../../MoreButton';
 import * as styles from './styles.css';
 
 const WhitePaperSection = function WhitePaperSection() {
-  const title = ['wow fadeInLeft  animated', styles.whitepaperTitle].join(' ');
-  const subTitle = ['wow fadeInUp  animated', styles.whitepaperSubTitle].join(' ');
+  const title = ['wow fadeInLeft ', styles.whitepaperTitle].join(' ');
+  const subTitle = ['wow fadeInUp ', styles.whitepaperSubTitle].join(' ');
 
   const content = ['col-md-6 col-12', styles.content].join(' ');
   return (
