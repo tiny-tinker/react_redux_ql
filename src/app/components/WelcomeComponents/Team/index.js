@@ -16,7 +16,7 @@ const Profile = function Profile(props) {
   const Detail = ['col-lg-8', styles.detail].join(' ');
   return (
     <div className={PersonProfile}>
-      <div className="row">
+      <div className="row wow fadeInLeft">
         <div className="col-lg-4 text-center">
           <div className="d-block mb-4 h-100">
             <img className={styles.imgCircle} src={props.photo} width="200" height="200" alt="" />
@@ -36,8 +36,8 @@ const Profile = function Profile(props) {
 };
 
 const TeamSection = function TeamSection() {
-  const title = ['fadeInLeft', styles.teamTitle].join(' ');
-  const subTitle = ['fadeInUp', styles.teamSubTitle].join(' ');
+  const title = ['wow fadeInLeft animated', styles.teamTitle].join(' ');
+  const subTitle = ['wow fadeInUp  animated', styles.teamSubTitle].join(' ');
   const profileContainer = ['container', styles.profileContainer].join(' ');
 
   const teamName = ['Henning Lübberding', 'Mark Reynolds', 'Zachary Elfman', 'Xinzhe Li', 'Qiang Dong', 'John Magdy', 'Damian Thiele', 'Chloé Bocquillon'];

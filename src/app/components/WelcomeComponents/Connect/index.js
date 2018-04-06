@@ -2,7 +2,7 @@ import React from 'react';
 import * as styles from './styles.css';
 
 const ConnectSection = function ConnectSection() {
-  const title = ['wow fadeInLeft', styles.connectTitle].join(' ');
+  const title = ['wow fadeInLeft animated', styles.connectTitle].join(' ');
   const connectSubTitle = ['wow fadeInUp', styles.connectSubTitle].join(' ');
   return (
     <section id="connect_section">
