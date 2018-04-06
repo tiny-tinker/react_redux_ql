@@ -38,7 +38,7 @@ class RoadmapSection extends React.Component {
   }
 
   render() {
-    const title = ['wow fadeInLeft', styles.roadmapTitle].join(' ');
+    const title = ['wow fadeInLeft animated', styles.roadmapTitle].join(' ');
     const subTitle = ['wow fadeInUp', styles.roadmapSubTitle].join(' ');
     const subTitleDetail = [styles.subTitleDetail].join(' ');
 
