@@ -5,5 +5,5 @@
 	<style>
 		tspan { white-space:pre }
 	</style>
-	<use id="img1" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+	<use id="img1" href="#img1" transform="matrix(1,0,0,1,0,23)"/>
 </svg>

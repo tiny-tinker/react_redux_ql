@@ -22,23 +22,26 @@ const ConnectSection = function ConnectSection() {
             <div className="row">
               <div className="col-md-12 col-lg-8 col-12">
                 <div className="row">
-                  <div className="col-2">
+                  <div className="col-1">
                     <a href="https://www.facebook.com/quilloncurrency/" target="blank" className={styles.connectIcon}> <i className="fa fa-facebook wow fadeInUp"> </i> </a>
                   </div>
-                  <div className="col-2">
+                  <div className="col-1">
                     <a href="https://www.instagram.com/quilloncurrency/" target="blank" className={styles.connectIcon}> <i className="fa fa-instagram wow fadeInUp"> </i> </a>
                   </div>
-                  <div className="col-2">
+                  <div className="col-1">
                     <a href="https://twitter.com/QuillonCurrency" target="blank" className={styles.connectIcon}> <i className="fa fa-twitter wow fadeInUp"> </i> </a>
                   </div>
-                  <div className="col-2">
+                  <div className="col-1">
                     <a href="https://github.com/QuillonCurrency" target="blank" className={styles.connectIcon}> <i className="fa fa-github wow fadeInUp"> </i> </a>
                   </div>
-                  <div className="col-2">
-                    <a href="" target="blank" className={styles.connectIcon}> <i className="fa fa-linkedin-square wow fadeInUp"> </i> </a>
+                  <div className="col-1">
+                    <a href="https://www.linkedin.com/company/quillonfoundation/" target="blank" className={styles.connectIcon}> <i className="fa fa-linkedin-square wow fadeInUp"> </i> </a>
                   </div>
-                  <div className="col-2">
-                    <a href="" target="blank" className={styles.connectIcon}> <i className="fa fa-slack wow fadeInUp"> </i> </a>
+                  <div className="col-1">
+                    <a href="https://quilloncurrency.slack.com" target="blank" className={styles.connectIcon}> <i className="fa fa-slack wow fadeInUp"> </i> </a>
+                  </div>
+                  <div className="col-1">
+                    <a href="https://medium.com/quillon" target="blank" className={styles.connectIcon}> <i className="fa fa-medium wow fadeInUp"> </i> </a>
                   </div>
                 </div>
               </div>
@@ -49,7 +52,7 @@ const ConnectSection = function ConnectSection() {
                   JOIN OUR NEWSLETTER
                 </div>
                 <div className={styles.signDetail}>
-                  <p> get exclusive content, offers and more by joining our newsletter mailing list </p>
+                  <p> Get Exclusive Content, offers and more by joining our newsletter mailing list </p>
                 </div>
                 <div className="row">
                   <div className={['col-12 signInputContainer', styles.signInputContainer].join(' ')}>
