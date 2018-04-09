@@ -39,8 +39,8 @@ const FooterComponent = function FooterComponent() {
               <dd><a href="https://www.instagram.com/quilloncurrency/" target="blank" className="text-white">Instagram</a></dd>
               <dd><a href="https://twitter.com/QuillonCurrency" target="blank" className="text-white">Twitter</a></dd>
               <dd><a href="https://github.com/QuillonCurrency" target="blank" className="text-white">GitHub</a></dd>
-              <dd><a href="" target="blank" className="text-white">LinkedIn</a></dd>
-              <dd><a href="" target="blank" className="text-white">Slack</a></dd>
+              <dd><a href="https://www.linkedin.com/company/quillonfoundation/" target="blank" className="text-white">LinkedIn</a></dd>
+              <dd><a href="https://quilloncurrency.slack.com/" target="blank" className="text-white">Slack</a></dd>
             </dl>
           </div>
         </div>
