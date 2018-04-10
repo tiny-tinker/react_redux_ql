@@ -593,3 +593,8 @@ footer {
     padding-right:0px !important;
   }
 }
+
+/* === network section ======*/
+.miningpoolDiv{
+  margin-top:10px !important;
+}

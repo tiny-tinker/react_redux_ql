@@ -157,7 +157,7 @@ class CompareSection extends React.Component {
               <img className={styles.joinBlockImg} src={earnImg} role="presentation" />
               <div className={styles.joinBlockTitle}> EARN </div>
               <div className="row hover12">
-                <div className="d-block mx-auto">
+                <div className="d-block mx-auto miningpoolDiv">
                   <figure>
                     <img className={['bottom', styles.joinBlockSubImg].join(' ')} src={miningPool} role="presentation" />
                     <img className={['top', styles.joinBlockSubImg].join(' ')} src={miningPoolHover} role="presentation" />
